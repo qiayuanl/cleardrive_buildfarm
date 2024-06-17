@@ -1,0 +1,29 @@
+repositories:
+  any_node:
+    type: git
+    url: https://github.com/ANYbotics/any_node.git
+    version: 6f12107a13cace7ae8d01836c9aaba7dd5544ffa
+  cleardrive:
+    type: git
+    url: https://github.com/qiayuanl/cleardrive
+    version: eba810da9a9d599b65f77aa6e4c009fb0eeb0697
+  ecat_manager:
+    type: git
+    url: https://github.com/qiayuanl/ecat_manager
+    version: 1ae7e03281c1539f13a66aab6ed894e40d256a9f
+  message_logger:
+    type: git
+    url: https://github.com/leggedrobotics/message_logger.git
+    version: bdb867e57059f21d22f9454f6910920bfe5caac2
+  mit_ecat:
+    type: git
+    url: https://github.com/qiayuanl/mit_ecat
+    version: 7f9ae91865dbaf89b170e5baf1c4c61173f0adb7
+  rm_ecat:
+    type: git
+    url: https://github.com/qiayuanl/rm_ecat
+    version: 9b21628b4045992b458f8e3b0f295edad181aa39
+  soem_interface:
+    type: git
+    url: https://github.com/qiayuanl/soem_interface.git
+    version: f18ab1ae560d9cb24527694749302edb0d7bc2b9

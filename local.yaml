@@ -1,0 +1,72 @@
+cleardrive_msgs:
+  ubuntu:
+  - ros-noetic-cleardrive-msgs
+message_logger:
+  ubuntu:
+  - ros-noetic-message-logger
+any_worker:
+  ubuntu:
+  - ros-noetic-any-worker
+param_io:
+  ubuntu:
+  - ros-noetic-param-io
+rm_ecat_msgs:
+  ubuntu:
+  - ros-noetic-rm-ecat-msgs
+rqt_cleardrive:
+  ubuntu:
+  - ros-noetic-rqt-cleardrive
+signal_handler:
+  ubuntu:
+  - ros-noetic-signal-handler
+any_node:
+  ubuntu:
+  - ros-noetic-any-node
+any_node_example:
+  ubuntu:
+  - ros-noetic-any-node-example
+soem_rsl:
+  ubuntu:
+  - ros-noetic-soem-rsl
+soem_interface_rsl:
+  ubuntu:
+  - ros-noetic-soem-interface-rsl
+cleardrive_foc:
+  ubuntu:
+  - ros-noetic-cleardrive-foc
+cleardrive_imu:
+  ubuntu:
+  - ros-noetic-cleardrive-imu
+mit_ecat_slave:
+  ubuntu:
+  - ros-noetic-mit-ecat-slave
+rm_ecat_slave:
+  ubuntu:
+  - ros-noetic-rm-ecat-slave
+ecat_manager:
+  ubuntu:
+  - ros-noetic-ecat-manager
+cleardrive_manager:
+  ubuntu:
+  - ros-noetic-cleardrive-manager
+cleardrive_example:
+  ubuntu:
+  - ros-noetic-cleardrive-example
+cleardrive_ros:
+  ubuntu:
+  - ros-noetic-cleardrive-ros
+mit_ecat_manager:
+  ubuntu:
+  - ros-noetic-mit-ecat-manager
+rm_ecat_manager:
+  ubuntu:
+  - ros-noetic-rm-ecat-manager
+rm_ecat_example:
+  ubuntu:
+  - ros-noetic-rm-ecat-example
+rm_ecat_ros:
+  ubuntu:
+  - ros-noetic-rm-ecat-ros
+soem_interface_examples:
+  ubuntu:
+  - ros-noetic-soem-interface-examples
