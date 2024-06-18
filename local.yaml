@@ -1,12 +1,33 @@
 cleardrive_msgs:
   ubuntu:
   - ros-noetic-cleardrive-msgs
+kindr:
+  ubuntu:
+  - ros-noetic-kindr
+kindr_msgs:
+  ubuntu:
+  - ros-noetic-kindr-msgs
+kindr_ros:
+  ubuntu:
+  - ros-noetic-kindr-ros
+kindr_rviz_plugins:
+  ubuntu:
+  - ros-noetic-kindr-rviz-plugins
 message_logger:
   ubuntu:
   - ros-noetic-message-logger
 any_worker:
   ubuntu:
   - ros-noetic-any-worker
+elevation_mapping:
+  ubuntu:
+  - ros-noetic-elevation-mapping
+elevation_mapping_demos:
+  ubuntu:
+  - ros-noetic-elevation-mapping-demos
+multi_dof_joint_trajectory_rviz_plugins:
+  ubuntu:
+  - ros-noetic-multi-dof-joint-trajectory-rviz-plugins
 param_io:
   ubuntu:
   - ros-noetic-param-io

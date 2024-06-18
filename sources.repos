@@ -11,6 +11,18 @@ repositories:
     type: git
     url: https://github.com/qiayuanl/ecat_manager
     version: 1ae7e03281c1539f13a66aab6ed894e40d256a9f
+  elevation_mapping:
+    type: git
+    url: https://github.com/ANYbotics/elevation_mapping.git
+    version: 2016feb6f3d1ec5be0f4358c1f2e30e240b4a6fd
+  kindr:
+    type: git
+    url: https://github.com/ANYbotics/kindr.git
+    version: 472970278545ca17353078252a7b0cff857f74e7
+  kindr_ros:
+    type: git
+    url: https://github.com/ANYbotics/kindr_ros.git
+    version: 46dd1060f012a8e04cc5f6f5d6e77f566204eedd
   message_logger:
     type: git
     url: https://github.com/leggedrobotics/message_logger.git
