@@ -1,312 +1,312 @@
 Package: ros-noetic-any-node-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.55
+Version: 0.5.0-57-g6f12107-2024.06.19.03.27
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-any-node
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 308
-Depends: ros-noetic-any-node (= 0.5.0-57-g6f12107-2024.06.19.02.55)
-Filename: ./ros-noetic-any-node-dbgsym_0.5.0-57-g6f12107-2024.06.19.02.55_amd64.ddeb
-Size: 291852
-MD5sum: 3484a68af2a6d268edd1d6a98de1fa40
-SHA1: 21d9fc072c3638a78e0c9604e3fa0786a8c761f1
-SHA256: f0df501b7ccff675cecdcce8d9ad401b1565294db42c92d8573a8db429234e24
-SHA512: 78a5b509d6440307b05b85b66e222f50e2daa52b66e1690dea8b1f03605b75330a0d317a8dda72d8be488016953266a5762bea55bba92a407e30fc6fede3c5ab
+Depends: ros-noetic-any-node (= 0.5.0-57-g6f12107-2024.06.19.03.27)
+Filename: ./ros-noetic-any-node-dbgsym_0.5.0-57-g6f12107-2024.06.19.03.27_amd64.ddeb
+Size: 291856
+MD5sum: efc905531127c5d6c22b9cfc22ba7492
+SHA1: 74f4e03a31a859eae98217afbf47bb966260fac5
+SHA256: 0510a7bb0f0de9ec6d98f8b8b6e9c8d8c719b39563c126dba90ad7e7c80ccdc6
+SHA512: 134da98751c815b0daa866fd4d0c50db520eca56e85e7a69f3014f6bce2fbbea291052ca8aa3d3d2f11fd9002a0a331c621bae658a6942b397c2b2e22e72b712
 Description: debug symbols for ros-noetic-any-node
 Build-Ids: 2f6c75de85e22671ade671e763f9e1f39648eaa2
 
 Package: ros-noetic-any-node-example-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.55
+Version: 0.5.0-57-g6f12107-2024.06.19.03.28
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-any-node-example
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 1054
-Depends: ros-noetic-any-node-example (= 0.5.0-57-g6f12107-2024.06.19.02.55)
-Filename: ./ros-noetic-any-node-example-dbgsym_0.5.0-57-g6f12107-2024.06.19.02.55_amd64.ddeb
-Size: 1010208
-MD5sum: fbf862cd27f3fd625a398e32aa39bec5
-SHA1: 597f993a481c1bfc59589fabdf5b0cf96ef57446
-SHA256: e2673d499f20953c564f161b73d568f527426b586c298aa03f294b503e340b9d
-SHA512: 0aa10fbafefd3d35a4d6c5bc71172afd499937443ebfa29116093fd0a7bc9b0fdef00f7eeaf7f4faca3c0ac52376aa704809a3c07af0c0cd260111abae5c677c
+Depends: ros-noetic-any-node-example (= 0.5.0-57-g6f12107-2024.06.19.03.28)
+Filename: ./ros-noetic-any-node-example-dbgsym_0.5.0-57-g6f12107-2024.06.19.03.28_amd64.ddeb
+Size: 1010204
+MD5sum: 51d60ff301608d1c8fa3755831442261
+SHA1: 5aa379fbbc6cd1b5323078eeee5ecb13fc8d8ea4
+SHA256: 2fe68d324365f429e6a33ad842ecec5acee7a82600d9e25cf3d9e532db84e37a
+SHA512: 2eb9598d1b41edad0b649cf0d2a098e9301dac3e6dfa5ce936821f5bda68cdff1055738014708fde800f46668283f2194c038aaac38d9f084290cf8944a6aef6
 Description: debug symbols for ros-noetic-any-node-example
 Build-Ids: 2b9d2c75168fd4ac3c1e1bf9a475e33f0c1cef0f f804e2f9512e1e42bcbec9dcc1448220f3f150ea
 
 Package: ros-noetic-any-node-example
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.55
+Version: 0.5.0-57-g6f12107-2024.06.19.03.28
 Priority: optional
 Section: misc
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 220
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-any-node, ros-noetic-std-msgs
-Filename: ./ros-noetic-any-node-example_0.5.0-57-g6f12107-2024.06.19.02.55_amd64.deb
-Size: 48940
-MD5sum: e3e077a7f715361714e4c502b4e40346
-SHA1: d77cce490eda18081fda9460dd44a12a754518ec
-SHA256: 963644a99b31176cd2f14ca301ab1598b935b63bcb4d428cc0c6c6140b28f8d6
-SHA512: 5a080a6df1fc8467d25bb01b06257a0c49d36fa1954b850053206d68b3f3a1205ef176211d824af8e7bef545ad951eac7d31b7a6fd5b608f8dace65c052f7598
+Filename: ./ros-noetic-any-node-example_0.5.0-57-g6f12107-2024.06.19.03.28_amd64.deb
+Size: 48888
+MD5sum: 14213d8666e4a5a2d62fc31493774181
+SHA1: fd13fbeffe21ad649c748d5f11ae96d5dcaf10b9
+SHA256: 7bb7a85f069fdc5b5480122b53ebbd101907e1b6b8f68752de616c031a8153a6
+SHA512: 9ce99f19979b24cf5ebeed5e1ba1ad27739210d46d18f771bfa5e741d17efbc6e483414c2f26676ce057e0fc90c484ea01abf76feff8f18ee7566379cbe22f6a
 Homepage: https://github.com/anybotics/any_node
 Description: any_node example
 
 Package: ros-noetic-any-node
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.55
+Version: 0.5.0-57-g6f12107-2024.06.19.03.27
 Priority: optional
 Section: misc
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 95
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-any-worker, ros-noetic-message-logger, ros-noetic-param-io, ros-noetic-roscpp, ros-noetic-signal-handler
-Filename: ./ros-noetic-any-node_0.5.0-57-g6f12107-2024.06.19.02.55_amd64.deb
-Size: 20908
-MD5sum: ad72a6ae77567583b2d7028a53bb5595
-SHA1: c6a59417181945d0fdc9e945de4b3b91e8d8b4f9
-SHA256: b621f36783fdb0efee4166128cebc0a170a36aed15656d1142330d99b7e4a6ee
-SHA512: 2c766b2abd7d16e35ddff699cfe16f9f75c2ef13f768bd0246a9b13e5c91d29a669827a2dc05737d0d50546c85eb45d11cf5069d5d94db0d34b8a849daf71f4d
+Filename: ./ros-noetic-any-node_0.5.0-57-g6f12107-2024.06.19.03.27_amd64.deb
+Size: 20880
+MD5sum: 2606267986e0bfd441adfdbf251ae108
+SHA1: 5c5e26e1d9ea84b36b619042cc7c7b163ae3835f
+SHA256: 39dd3b77f7e83ab0a0694c5da0ddceaa110d242d9a91b9fd5d10976bb977f768
+SHA512: 3494dd1ae31c719fe5139a0b56d5f0fa84273584668d4945d9f0367a898417a3df089c4750c3878abf6676e04cbf1acfacc9864c2f57aa436c949fa683547d37
 Description: ROS node wrapper with some convenience functions using *any_worker*.
 
 Package: ros-noetic-any-worker-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.45
+Version: 0.5.0-57-g6f12107-2024.06.19.03.17
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-any-worker
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 555
-Depends: ros-noetic-any-worker (= 0.5.0-57-g6f12107-2024.06.19.02.45)
-Filename: ./ros-noetic-any-worker-dbgsym_0.5.0-57-g6f12107-2024.06.19.02.45_amd64.ddeb
+Depends: ros-noetic-any-worker (= 0.5.0-57-g6f12107-2024.06.19.03.17)
+Filename: ./ros-noetic-any-worker-dbgsym_0.5.0-57-g6f12107-2024.06.19.03.17_amd64.ddeb
 Size: 528760
-MD5sum: b026b15645e3595f5f3361eb2e4cd386
-SHA1: 27e610b62eea9be862b6363fe218a4be5f35826b
-SHA256: e206d06c1f793e673954bf5dc6cf1d3c2e4de40116ca49292095701e3d4204bc
-SHA512: 7789c307a39191f8d3125e6e639ac9584683427316c42a947584ddea41eb08d386ef3962870b9ce337157e85c0faaf49109bb18711b794c3480379451e97181e
+MD5sum: 13538a03e98a72f378f7de07a38c34ce
+SHA1: 37537c91847f07e939eed7a2d6ba0a67fbd7c680
+SHA256: 79a27b9babd3a36bf5ee492e1ebcb4a9cf7fc05e8521e81eabe7a6edad0806c9
+SHA512: 4ff10bb1926be0cd79bf14d2bd93b4dc026630521055f6543068d5659ba15754241c40f25e92327575d40bce7ffee8422b6022c99d5d9d0779ffc745117ab4f2
 Description: debug symbols for ros-noetic-any-worker
 Build-Ids: 6a692c85ebf762c5f80f3d7efc6782b98a180acc
 
 Package: ros-noetic-any-worker
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.45
+Version: 0.5.0-57-g6f12107-2024.06.19.03.17
 Priority: optional
 Section: misc
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 153
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-message-logger
-Filename: ./ros-noetic-any-worker_0.5.0-57-g6f12107-2024.06.19.02.45_amd64.deb
-Size: 34736
-MD5sum: 7ff662471b7faab26151d45c441525c3
-SHA1: a3b2c3848bcc6b43d70a6bfcb2313a5129058015
-SHA256: 7fd485b0653f787fff468d26c5d04c245f6dda456a7a23e97282c1d182598d8a
-SHA512: 4058d152c9baafac5ce260462d01cb0ea293f04a1967619bd934592e330a456eef77adbc8722a79ebfcef8f9ee92532aae6d0d600f1c80e4c3cb6474ec144e04
+Filename: ./ros-noetic-any-worker_0.5.0-57-g6f12107-2024.06.19.03.17_amd64.deb
+Size: 34708
+MD5sum: f2fadc361f68f92b5c714c095af52e1c
+SHA1: 3143ebfac0877717a061929375c668fe325da88e
+SHA256: 8dfb615c3619e48c8ba8dc5cdbe39341ca5f54bc3b27adb4d31335be6cf6c3e9
+SHA512: e07c1a68d6d6f98042916228a51cfdb4af5a75a97e633bce39ba88ddb11bbec05eefef60dd857a1cd2f552f45305ee0af3d55870883bf67e1adb2b2146851861
 Homepage: https://github.com/anybotics/any_node
 Description: High resolution version of the ROS worker.
 
 Package: ros-noetic-cleardrive-foc-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.02.57
+Version: 0-2024.06.19.03.30
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-cleardrive-foc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 1211
-Depends: ros-noetic-cleardrive-foc (= 0-2024.06.19.02.57)
-Filename: ./ros-noetic-cleardrive-foc-dbgsym_0-2024.06.19.02.57_amd64.ddeb
-Size: 1165492
-MD5sum: fe4d50a295cafdf39a8276099fd642cc
-SHA1: 6725ed541cfdd9d207074ee2c6a5b40f5eb6bda7
-SHA256: 2dd838b9f32d5fc6c68dde03e57e5eb76fc2b648448e87d39379f8050c1e7f46
-SHA512: 9ec756b7ce2972ca1f14f2d63a095a2f1da5530f51b961e7685f5d666ee55a124b3d6daf002e2159a5707df3539fc854b6214afe5f3d35e7e6f91efa498af351
+Depends: ros-noetic-cleardrive-foc (= 0-2024.06.19.03.30)
+Filename: ./ros-noetic-cleardrive-foc-dbgsym_0-2024.06.19.03.30_amd64.ddeb
+Size: 1165504
+MD5sum: 719a28f8b0581c51e7a711b197ae1a3b
+SHA1: 5ddb932e1c8c92d749fa0e5dc55e76b3b5daf1f2
+SHA256: 4c66a8590ba7a90da3fffeb5c8fd158b91b0c74134cdc16e3451bc0f0df9e56d
+SHA512: 0c848b4c29d947653c74f6138936175beab597a777b7efe35d61473bb84a806ed32ab6d7fc523072525e6202c7df7ea0ecacb678cf9222c341448dbb9477e6c4
 Description: debug symbols for ros-noetic-cleardrive-foc
 Build-Ids: 24c2ad987dabbe44b2600a9b4b15e39635b4bee7
 
 Package: ros-noetic-cleardrive-foc
 Architecture: amd64
-Version: 0-2024.06.19.02.57
+Version: 0-2024.06.19.03.30
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 254
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-soem-interface-rsl
-Filename: ./ros-noetic-cleardrive-foc_0-2024.06.19.02.57_amd64.deb
-Size: 62456
-MD5sum: a2c079b603c807c80bd738fde5cf4fdc
-SHA1: 54beca109b7d28c07935e5f66e5bf8a632053522
-SHA256: 76809438d7c927a23221944c2fe18a50643d2d8df6e2eff32a86fc2db6e20398
-SHA512: ca48cddc61cab67c3bdd81d51576e79f297c7704646d5e8cc735fb9597fde20f556983df53176fc575950cdc0d02ffc8d4494bf98ced738c521e72d55e9ddec3
+Filename: ./ros-noetic-cleardrive-foc_0-2024.06.19.03.30_amd64.deb
+Size: 62504
+MD5sum: c5d6e6237e579dc4b034ce2842d94163
+SHA1: 3d1831b38d68421005a333214462cef83871c7f2
+SHA256: a5b85851dd1a663aa59dd0fb498eb3ec01f83962d21e6d8ee6de96a87ab431e4
+SHA512: 2159d85e6ac59cd325077e26ae9f1e9c95c8038d0820b7ac27b30743d6156fe13b0a7d8b4ef9e2aa5dae6532f6fe70394b150f5bb96a4979a866084f76929295
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: CLEAR FOC Ethercat implementation.
 
 Package: ros-noetic-cleardrive-imu-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.02.58
+Version: 0-2024.06.19.03.31
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-cleardrive-imu
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 893
-Depends: ros-noetic-cleardrive-imu (= 0-2024.06.19.02.58)
-Filename: ./ros-noetic-cleardrive-imu-dbgsym_0-2024.06.19.02.58_amd64.ddeb
-Size: 846108
-MD5sum: e7b9577ac4c6099af83c1076830973f9
-SHA1: 505a0db862f52ec3fe08671db4b7ba186c771520
-SHA256: 0428fdcb7e3d19ad16198ddb61a23ea041a786308c764207f6550b897278eabd
-SHA512: 32ad091c21b12aed448c8365d5544c39a567a25933d6fd7262a188bf2a7f1879b00e287693246d47adf04b123e6ff3412ae4571781462f45ef27dd2becab1e98
+Depends: ros-noetic-cleardrive-imu (= 0-2024.06.19.03.31)
+Filename: ./ros-noetic-cleardrive-imu-dbgsym_0-2024.06.19.03.31_amd64.ddeb
+Size: 846116
+MD5sum: d0df4e318bce8f3f34472c91b1022395
+SHA1: 925922dba508bfdfbb955015dfbdca137ace2fae
+SHA256: e38913e4a7d1bdbaa8f7e546dfb2f18582f0000f0ac560c2814d3e7313b2a499
+SHA512: 371e55e9f468b91c207cfe50d277c25d61fbbf4de3d5869e8bac1b550b259c5b6b25994c0ba6bec0719c07c8595dc4efcc62912f9610e29dfffd58ba3fe7174a
 Description: debug symbols for ros-noetic-cleardrive-imu
 Build-Ids: 88adf44907426ec81561dd51166f7ceb75a22341
 
 Package: ros-noetic-cleardrive-imu
 Architecture: amd64
-Version: 0-2024.06.19.02.58
+Version: 0-2024.06.19.03.31
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 215
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-soem-interface-rsl
-Filename: ./ros-noetic-cleardrive-imu_0-2024.06.19.02.58_amd64.deb
-Size: 46816
-MD5sum: 0c9ef39836b440c04fea2f0acb730307
-SHA1: 5b9375622d10994d4d8a124f01adfe952e10e9e1
-SHA256: c1cd0b0a91e3e71a8b89cd3cd7ee30b1fc97a5e840d074bf4ba2e68eaf8c5536
-SHA512: 37d2365e9e4054978030fce679e4a57282a268c28e888674cb7f86611dedd1dc7557d37d0feab758871b0f8827afb421bc2a90fc7f96d75f9cd5ad3993f7b646
+Filename: ./ros-noetic-cleardrive-imu_0-2024.06.19.03.31_amd64.deb
+Size: 46888
+MD5sum: dbaaed51169957f53d08c848813ef983
+SHA1: e101f4309d5a44e2222e56babe08101ab5c0b557
+SHA256: 202c94132a109478102bd657d1384b178976c1a918adabe00c38c959b958ee1f
+SHA512: dde07bf871d2f2775de526cbc200f7be38daad70b27d24587ab35c9cfc3de2846024ac28ffb46e809cf13435d49576926d0229f9074c89e913661bdc80688273
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: CLEAR IMU Ethercat implementation.
 
 Package: ros-noetic-cleardrive-manager-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.03.01
+Version: 0-2024.06.19.03.34
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-cleardrive-manager
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 332
-Depends: ros-noetic-cleardrive-manager (= 0-2024.06.19.03.01)
-Filename: ./ros-noetic-cleardrive-manager-dbgsym_0-2024.06.19.03.01_amd64.ddeb
-Size: 314264
-MD5sum: e01faab1dc663ac227298e8fc2864510
-SHA1: fb32a26dacfcd99da6ee6a170c4ac1f2ae1b7047
-SHA256: d6db7b31f210a7a842a7012e375ea59e090ef6260a6977c1714c5a3e92ebdd6a
-SHA512: b0777317b1e394f14d7a1bf6df360fb2792a8db09e187e5e0efd1a56bf26d48e15106998019019915274798e85b0d024b0f7cf510dfa97a27ed2d691d4c7e623
+Depends: ros-noetic-cleardrive-manager (= 0-2024.06.19.03.34)
+Filename: ./ros-noetic-cleardrive-manager-dbgsym_0-2024.06.19.03.34_amd64.ddeb
+Size: 314268
+MD5sum: 5ad435c6aba23d55604fdf61c4c15db8
+SHA1: adf6264853ea2ddd11eae9e9df221daf57a541ef
+SHA256: a2dd4ac0d52c65b79deefc80365d6fa0dd8ce98bf4202f11155a56132b1f39b6
+SHA512: 0939b7a64137ef803f1faf8e1ba89e5195257342fe8e08d475f505622873ad60229d65dd9867cc24d7e41f7b75358e2e664dbce041d5b3f4409c5b84678ebd22
 Description: debug symbols for ros-noetic-cleardrive-manager
 Build-Ids: 8055a6daace80c78e1ee4be7a4dcf272134a9b9d
 
 Package: ros-noetic-cleardrive-manager
 Architecture: amd64
-Version: 0-2024.06.19.03.01
+Version: 0-2024.06.19.03.34
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 80
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-cleardrive-foc, ros-noetic-cleardrive-imu, ros-noetic-ecat-manager
-Filename: ./ros-noetic-cleardrive-manager_0-2024.06.19.03.01_amd64.deb
-Size: 17240
-MD5sum: 30f46aa7c7aaf85b5a2866dcd43f27de
-SHA1: f6626e575c3a7f43bd5f50c9962d79dc82d9f3fa
-SHA256: fb8d206f4d33da57fc9367250ad140e28b8d8c13deedc04cc253d14872fedb05
-SHA512: 46583982be88f36141ef5c1ddd802c3a9e5619123278fe28a68564fd20fc5fc7dc4b2368397edd9588dc7a165da6852d02f5873ef73442f7d1aac14b377c9c8f
+Filename: ./ros-noetic-cleardrive-manager_0-2024.06.19.03.34_amd64.deb
+Size: 17248
+MD5sum: 772b3d1b37ba56297d6f478a80fdfbd5
+SHA1: 99de510304b6699a3e7b36570e3d2e49f2e7b1bc
+SHA256: 7bbdcc4fc0324f55aece2ed1719db4107b18341fae9cfef7b8da28a8e23dafec
+SHA512: 40989cf322bce810552980742e5f6a3b375e3e01151949011cc80359c5ecfb956367b38d3394d604e0f8c4309c32020c3fc89a3fa99b0312e0fef9692782f691
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: Core C++ library to interface one or multiple drives.
  Contains abstract base classes for the communication interface.
 
 Package: ros-noetic-cleardrive-msgs
 Architecture: amd64
-Version: 0-2024.06.19.02.39
+Version: 0-2024.06.19.03.12
 Priority: optional
 Section: misc
 Maintainer: qiayuan <liaoqiayuan@gmail.com>
 Installed-Size: 496
 Depends: ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-sensor-msgs
-Filename: ./ros-noetic-cleardrive-msgs_0-2024.06.19.02.39_amd64.deb
-Size: 38192
-MD5sum: 29214a3c8e74fcba8ea38bffe64bf77a
-SHA1: cc5aa819fa180e85ee507aabd0407bd69d1827c4
-SHA256: b0ed33446f296269e40b677ee921d010db81613656d85cb4009819bc41543dda
-SHA512: 39a6ebc08e693ef15d8c309627634220beaf2c73c35e4c1705e65a8fcf42915d9ce664156fbb25391d609d6a7eedf3df27cc6d6e0fc14855434beecfa71176c6
+Filename: ./ros-noetic-cleardrive-msgs_0-2024.06.19.03.12_amd64.deb
+Size: 38220
+MD5sum: f973d91e4a3f25a48a071d892ce807cc
+SHA1: a9c91ec40f9a61c4da8cd2c5e474e01dd6498e70
+SHA256: 7fdcf4ffeac08b3738d7b2135769da4decd32d7079eb79a0015d9950137e88da
+SHA512: 108a8e1a233bd9538d762c42fc37da38cc544a50dd88d8231b67d464d5cb6742204397d933272ee39478e5de1c44000f983c85e6e1fe9c8dee870704d88a8de5
 Description: The rm_msgs package provides the ROS messages
 
 Package: ros-noetic-cleardrive-ros-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.03.02
+Version: 0-2024.06.19.03.35
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-cleardrive-ros
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 5174
-Depends: ros-noetic-cleardrive-ros (= 0-2024.06.19.03.02)
-Filename: ./ros-noetic-cleardrive-ros-dbgsym_0-2024.06.19.03.02_amd64.ddeb
+Depends: ros-noetic-cleardrive-ros (= 0-2024.06.19.03.35)
+Filename: ./ros-noetic-cleardrive-ros-dbgsym_0-2024.06.19.03.35_amd64.ddeb
 Size: 5013108
-MD5sum: ef688b4481ff7d6979185dd8d1a6dfa1
-SHA1: 9f40f175ccb50fbf2bc6fa84834944dd9bbaaa37
-SHA256: ff3fb1577436f26dc957724899392a80d163251f19443ff8890b3610e01a7eaa
-SHA512: fc70cf7e6c605bcd0665eac1fa0b03d99d0d860e125dc5ed811e81cf02eb5c449283a5ba9143dfe554c9e410696212aad17cc53c72c1ca928c6798746b7f8c68
+MD5sum: 90f19c2cf48e6714ca0f0925c5db4145
+SHA1: 5ee43b868864057dbf731517a3d32089e8fc1bfa
+SHA256: 5065a3bfb26f3f2f967807cd1e646b4bcda2414a870018e18cb188725ef79a2f
+SHA512: 160896c890d26666e0eb9fe08b7b07fa90a50db8b4b635147f531e20f679c240b8a63a23df35390d11e6d130cc7e0fa14d14d9bc50316df479b20d29ca6a3c3c
 Description: debug symbols for ros-noetic-cleardrive-ros
 Build-Ids: 6d377dc07b3eb7ce1144e74edac372a77035f3e6 71c8e8e61bbe71cd4da0aec01d98884a10f84f9e 8fca11586b2aa2994755a5f52a1d20966bc1075d b2b2c0a4a0a30b7eb5b5855e13b60322f1e3f544
 
 Package: ros-noetic-cleardrive-ros
 Architecture: amd64
-Version: 0-2024.06.19.03.02
+Version: 0-2024.06.19.03.35
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 807
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), liburdfdom-world, ros-noetic-any-node, ros-noetic-cleardrive-manager, ros-noetic-cleardrive-msgs, ros-noetic-controller-manager, ros-noetic-roscpp, ros-noetic-urdf
-Filename: ./ros-noetic-cleardrive-ros_0-2024.06.19.03.02_amd64.deb
-Size: 157920
-MD5sum: cf20a98acae3940cc23fc5b517e8d96f
-SHA1: 4b90870b90b8f4c75047d6f05d399e0b1eb1a13a
-SHA256: 6dfbf6546145236475e364c0be46d55e6f608c8c0648e802604a78f62163af29
-SHA512: 958efe87d90bf1c7c83f80f67ce2286b3a4f22f42a2ff78867afb42f9535d0e906cfe2dbaa9b0fb1fcf643bb010a8544038737fbac4deef285e405a23e5a2893
+Filename: ./ros-noetic-cleardrive-ros_0-2024.06.19.03.35_amd64.deb
+Size: 158020
+MD5sum: 7b063c561fe5e7bf2fd0cd25645080b9
+SHA1: 73203498cbe9286ef4d6144dc18da55194af3016
+SHA256: 22eac9222dcc749fabc49e01d2878374dd1aa0fc2881379f6b0f68929e7bfb56
+SHA512: b17fbaf516a331fdc4a8fe6a023beb1d36e79739e8d1c08a235226c994785d23a7b73bd0ecfe0b41920f9321aad43b385712a8e97004bbc130cfc2c1bf9d6778
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: TOOD
 
 Package: ros-noetic-ecat-manager-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.03.01
+Version: 0-2024.06.19.03.33
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-ecat-manager
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 481
-Depends: ros-noetic-ecat-manager (= 0-2024.06.19.03.01)
-Filename: ./ros-noetic-ecat-manager-dbgsym_0-2024.06.19.03.01_amd64.ddeb
-Size: 461780
-MD5sum: c0d2fe8c61d6bd8432f5a0753f968bfc
-SHA1: d85df5580294fab281f34c515021dd08b650d99d
-SHA256: 84a1088d10d4941d81c22cd8c0c68456eb139cbdc393287615280ba0714d9327
-SHA512: 06dac93b8a150d693336749ebb07bb48740a7e3add2168e1759281fc9b4cc6ea5de373c17ee28aee3f330a24f6c1b52622156ecb37ec72033d54df4878ee9a6b
+Depends: ros-noetic-ecat-manager (= 0-2024.06.19.03.33)
+Filename: ./ros-noetic-ecat-manager-dbgsym_0-2024.06.19.03.33_amd64.ddeb
+Size: 461792
+MD5sum: 2a7d85de808c12e1042190e08ae9bc13
+SHA1: f5fc4038bd2ccc2ba32fbdca6fbffb5c9cbb2259
+SHA256: 5c55890a14ed5796359ef7c92d993076ff9c0d92b0d03b1011715bd0950a1420
+SHA512: 9a8698e4f6682af4060b59706692de9a3d11a6b970448754211b359a7822d78bfae3555a2c9b92d4de3dd6959323448ba43f3da4fda7a4c26302c8284748ac81
 Description: debug symbols for ros-noetic-ecat-manager
 Build-Ids: 25d7b91075ca811108808b518d2650ff8044e571
 
 Package: ros-noetic-ecat-manager
 Architecture: amd64
-Version: 0-2024.06.19.03.01
+Version: 0-2024.06.19.03.33
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 124
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-any-worker, ros-noetic-cleardrive-foc, ros-noetic-cleardrive-imu, ros-noetic-mit-ecat-slave, ros-noetic-rm-ecat-slave, ros-noetic-signal-handler, ros-noetic-soem-interface-rsl
-Filename: ./ros-noetic-ecat-manager_0-2024.06.19.03.01_amd64.deb
-Size: 31212
-MD5sum: 8f26b32c0d3a988004d13e8d3031bfe3
-SHA1: 515168c32231592202bb7e89e8959fc9b120f296
-SHA256: a5bebb7a7ee628cafd12aa4d8b39a8bd0c4ce6d767c7749c233f3d10fafbe1c4
-SHA512: 6399b6f1b73135cae680a47f5c17856ef10ca5bf2453a651a3e0d2dc895f9d0b46bc0fffe145eb1739c9495c5e51787716bb49b5c54d3012e43a06098206e939
+Filename: ./ros-noetic-ecat-manager_0-2024.06.19.03.33_amd64.deb
+Size: 31268
+MD5sum: d867687713ce03674c5a05d4bc50b538
+SHA1: 0a13af63d1220752f179dd1306542bd51f6d8b99
+SHA256: ac2d233adf4c02b8c180b66e6fb2ade66e5fb3e7d6da290f1502da3ae884bd40
+SHA512: 86713855743a28f9c1abbdcd7715311551a974f1fb4c51736e28b15867d98d93c968c878f7abab98665be74a48b11aa897d03ff74f9d0183aab224312c506992
 Homepage: https://github.com/qiayuanl/ecat_manager
 Description: Core C++ library to interface one or multiple drives.
  Contains abstract base classes for the communication interface.
@@ -314,197 +314,197 @@ Description: Core C++ library to interface one or multiple drives.
 Package: ros-noetic-elevation-mapping-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.6.0-118-g2016feb-2024.06.19.02.46
+Version: 0.6.0-118-g2016feb-2024.06.19.03.18
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-elevation-mapping
 Maintainer: Maximilian Wulf <mwulf@anybotics.com>
 Installed-Size: 20451
-Depends: ros-noetic-elevation-mapping (= 0.6.0-118-g2016feb-2024.06.19.02.46)
-Filename: ./ros-noetic-elevation-mapping-dbgsym_0.6.0-118-g2016feb-2024.06.19.02.46_amd64.ddeb
-Size: 20430340
-MD5sum: 56ab8f7fcb0daebd875374f66c315da5
-SHA1: 2ce33d7197edcacf0106688b94bfe9736e7151da
-SHA256: cd5293d207762180dcd9af06f870825eca098c3b4ab269ef76e7ee6122ab2afc
-SHA512: 55995096759bfd59cab3e2c2586f41eb02760bd313517cf0d9474ccd00ed630f33d7eabf12bfe9af951039040b090ffba2284e42c8b82c24363bd80fc670fdba
+Depends: ros-noetic-elevation-mapping (= 0.6.0-118-g2016feb-2024.06.19.03.18)
+Filename: ./ros-noetic-elevation-mapping-dbgsym_0.6.0-118-g2016feb-2024.06.19.03.18_amd64.ddeb
+Size: 20430020
+MD5sum: dac10f3740ce327568eed437a1544323
+SHA1: 7e520e49549e4e96ea8b22a5d7d795cf230b4957
+SHA256: 5a0d97ac27d3ad96c0779f03aeea13dd8b404b4af34409d06c467a2a43277b22
+SHA512: 246bb01d1875dda0ef11dc3a6adbaba603353f53fded6b7185bdb6471f9bbab20a7c14747d72a040390a9ac615638d84fd076fc5e9b3f15032808ac5ecb5b813
 Description: debug symbols for ros-noetic-elevation-mapping
 Build-Ids: 0c5dc7e86bfbb880d63c629ea1ce4ba7f4c541a7 123f4934d428cd601a69632166ee5d055d97170d f1f8f6128dc7e47620f4de2d7c8bed44bfdb436c
 
 Package: ros-noetic-elevation-mapping
 Architecture: amd64
-Version: 0.6.0-118-g2016feb-2024.06.19.02.46
+Version: 0.6.0-118-g2016feb-2024.06.19.03.18
 Priority: optional
 Section: misc
 Maintainer: Maximilian Wulf <mwulf@anybotics.com>
 Installed-Size: 1351
 Depends: libboost-filesystem1.71.0, libboost-thread1.71.0, libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 4.0), libpcl-common1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 9), libtinyxml2-6a (>= 5.0.0), libboost-all-dev, libeigen3-dev, ros-noetic-eigen-conversions, ros-noetic-grid-map-core, ros-noetic-grid-map-filters, ros-noetic-grid-map-msgs, ros-noetic-grid-map-ros, ros-noetic-kindr, ros-noetic-kindr-ros, ros-noetic-message-filters, ros-noetic-message-logger, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-tf-conversions
-Filename: ./ros-noetic-elevation-mapping_0.6.0-118-g2016feb-2024.06.19.02.46_amd64.deb
-Size: 333244
-MD5sum: b6a6e343d8c59ab9c00039e25da37dde
-SHA1: 2dbb1a11850d8ccfcadc5d76baa0e1b7cfb59f6a
-SHA256: 734d9f5ff880210f96d8679903b1dc7896cddf1502f3a783f6a96253afe3eadd
-SHA512: fb891f8021dc7eb3761ae1d288f4d3a6724a7368ac3ef1b077fe7854432940b3f9d47eabd10eedf2e9406641c2ec4f407cc5c1eea4c72c1a26a9ec44f1a5464b
+Filename: ./ros-noetic-elevation-mapping_0.6.0-118-g2016feb-2024.06.19.03.18_amd64.deb
+Size: 333336
+MD5sum: f82cbfc95f1d1db77408b59486c0fda7
+SHA1: 74a744fc41f16965ca8bd3bdddc52f78246acefc
+SHA256: ffa71e8ef1fe3756e51fc5db610ab2b3a82a5de1b73f994376da34fb543afd2f
+SHA512: 223e6e609b60cfe94fd7ad1aa97f1c154911a3563df33495bd15d68cf9d36ed8125ed2f1763d5b0971fe8250052bb7cc5e9a3588e963ac06a861b656470428c2
 Homepage: http://github.com/anybotics/elevation_mapping
 Description: Generates an elevation map from distance measurements and robot pose information.
 
 Package: ros-noetic-kindr-msgs
 Architecture: amd64
-Version: 0.3.0-38-g46dd106-2024.06.19.02.41
+Version: 0.3.0-38-g46dd106-2024.06.19.03.13
 Priority: optional
 Section: misc
 Maintainer: Remo Diethelm <rdiethelm@anybotics.com>
 Installed-Size: 125
 Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-std-msgs
-Filename: ./ros-noetic-kindr-msgs_0.3.0-38-g46dd106-2024.06.19.02.41_amd64.deb
-Size: 16540
-MD5sum: 79e0d92c867f5aa7346979fc15e6cf8c
-SHA1: c2d1357afaa813cc312e2b680a4ade66b2ea13b4
-SHA256: 6e72df39548dbef495b7ab5c967c16286b492403eaf09f9a6ab4f45c425d8ec3
-SHA512: 1ded7fbb0cfd0eba2ff949b3b136671d8e9adf92e1ef6300119fb326914116b5aca44c625799d46f601c36b1a2a827193f91663aaef5591a40eac737bfff1889
+Filename: ./ros-noetic-kindr-msgs_0.3.0-38-g46dd106-2024.06.19.03.13_amd64.deb
+Size: 16536
+MD5sum: 8734936dd384c085def787af4c27466a
+SHA1: 8d7dc7b57a3ee8d059f0c389f92109476e91960e
+SHA256: 366ffef3059278a43b5ca08a3a43297a431e15e47c886d94eaa39c979c02454d
+SHA512: 097cdc4d05145f3f62903979cfd5af4cc20c857c64766cd9bdaae02bb48a456a18a6f3df8101d05a51b4a6bf8813635cb0c61dfe20785c772411f2dbc4fb06d4
 Homepage: https://github.com/anybotics/kindr_ros
 Description: Kindr common msgs
 
 Package: ros-noetic-kindr-ros
 Architecture: amd64
-Version: 0.3.0-38-g46dd106-2024.06.19.02.41
+Version: 0.3.0-38-g46dd106-2024.06.19.03.14
 Priority: optional
 Section: misc
 Maintainer: Remo Diethelm <rdiethelm@anybotics.com>
 Installed-Size: 53
 Depends: libeigen3-dev, ros-noetic-geometry-msgs, ros-noetic-kindr, ros-noetic-tf
-Filename: ./ros-noetic-kindr-ros_0.3.0-38-g46dd106-2024.06.19.02.41_amd64.deb
+Filename: ./ros-noetic-kindr-ros_0.3.0-38-g46dd106-2024.06.19.03.14_amd64.deb
 Size: 7204
-MD5sum: 39f721aa431e403116fe0dba81d04e45
-SHA1: 1d7ff728dc79ee4c096e5d7a535306285a71b677
-SHA256: 6fb93a4c4486d594a338d40a99c6513a3cfe9caa7d2172f9ec6a4c05732c2cca
-SHA512: 4abd425000fb363ad4d0ddd5ab33d7420aca78bad6206a9bcadce8fdf18ff81166359c6425ceeab338802c926694063a67bc6b36c89537b96cc04f0a63d0a32b
+MD5sum: 92e433079e9c96e3da049d5f344c1105
+SHA1: 6b35ec58f934c7aa52bfb0fcc6f07941e53e2bd3
+SHA256: 0621135890d4cbc6e4e686856b0ffb7d37637fb7555dbe56bcfa6fd59e9dd429
+SHA512: 9236962b0ec705cfafd1392d16c7fcc98080eaee1c2af3805d80bde18320aa523500adb8fce4f3072425c2098eee5a232bb118cf315d4167194fd4bf0e248a76
 Homepage: https://github.com/anybotics/kindr_ros
 Description: The kindr_ros package
 
 Package: ros-noetic-kindr-rviz-plugins-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.3.0-38-g46dd106-2024.06.19.02.42
+Version: 0.3.0-38-g46dd106-2024.06.19.03.15
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-kindr-rviz-plugins
 Maintainer: Remo Diethelm <rdiethelm@anybotics.com>
 Installed-Size: 2470
-Depends: ros-noetic-kindr-rviz-plugins (= 0.3.0-38-g46dd106-2024.06.19.02.42)
-Filename: ./ros-noetic-kindr-rviz-plugins-dbgsym_0.3.0-38-g46dd106-2024.06.19.02.42_amd64.ddeb
-Size: 2379136
-MD5sum: 423fa7772641f77737e825cdc640389b
-SHA1: 7381181af34d4bae7e6bee3e11381342dd52bfc5
-SHA256: 6957eda576211a53d6215bcbf999799f19ef5f73abc3faa190041e15d454e14c
-SHA512: 76b53f8aa64aad5a4eafce4a54ee57493d73462b663e55c9f738dce788e5d4efa9191ff653bc08432210167e6563584a25850a81f4ba75c03387584370fe4f09
+Depends: ros-noetic-kindr-rviz-plugins (= 0.3.0-38-g46dd106-2024.06.19.03.15)
+Filename: ./ros-noetic-kindr-rviz-plugins-dbgsym_0.3.0-38-g46dd106-2024.06.19.03.15_amd64.ddeb
+Size: 2379088
+MD5sum: 6d8599b2e3f07978442dfca2937d82cd
+SHA1: 6e41944c14727d4b30ecbae12e99ebfb631937f0
+SHA256: a377a93f86b2022c9a153648f987866b30799310dc7c87449dac74d9f104afe4
+SHA512: 23d92e7f0109def44f225e57316c085f85416b2104ce0d538fea4ce42ef05b48b0e01db48d27424491d649bee602a2af396ce3477d82313f4f876086a50c5aee
 Description: debug symbols for ros-noetic-kindr-rviz-plugins
 Build-Ids: 30ddcbaff84d01f9ed1db0d18d451212ef09833e
 
 Package: ros-noetic-kindr-rviz-plugins
 Architecture: amd64
-Version: 0.3.0-38-g46dd106-2024.06.19.02.42
+Version: 0.3.0-38-g46dd106-2024.06.19.03.15
 Priority: optional
 Section: misc
 Maintainer: Remo Diethelm <rdiethelm@anybotics.com>
 Installed-Size: 442
 Depends: libboost-thread1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libogre-1.9.0v5 (>= 1.9.0+dfsg1-9~), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5.2), qtbase5-dev, ros-noetic-kindr-msgs, ros-noetic-rviz
-Filename: ./ros-noetic-kindr-rviz-plugins_0.3.0-38-g46dd106-2024.06.19.02.42_amd64.deb
-Size: 100264
-MD5sum: b3fc733d479c43d1fad765ce43e8933d
-SHA1: a1971f536260deede581f155b9664513066a2830
-SHA256: e35e66d76d9de2e38ab94ec884046ac1ffd3b9e220029f396cbe175b03c3c3b4
-SHA512: 722d4b674ffa5e29443ee5ec04c68c4bfa6eaf4276b97ff0d0fc31b414e3bfc35300f5da4de15ff02cbf3ebefdc37cf8baa596379f17a523441b846cad6df485
+Filename: ./ros-noetic-kindr-rviz-plugins_0.3.0-38-g46dd106-2024.06.19.03.15_amd64.deb
+Size: 100060
+MD5sum: 1e0e759e890af4a8f2aad89e711c43c5
+SHA1: 642ec0ac9291055c8af0d9fa3899953d90aa4a21
+SHA256: f512fd8139582021e80abd56966bd98f514150fca508975ab8052fd5b115324d
+SHA512: c792c1ce8f87adfd935b4765914b4defdcf4964be4350ae90eabaee20de3e94453391def23312fa45c7f1cb7dbe8ca970ad762586fc5f2fbd63502b2f65b74df
 Homepage: https://github.com/anybotics/kindr_ros
 Description: Plugins for visualizing kindr objects in rviz.
 
 Package: ros-noetic-kindr
 Architecture: amd64
-Version: 1.2.0-62-g4729702-2024.06.19.02.40
+Version: 1.2.0-62-g4729702-2024.06.19.03.12
 Priority: optional
 Section: misc
 Maintainer: Remo Diethelm <rdiethelm@anybotics.com>
 Installed-Size: 451
 Depends: libeigen3-dev
-Filename: ./ros-noetic-kindr_1.2.0-62-g4729702-2024.06.19.02.40_amd64.deb
-Size: 42156
-MD5sum: e11dec89ff4eec41c9de2898b4a2487e
-SHA1: 07295ae00ce2cb72f1bc27d12ce80962bc6154a9
-SHA256: f936d62f0baf0960a99de49e315fccf847e63e2535f9eca4b4881227727a8423
-SHA512: b8f3b46514b435279a5f2fca836c5387690ee047300a4557613f30306a480b3914c6754ff04965fcd9afe96cc1ccbdaf1ffc2691ed58414b7d6f92a6ff978630
+Filename: ./ros-noetic-kindr_1.2.0-62-g4729702-2024.06.19.03.12_amd64.deb
+Size: 42192
+MD5sum: 4cfc0930e4d917799bad612377bdd522
+SHA1: 08c9b45c0296b269af287cea2f190180c48c217f
+SHA256: e64f2f76edd1e9e15e0da071b039bc50e9f749c29b270d7908347855400994f7
+SHA512: 5ff29b2cff21b12f1246e654fb4bddf610d64453222880e954e2cbd3662b3dfc332ad846932c919d99d51b9109904bc528c4d534b7122318279ee76712935a4e
 Description: Kinematics and Dynamics for Robotics
 
 Package: ros-noetic-message-logger-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.2.0-34-gbdb867e-2024.06.19.02.44
+Version: 0.2.0-34-gbdb867e-2024.06.19.03.17
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-message-logger
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 49
-Depends: ros-noetic-message-logger (= 0.2.0-34-gbdb867e-2024.06.19.02.44)
-Filename: ./ros-noetic-message-logger-dbgsym_0.2.0-34-gbdb867e-2024.06.19.02.44_amd64.ddeb
-Size: 32460
-MD5sum: 3990c9b37931643e3243dff5bfac728f
-SHA1: 715546017af196166ea190a54d55f2d548ea1c64
-SHA256: abae5a019aa17b57e5a085642d5ef3e8fffd92f591bd3a6cefb34a4c1abfd5db
-SHA512: f6947c90e7549f0b3a5e18642f6c4bb416d54016a8c3823d9479649e271d6454e1c3fea25137d5d2765a1720f6e2ebbb92e8a491831e3263d3747944d5f5c49a
+Depends: ros-noetic-message-logger (= 0.2.0-34-gbdb867e-2024.06.19.03.17)
+Filename: ./ros-noetic-message-logger-dbgsym_0.2.0-34-gbdb867e-2024.06.19.03.17_amd64.ddeb
+Size: 32456
+MD5sum: 7489e471742fcc031b11a665d2bffb9b
+SHA1: ec2f37373cde44fe97b6d6aaedb4c1d41d05ac32
+SHA256: 7b1749bf2ef6ed83af0932fed7ec054d7e03b56b4bcf688637d2c3dd351b070d
+SHA512: 8bf6c1a5540ca031fc411826ef9cdbd69d9c7d70e9a78cc0029785fd968d8cdb9ccc2fe743c65c10770515dd4a1fa8fcf76141f82224ac39653ef4eef1823b6b
 Description: debug symbols for ros-noetic-message-logger
 Build-Ids: 3a9ce37b9e5ca231420c88c58bc1b693274f3431
 
 Package: ros-noetic-message-logger
 Architecture: amd64
-Version: 0.2.0-34-gbdb867e-2024.06.19.02.44
+Version: 0.2.0-34-gbdb867e-2024.06.19.03.17
 Priority: optional
 Section: misc
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 120
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), ros-noetic-roscpp
-Filename: ./ros-noetic-message-logger_0.2.0-34-gbdb867e-2024.06.19.02.44_amd64.deb
+Filename: ./ros-noetic-message-logger_0.2.0-34-gbdb867e-2024.06.19.03.17_amd64.deb
 Size: 16516
-MD5sum: 0348b9050395698b6bf894edd37a9fbc
-SHA1: 59f0179f44f1cdc076b9ff87d6e15627c30d832e
-SHA256: bd7aec38f29bcaf3d94a06d19aeb8dea3220e93e0025598d8495d763a2aa8a6f
-SHA512: a1ea03fd10fa8ca8620953265c43036c1d60d29eb15b5a53d86bc796b5d073661eb57efdf25a6494b4a5231cb9d0537cc2ab0f0587bec1c46ddf5f6d77e636c6
+MD5sum: 0dce54348a4c93751ef6de2a0a54cc14
+SHA1: c151351c246bf0ff52a0d21053fa6c7c68a792f5
+SHA256: 891b134428e9afe2c5642acc4d2c1e8c56cd1fecd9690ab5573bf30db146e75b
+SHA512: d6b310bab836deecf13669dcb2c5c3f2a80d83e3feb35921d5db4ce50e9d1ecdba181c23cfae4537120dc8e9a5819576813668c13017076147c8599bfd4f9456
 Description: The message logger package
 
 Package: ros-noetic-mit-ecat-manager-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.03.03
+Version: 0-2024.06.19.03.36
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-mit-ecat-manager
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 259
-Depends: ros-noetic-mit-ecat-manager (= 0-2024.06.19.03.03)
-Filename: ./ros-noetic-mit-ecat-manager-dbgsym_0-2024.06.19.03.03_amd64.ddeb
-Size: 245308
-MD5sum: 3eb95dcc6695c5579d1a92b541f11fe5
-SHA1: ee28cdf377b8c9abc7858f109164c08c1755b745
-SHA256: e280b977ee0ee43b70d427222af2402fce9d9ccd4f28275ba7af7fc1956df45b
-SHA512: 69c4a8fb71406f14f4f53b74b7f28fb7a31256329395e09999bde71038398bd63844646fc33fa3ada1af769ed95d23ce6e3c668ec84ca050f373d8df63598253
+Depends: ros-noetic-mit-ecat-manager (= 0-2024.06.19.03.36)
+Filename: ./ros-noetic-mit-ecat-manager-dbgsym_0-2024.06.19.03.36_amd64.ddeb
+Size: 245312
+MD5sum: 60424948271c8b4cc40004b7c7ffbfbd
+SHA1: 91cc05f5139401aa5e3ad428113175e435ecf460
+SHA256: 2e61a3b1ba841d911eaab0da4f1f40f490f3055941b62abcc9b1cfa1528d6e27
+SHA512: 383e5ea3020fc121163ec732323344991e963bb9f0c3e118f0829416e0bb0383840a28a474f1bdb31a7f2fa78d8959bad925cc129f9e4e4d659a09bf54666d7d
 Description: debug symbols for ros-noetic-mit-ecat-manager
 Build-Ids: b5fea6ea6e0831615c3fb4709012b62fd34aeab0
 
 Package: ros-noetic-mit-ecat-manager
 Architecture: amd64
-Version: 0-2024.06.19.03.03
+Version: 0-2024.06.19.03.36
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 75
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-ecat-manager, ros-noetic-mit-ecat-slave, ros-noetic-pybind11-catkin
-Filename: ./ros-noetic-mit-ecat-manager_0-2024.06.19.03.03_amd64.deb
-Size: 16512
-MD5sum: fe483052933b127f7062d441ad5a2c4f
-SHA1: d151aff62860e751454e11bc036eb3b99d4f46ba
-SHA256: 9b7cc21816cc3d733ea72972d7843a96c3e423918a73db9b00f566dcbff8d44c
-SHA512: f4253965b04eac0d05e11f8f2bef38fed2cb4ed7b7483985519f0e53403abf64c41434282d68420f55b68c30f6d59e24dec897a1446c8a612e106a3fc03af7dc
+Filename: ./ros-noetic-mit-ecat-manager_0-2024.06.19.03.36_amd64.deb
+Size: 16508
+MD5sum: f4aab97d2d46f9d2f5c0a7ca393e308c
+SHA1: 73cb7945bd74536e906ca7b413733e1a4f3481c7
+SHA256: 777f56b2e1026517c3142c096bd8dfb9d941a758a45f04a547bec30af6c98410
+SHA512: ff1e5a7da6a86baa3a8b21249dfa00c3c05dbf319f964ab9e7bec4914c0669864a16fc0c2fce09640f0d547ec519418842f5876f0471b53f5544734997c9b1ba
 Homepage: https://github.com/qiayuanl/mit_ecat
 Description: Core C++ library to interface one or multiple drives.
  Contains abstract base classes for the communication interface.
@@ -512,128 +512,128 @@ Description: Core C++ library to interface one or multiple drives.
 Package: ros-noetic-mit-ecat-slave-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.02.59
+Version: 0-2024.06.19.03.31
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-mit-ecat-slave
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 1206
-Depends: ros-noetic-mit-ecat-slave (= 0-2024.06.19.02.59)
-Filename: ./ros-noetic-mit-ecat-slave-dbgsym_0-2024.06.19.02.59_amd64.ddeb
-Size: 1164244
-MD5sum: 5227168fb0428642d2e5445c83c6a424
-SHA1: 6375e01c5df3ab3a291f81395ce819424245b02a
-SHA256: bd895a6c50d3eba5fb4c2b0c080f0d6d65b04cccc191417d917a61b90310cdcf
-SHA512: 6b4190095b6b25df4fbfdbb9702db2d4dac980f541e5c26dc9d23908c3fa99019003985577a1deebd76c9d6210aca4ce7d9b96b9eae294bcd95f7fad6936be41
+Depends: ros-noetic-mit-ecat-slave (= 0-2024.06.19.03.31)
+Filename: ./ros-noetic-mit-ecat-slave-dbgsym_0-2024.06.19.03.31_amd64.ddeb
+Size: 1164216
+MD5sum: 9afa9233ce585588c954cde1ceb9da0c
+SHA1: 6d12c56b6eb41c1272ed0428b413a03bf25ebaa9
+SHA256: d33f8c9fc5c001f7e2d17bb493d8359f89c26906c6a2c674f08e5eaaab40e642
+SHA512: 76721ecccfc0cd8da5db0dadd6ad60b817c2f67430a72a9529ada9f8be9ae988395976269ac251bbec1a33710c489fa38480eafc483483e050ffd5e1078d7a1f
 Description: debug symbols for ros-noetic-mit-ecat-slave
 Build-Ids: 634a673023ef3dca553f522b74b5e449ab15be97
 
 Package: ros-noetic-mit-ecat-slave
 Architecture: amd64
-Version: 0-2024.06.19.02.59
+Version: 0-2024.06.19.03.31
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 252
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-soem-interface-rsl
-Filename: ./ros-noetic-mit-ecat-slave_0-2024.06.19.02.59_amd64.deb
-Size: 60772
-MD5sum: 6ca129af27b7b9bf2a5514ccbb69c768
-SHA1: dc62e9e565b65b001a1d6b8266d0c2f0aed4e6e9
-SHA256: 432735b45dcc427caab2d79136b04feb778c978da441bb4ef7cb583d06a80e4e
-SHA512: 09497818d8492ec34fbc94a403bb9bb1f7c7ea2faae00ff43d2dbf9030c8ce0fc425c1f57ba6f8752c52a58a7926b8c4e814322fc4e3fb0087db2b7a395cc710
+Filename: ./ros-noetic-mit-ecat-slave_0-2024.06.19.03.31_amd64.deb
+Size: 60536
+MD5sum: 471f2f460ff91ed93022630d766f6d43
+SHA1: dae4343d19217723707813dbd25bd37e062fae72
+SHA256: 8504ddcd971deab089799a1fe6a0fc7548dc0d3010a86fd4a37ed577fc151cd9
+SHA512: e0ef7c9b317414dc72cb58b51f8c25fe7c0bdbe622fcfa4e3f26a2907750523f363c46dcd0435ed782a4dff291c1c7b98ed260215bd513957261fdccbbaeed28
 Homepage: https://github.com/qiayuanl/mit_ecat
 Description: Ethercat to CAN motor implementation.
 
 Package: ros-noetic-multi-dof-joint-trajectory-rviz-plugins-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.3.0-38-g46dd106-2024.06.19.02.50
+Version: 0.3.0-38-g46dd106-2024.06.19.03.22
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-multi-dof-joint-trajectory-rviz-plugins
 Maintainer: Remo Diethelm <rdiethelm@anybotics.com>
 Installed-Size: 3089
-Depends: ros-noetic-multi-dof-joint-trajectory-rviz-plugins (= 0.3.0-38-g46dd106-2024.06.19.02.50)
-Filename: ./ros-noetic-multi-dof-joint-trajectory-rviz-plugins-dbgsym_0.3.0-38-g46dd106-2024.06.19.02.50_amd64.ddeb
-Size: 2987128
-MD5sum: f2e9e4211090a179c24a2816f6f9dda9
-SHA1: ecf2a605687d79f03d955179bc387f14f2b23637
-SHA256: df6bd2e012d9aa6a944b726bcab7a5cbc149db9ac69e16c1a35b722fb6b381b3
-SHA512: cad3958ed9901a3d40aa3c4aa3f7f2f769f5207d0a4081e7f48a2171982fbce319b91308c2811d985aa6d9c8eb066def232fa4af7f8b76433ff26e0a71385ef4
+Depends: ros-noetic-multi-dof-joint-trajectory-rviz-plugins (= 0.3.0-38-g46dd106-2024.06.19.03.22)
+Filename: ./ros-noetic-multi-dof-joint-trajectory-rviz-plugins-dbgsym_0.3.0-38-g46dd106-2024.06.19.03.22_amd64.ddeb
+Size: 2987124
+MD5sum: 30badb25be3b091e239ed9e6b899b19c
+SHA1: 349b3936897e4e1935aa6fb11bc6d254e8e5ed34
+SHA256: a036adc0ae5d39c0b1f9ae5d49fb721e36ddcb883f1ccb32fe4860c45b45afb7
+SHA512: e8c03e572b1f939850f57e27759f52753c78624805a173f0b1f320348b122aab956698faecb5f4576928128853463f80a6b85f8c8e7c4470539ab26894b9e9d7
 Description: debug symbols for ros-noetic-multi-dof-joint-trajectory-rviz-plugins
 Build-Ids: d378381c3a89fe57700d3ebe3afbc0355e18d37f
 
 Package: ros-noetic-multi-dof-joint-trajectory-rviz-plugins
 Architecture: amd64
-Version: 0.3.0-38-g46dd106-2024.06.19.02.50
+Version: 0.3.0-38-g46dd106-2024.06.19.03.22
 Priority: optional
 Section: misc
 Maintainer: Remo Diethelm <rdiethelm@anybotics.com>
 Installed-Size: 523
 Depends: libboost-thread1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libogre-1.9.0v5 (>= 1.9.0+dfsg1-9~), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 9), qtbase5-dev, ros-noetic-rviz, ros-noetic-trajectory-msgs
-Filename: ./ros-noetic-multi-dof-joint-trajectory-rviz-plugins_0.3.0-38-g46dd106-2024.06.19.02.50_amd64.deb
-Size: 113756
-MD5sum: 4a8617212c3d7d8dcb82b7a755a68cbc
-SHA1: 0ac425aa92a3b69200f1970351ee6db233fd63d2
-SHA256: 39936c0992c0ad5ea94bf2547a9dcc036b3739aa5cc6240e8a6c2d91d7cb557a
-SHA512: d9dafbbe9cdd279d9fa89da0e933336058b7e837b328b9dc022dc30bca495fce6103d0d367667dd3118cfc3d53981eb09f20ea8e948afccb29acb00d6aba6187
+Filename: ./ros-noetic-multi-dof-joint-trajectory-rviz-plugins_0.3.0-38-g46dd106-2024.06.19.03.22_amd64.deb
+Size: 114172
+MD5sum: 76a9c9191d3bd396ba9b258966b3c089
+SHA1: d1ebfe0b1689cbb582aef3e587b2b047e571dca1
+SHA256: 6b2ee18a62c2418f1dec1261d15b6b7efd7c40dad2f02a0dfdc5ccb1f6395e4b
+SHA512: 2d795e45bcb0224054f030fdce04ad6b306d26faf27e837402c6d33985e84f8e259403cf78ac479432074db4c63bc378f99fa61b7da3b7d61949c330ff0f2dfa
 Homepage: https://github.com/anybotics/kindr_ros
 Description: Plugins for visualizing trajectory_msgs/MultiDOFJointTrajectory in rviz.
 
 Package: ros-noetic-param-io
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.52
+Version: 0.5.0-57-g6f12107-2024.06.19.03.24
 Priority: optional
 Section: misc
 Maintainer: Remo Diethelm <rdiethelm@anybotics.com>
 Installed-Size: 38
 Depends: libeigen3-dev, ros-noetic-geometry-msgs, ros-noetic-roscpp, ros-noetic-std-msgs
-Filename: ./ros-noetic-param-io_0.5.0-57-g6f12107-2024.06.19.02.52_amd64.deb
+Filename: ./ros-noetic-param-io_0.5.0-57-g6f12107-2024.06.19.03.24_amd64.deb
 Size: 6292
-MD5sum: efdc0ed5d9f6ef8d1aca45ebcbba7f82
-SHA1: d90f44d82fd6e6820524d6943246add96b54fc62
-SHA256: 3002584993e7e4847e673a62b879b5041c94107895788695db677d738437e0f4
-SHA512: bc85f91356bb1e6bc2e6962928f53054c256ea1962520291a25545013a77eaace654f6438b186334250ec6d3a554f6200e122f14e72b2481c3f93686a64b1e08
+MD5sum: e58321caeb631f0ecd277ce307cdb547
+SHA1: 192e64d911d9f00a1d9a9adc9fdd56b34887b114
+SHA256: bb082a088db7ab69c9403d864bf2827289e48bf6bfb20f032f15e45c0b86678c
+SHA512: 6dd7c72bb44de72a4907e59e6681d6b61c58132807e5c04690651880730d1b036e672016a9462812c85646b5be0aaab06c7baaf843dea10b64d38af621b137d4
 Homepage: https://github.com/anybotics/any_node
 Description: Parameter message conversions
 
 Package: ros-noetic-rm-ecat-example-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.03.05
+Version: 0-2024.06.19.03.38
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-rm-ecat-example
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 413
-Depends: ros-noetic-rm-ecat-example (= 0-2024.06.19.03.05)
-Filename: ./ros-noetic-rm-ecat-example-dbgsym_0-2024.06.19.03.05_amd64.ddeb
-Size: 391968
-MD5sum: 3760af2301b0073a773b7c99084acc57
-SHA1: f57a1ce723eaf3ebb8e87e189828ce5d90c1d708
-SHA256: a526d36f28994a899f1eb9159b62f27bc358b0bcd93e6a412fbe2b36b6303975
-SHA512: 68b02046e0fd6021f98f8597d2b2054e0f0ab7b3c5c84a0512aae250518a9787ad60324ee7532e4deb93a3778506801f1a95431fa5db7d8a449996ff1521fe42
+Depends: ros-noetic-rm-ecat-example (= 0-2024.06.19.03.38)
+Filename: ./ros-noetic-rm-ecat-example-dbgsym_0-2024.06.19.03.38_amd64.ddeb
+Size: 391956
+MD5sum: aa345bd2b3c6dc42ff7113f8190b0d8e
+SHA1: fff26bfed92d0afad83085c9261a9e51eecd59d2
+SHA256: 00708ce352714e265ffae2dca15b808744d44724ba991f61b8270ff2c702057e
+SHA512: 2587a5504e7894170ddaccdbfa0789fd3a294bc8a887724010ddc24dfad8b6717395a8ae0dd17edb2f5d3f2aac454deaf222bf69ce76535edf82a5183d3204a3
 Description: debug symbols for ros-noetic-rm-ecat-example
 Build-Ids: 2c95f889c85d96422ccf1ac1286d2b835f01ccff
 
 Package: ros-noetic-rm-ecat-example
 Architecture: amd64
-Version: 0-2024.06.19.03.05
+Version: 0-2024.06.19.03.38
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 96
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-rm-ecat-manager
-Filename: ./ros-noetic-rm-ecat-example_0-2024.06.19.03.05_amd64.deb
-Size: 21748
-MD5sum: 6694fb36d7f440ec9bc2d52ae1b6262e
-SHA1: e9ab6b3f15c71f0892b1676072b2885c9bb0267d
-SHA256: 240298368f78b836a5724ff843b30346a7f496690faae0117512feea3b2020cd
-SHA512: 0c33f6389a58f1c9629fcf0d7485e8dedbdc423e64d7e1dfb99227cc535989673c67014149995819a5e940140feedd87b686fbde110fc1f2e2535c2a7cc82ead
+Filename: ./ros-noetic-rm-ecat-example_0-2024.06.19.03.38_amd64.deb
+Size: 21712
+MD5sum: b302fa12bbf002001bace7d9ca2777e1
+SHA1: 74808aa341d0acd137c411df67b21da7fa6a229f
+SHA256: 6c8c9de25358c483ee8f8b77f5df169164b6e9b10b35471bba5843c5b07876ba
+SHA512: 877c15169bfde1d3cddf71ebe4fda3249c6c6b48b1e522232e9427319598360e0e760dee6b8bc8799078cbea7b17f0252b38593a06a34febe40501162b91986e
 Homepage: https://github.com/gdut-dynamic-x/rm_ecat
 Description: Core C++ library to interface one or multiple drives.
  Contains abstract base classes for the communication interface.
@@ -641,218 +641,218 @@ Description: Core C++ library to interface one or multiple drives.
 Package: ros-noetic-rm-ecat-manager-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.03.04
+Version: 0-2024.06.19.03.37
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-rm-ecat-manager
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 376
-Depends: ros-noetic-rm-ecat-manager (= 0-2024.06.19.03.04)
-Filename: ./ros-noetic-rm-ecat-manager-dbgsym_0-2024.06.19.03.04_amd64.ddeb
-Size: 361036
-MD5sum: 60da4405072525c039eba0771cd9fcac
-SHA1: 74c5abb03ecf768b0d03d9b229ea7a42badf7b6f
-SHA256: 69986e92a6623df3d8b8e05b592ccf87029eaea31032ac5e5732368afa239298
-SHA512: 02b0a3699a3f82aa5765ca20f2b90e2d5522dbe174bfda56512cd8125ee083b1dc917d158f17049cc81847730e20747419f8b2ace3e846f0d76f5f5461a804b7
+Depends: ros-noetic-rm-ecat-manager (= 0-2024.06.19.03.37)
+Filename: ./ros-noetic-rm-ecat-manager-dbgsym_0-2024.06.19.03.37_amd64.ddeb
+Size: 360916
+MD5sum: 3a11bb9742eace737d578e7c761c955d
+SHA1: e3f15b498b2efaf7157fb36d90b1d6ede71c9c64
+SHA256: 39c8838e9c8fe212590407b4848560c3a3d911d66583c6bddda1c07b0384ec63
+SHA512: 1051a4aab2eff76c66a367ddef298735bee60fe4fc8857b33359c92987d19ed7d4da434015f705bcf456ce063641ccfdbfc98ab55c8681aa86addf4f9dd2b043
 Description: debug symbols for ros-noetic-rm-ecat-manager
 Build-Ids: 4be42e632fa322b6c80afcb7d331513ea47ddf0f
 
 Package: ros-noetic-rm-ecat-manager
 Architecture: amd64
-Version: 0-2024.06.19.03.04
+Version: 0-2024.06.19.03.37
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 87
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-ecat-manager, ros-noetic-rm-ecat-slave
-Filename: ./ros-noetic-rm-ecat-manager_0-2024.06.19.03.04_amd64.deb
-Size: 21296
-MD5sum: b82edcd593f3d96993f452908bb77cbf
-SHA1: 0f7bf535ce4877d59481304bc592886ef303d463
-SHA256: 8246e3f703d90f9fa5624fb6d7cf8d660c2de2558df91fb43b31fe1ae95a9bfe
-SHA512: 90a06b4b89c734af01fb364d3205ee79303bc29b4f0aaf1886c45a47557cbeba68abfe95c082f2aeaa1ea61c6d13845c213129bdf86e0cc056cc35fb8431b23f
+Filename: ./ros-noetic-rm-ecat-manager_0-2024.06.19.03.37_amd64.deb
+Size: 21308
+MD5sum: c4d220ba4b7cb37020b438d5c9a16c92
+SHA1: e93a20d189a9c8637096f8004379d47a6cf31621
+SHA256: 6d817e5e8e5d7338ede34039d6ae0acaa0c29519c43ebf66f4ef6ddd44aca96e
+SHA512: a3af8558d86ca3231bf8374a43fc60a0e832c956a72da913c83b9bdb5d1388a3439ce5c35f742e0779fe78b6e838af159e4127f4338c43c690deac937a2689bb
 Homepage: https://github.com/gdut-dynamic-x/rm_ecat
 Description: Core C++ library to interface one or multiple drives.
  Contains abstract base classes for the communication interface.
 
 Package: ros-noetic-rm-ecat-msgs
 Architecture: amd64
-Version: 0-2024.06.19.02.53
+Version: 0-2024.06.19.03.25
 Priority: optional
 Section: misc
 Maintainer: qiayuan <liaoqiayuan@gmail.com>
 Installed-Size: 178
 Depends: ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-sensor-msgs
-Filename: ./ros-noetic-rm-ecat-msgs_0-2024.06.19.02.53_amd64.deb
-Size: 19528
-MD5sum: a06f946776ea886c3ad8643dc63678d4
-SHA1: d40785f6904981b906ce5478170c5e3ce9f0bd49
-SHA256: 9ae3ab4876302413a67ffc3c0133bb7f193de86267a3c1b74e30cf81757fb1e3
-SHA512: adfca2de07c9595f113ad57bd0b58d4d95f03fd0e5cf0829d7016a07e0ae884eb5aeb24fc935fac5d1c79505d353493dfd58c10d2f2d3680e81cef5c52437390
+Filename: ./ros-noetic-rm-ecat-msgs_0-2024.06.19.03.25_amd64.deb
+Size: 19524
+MD5sum: af81eb5e4f90781389ac65880ee2960b
+SHA1: bccc75a28e2c29b5a7c3bb323a6a686d93d7b23a
+SHA256: 92f7c662d800b58c189beb5871bebe89e0f80ab4dffd89235d3834e869908d16
+SHA512: 8a2d4ae5f620b2e4f7b2e20eaf6001683155fc0e57a00316a47131fdc7c963048dab14aee3ca22ae536c392ae922fdef7fa3879a0ba9931f9810cc9b96acf782
 Description: The rm_ecat_msgs package provides the ROS messages
 
 Package: ros-noetic-rm-ecat-slave-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.03.00
+Version: 0-2024.06.19.03.32
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-rm-ecat-slave
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 1316
-Depends: ros-noetic-rm-ecat-slave (= 0-2024.06.19.03.00)
-Filename: ./ros-noetic-rm-ecat-slave-dbgsym_0-2024.06.19.03.00_amd64.ddeb
-Size: 1266048
-MD5sum: 6141183f39d1d667148f0f7086a24175
-SHA1: 0a4387d50825d08706401035ebb903ff6264aca2
-SHA256: ed47da1046a6ae21e34954d5b9c8632c3480316f50924c90cca7333159ce2c9a
-SHA512: 11ac0c5cff783e0e6feec207be98dd8adf8abdc5f0b644ad1bc23286c01de0acb2391aaf6cc017fddc4dd10f96a03f950eb7cee60e11858affd9aad24b1de150
+Depends: ros-noetic-rm-ecat-slave (= 0-2024.06.19.03.32)
+Filename: ./ros-noetic-rm-ecat-slave-dbgsym_0-2024.06.19.03.32_amd64.ddeb
+Size: 1266016
+MD5sum: ada3f692ce23a6cb0dd5d6599ab406a7
+SHA1: 87488c7011779a2e47339220578b346a9825c2dd
+SHA256: 01ccb80449f373e7ee1cca80f2f0014d85df4ae434f9aacbc3e0e0dae665652c
+SHA512: 239efd361adca334a7523415ad796ea767ae8599581333d088dbe622522e42b4a3549e880cdb34c45ecf73c66e568fcc08f0e7a7bdfa321e7d246ac7d2081012
 Description: debug symbols for ros-noetic-rm-ecat-slave
 Build-Ids: ecb37f89f7ec3d23665653c6ba5bf4f3872e9ead
 
 Package: ros-noetic-rm-ecat-slave
 Architecture: amd64
-Version: 0-2024.06.19.03.00
+Version: 0-2024.06.19.03.32
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 300
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libyaml-cpp-dev, ros-noetic-soem-interface-rsl
-Filename: ./ros-noetic-rm-ecat-slave_0-2024.06.19.03.00_amd64.deb
-Size: 74524
-MD5sum: 10c12a8c3f07962cf0ca6a26d6ff1564
-SHA1: 21e9621aec3d5017370b46308234ffe746998184
-SHA256: f138e82c5b3184194cb9c60666ce6fb7aa7819965929095753e8d0efc3132a7d
-SHA512: 69bf3baff81de9638023945685cad7a51701f9d615d65c87e86fc5de5dd50a0c0a58f1ec5f4d163867ad3e4414c820288d8dd4d2618dbc0ba30b08c363f95791
+Filename: ./ros-noetic-rm-ecat-slave_0-2024.06.19.03.32_amd64.deb
+Size: 74556
+MD5sum: e36da33a5ed6d186e05f30d1b1ee3dd8
+SHA1: 46e3e05a33a43f0b73f056a9e9a7a2d72d40ad2b
+SHA256: bb25b1a5ade29fc7e80479d289169f323f420e9bad468e5ee64f2b3728dbae40
+SHA512: 187f2c98628a76055eb3d8ea3e874391708a11393d1b60e4e7f8a0d6f7c1836a457323140859438c75784a4b531a831a6fa2a819d8910a5263e0e719339376f1
 Homepage: https://github.com/gdut-dynamic-x/rm_ecat
 Description: RM Ethercat implementation.
 
 Package: ros-noetic-rqt-cleardrive
 Architecture: amd64
-Version: 0-2024.06.19.02.53
+Version: 0-2024.06.19.03.26
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 83
 Depends: ros-noetic-cleardrive-msgs, ros-noetic-rospy, ros-noetic-rqt-gui, ros-noetic-rqt-gui-py
-Filename: ./ros-noetic-rqt-cleardrive_0-2024.06.19.02.53_amd64.deb
+Filename: ./ros-noetic-rqt-cleardrive_0-2024.06.19.03.26_amd64.deb
 Size: 14636
-MD5sum: 65317e54da88cfc2c94760dff9f0ed8b
-SHA1: ad9cb49d6ea7afdf95efe80f1e3cbb9a22d38721
-SHA256: 1164e0f695d4694866171cf66791cb9283b6357fd2bc730301a33a68c806debd
-SHA512: 67fd42f6a35b30bbf690c94ed16bfeeceb32c96205d64bbfdc94707a696e5cf404477daae82a3832e3ae63db04f15c5b5d3f674afe6ef93af1191eeab25c30d8
+MD5sum: 961518c6ee02fb518f1a3fd941360060
+SHA1: 6e9fd12ab70457e06eaf17d18437e31ce5e6249d
+SHA256: 9d150b2ca8b28e9e898fc03e47035cd96dd38214add6f08425eb2aec3c3a8861
+SHA512: fc461afaeaf5e8131f13de1c1ad78217bca2c1702c4b1c75bd7b8f95cf0cc77ddb99265346971cc895f335d8e1922ade628654f4781772de022f8a720ba2016f
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: TODO
 
 Package: ros-noetic-signal-handler-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.54
+Version: 0.5.0-57-g6f12107-2024.06.19.03.26
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-signal-handler
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 89
-Depends: ros-noetic-signal-handler (= 0.5.0-57-g6f12107-2024.06.19.02.54)
-Filename: ./ros-noetic-signal-handler-dbgsym_0.5.0-57-g6f12107-2024.06.19.02.54_amd64.ddeb
+Depends: ros-noetic-signal-handler (= 0.5.0-57-g6f12107-2024.06.19.03.26)
+Filename: ./ros-noetic-signal-handler-dbgsym_0.5.0-57-g6f12107-2024.06.19.03.26_amd64.ddeb
 Size: 75384
-MD5sum: 2513d91f5d5b9fe47fb3de19fe1a2cf4
-SHA1: ee529574454640c53be0aa50045efcade01982a6
-SHA256: 18eaef422e4e2008903144e07cb56c13709ecd26a52bc00d824f9c7ba35c233d
-SHA512: 79187873580b52cdbf9b6d955e51e24679029d0f9bcb81a381c43cc9fde5d60f905604d396daeb1a4944d18c5a73584154512784e4ba7602adb044d4d1d1b1ee
+MD5sum: 104a3e2e71901ebb887dca9efb15172f
+SHA1: e2c93c96a7398761a11441889903a67344c09a7c
+SHA256: 57dda307e83568fb85128d5894241a7fc82e3e86e36794eed64aed3429cb0c3a
+SHA512: 344fef15381589a05120a8259ed008115b9c1dcd846d49955ac7e54c26536aa500e31a5a1ad96bebcfcd520c967b7f0dbb0de342a30d6b8f2edc69a1d9475b82
 Description: debug symbols for ros-noetic-signal-handler
 Build-Ids: b83a396f62925a938cb75be394c9dcc630e59168
 
 Package: ros-noetic-signal-handler
 Architecture: amd64
-Version: 0.5.0-57-g6f12107-2024.06.19.02.54
+Version: 0.5.0-57-g6f12107-2024.06.19.03.26
 Priority: optional
 Section: misc
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 52
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.6)
-Filename: ./ros-noetic-signal-handler_0.5.0-57-g6f12107-2024.06.19.02.54_amd64.deb
-Size: 9528
-MD5sum: a09048525b056314aa75da455938b68a
-SHA1: cf9e8b52eec46b2c1ad17c34cbd5d15072dd9eff
-SHA256: 401bb228c61e974a88aedfb0f2ce201ffd12f661c49c275c8219eaa0c59823f4
-SHA512: 7940c2ba4dcb1e7af12a838959c2268e8c8cfb13ffb2c1cc169d1c5435bd6aece6ed018233f58a41b969aaf94ee12ce61eb754cc1674e48ae8c83c2d3b9b9add
+Filename: ./ros-noetic-signal-handler_0.5.0-57-g6f12107-2024.06.19.03.26_amd64.deb
+Size: 9532
+MD5sum: 954931f38dc6382e3686a4f14589c99e
+SHA1: c90a04bb645d585e21a415c6aedbbfceb5b88195
+SHA256: 52ac1716f157cd71ca1f7a429536b1b9e5f2bc7733543467f10bb93d58bd9a38
+SHA512: f6ef19074593f42c6d8049095c7798c14349758cc1ddff4634d069bd4eb9f58d446a4f44832bc8f589bdae47e62c6b5f06a8cc2f5f50d5971c8d9f271ddc224b
 Homepage: https://github.com/anybotics/any_node
 Description: Contains a static signal handling helper class.
 
 Package: ros-noetic-soem-interface-rsl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.02.57
+Version: 0-2024.06.19.03.29
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-soem-interface-rsl
 Maintainer: Johannes Pankert <pankertj@ethz.ch>
 Installed-Size: 1322
-Depends: ros-noetic-soem-interface-rsl (= 0-2024.06.19.02.57)
-Filename: ./ros-noetic-soem-interface-rsl-dbgsym_0-2024.06.19.02.57_amd64.ddeb
-Size: 1259864
-MD5sum: ef3432356dc50711dd6f6087dc7c5c0d
-SHA1: 030ed5d4a2523340abfe771f027df021dce5a4f3
-SHA256: 8ccc9d2e0513b0b439b9ffcc4d053943da08418c62158d5ed98fcc95d33d67d5
-SHA512: d79986fe1db6c03bb9564a0e5e594c72dac92a2a1e4f3ac154a6455489f47f60c6548ef0fc92c256e6cb073a6f2760993bab8f47d5d563fdd2886eaca36f8da5
+Depends: ros-noetic-soem-interface-rsl (= 0-2024.06.19.03.29)
+Filename: ./ros-noetic-soem-interface-rsl-dbgsym_0-2024.06.19.03.29_amd64.ddeb
+Size: 1259892
+MD5sum: 2ea2ee4fd4b4a75ee1590db030afa99b
+SHA1: b40c7e7d26dcbf5e105b7cb046a8aca84804bd03
+SHA256: 2d712e58de1e4eafd9a42552f5d60dcfe2e6a5bcd99062af2336bceef939015a
+SHA512: 297dc45d499ac0b26fb340d1610d9ba135a964129cc477fad3dc061800c2ce72004cbea3ccfa4aee62ef686cde1723e472fb25430a370c674a7278fb90c3840a
 Description: debug symbols for ros-noetic-soem-interface-rsl
 Build-Ids: abc457593e9b081a8987b68958dfb35b1ffc4006
 
 Package: ros-noetic-soem-interface-rsl
 Architecture: amd64
-Version: 0-2024.06.19.02.57
+Version: 0-2024.06.19.03.29
 Priority: optional
 Section: misc
 Maintainer: Johannes Pankert <pankertj@ethz.ch>
 Installed-Size: 417
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-message-logger, ros-noetic-soem-rsl
-Filename: ./ros-noetic-soem-interface-rsl_0-2024.06.19.02.57_amd64.deb
-Size: 106364
-MD5sum: c215f78d156699ee3b31adbfc8aa9bee
-SHA1: 551ce8efd96c3de7474c7b1536e6fd2e0706e5a7
-SHA256: f7561504803a42e0c192929840167d572326ccc12d9b2c6c5dad2ffccabd3193
-SHA512: a41cc64ac6c58728e9ad4116c7a9f99af8d93904cfd06a00e161ae3879d70f6b6427ad46ef335850f34e51df83a85bff45a685b187c70025647c67e2f5fc38e6
+Filename: ./ros-noetic-soem-interface-rsl_0-2024.06.19.03.29_amd64.deb
+Size: 106416
+MD5sum: 3f11a25991cbe727b3196e54bcdabeff
+SHA1: 9d495ad57e40a5c65931858fe9e1510d96cffd7b
+SHA256: c77d3644a81f03e9da5caaef1fc8c7a3e285f5ae8911ee03367bf0c07be94587
+SHA512: bb327f377e39e5b5c67ee6c92a3547b5446b4f82c3a02e5da7ff35777fdd1a81e271f2591f26f34cd8d506e93e97b1170a88c57ea5bc0baf60f0f408abec2d54
 Description: C++ library to create multiple ethercat devices on one or multiple buses.
  Contains abstract base classes for the communication interface.
 
 Package: ros-noetic-soem-rsl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.19.02.56
+Version: 0-2024.06.19.03.28
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-noetic-soem-rsl
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Installed-Size: 373
-Depends: ros-noetic-soem-rsl (= 0-2024.06.19.02.56)
-Filename: ./ros-noetic-soem-rsl-dbgsym_0-2024.06.19.02.56_amd64.ddeb
-Size: 319064
-MD5sum: 9c8266c05fab37dddd66298de0803469
-SHA1: 14fc1ecd0c741ffa3b59a9d8933d88d9132026cd
-SHA256: 2a0ee9479f0f4b13fd6d460f2ce053a667149227bf3ed85c3fcc694884b2e914
-SHA512: 5535ccc0ebdf51ffc3cab448a388573e5876536e2afc676a83a51b63f0728e1634996b6fe7bbd091625b2a4ba077f9a2877f9f0b7f31be2b90b2f9d21023dcdc
+Depends: ros-noetic-soem-rsl (= 0-2024.06.19.03.28)
+Filename: ./ros-noetic-soem-rsl-dbgsym_0-2024.06.19.03.28_amd64.ddeb
+Size: 319152
+MD5sum: 06adec458d7ad009a51dc48e956241ed
+SHA1: 78632b7b5e64607fabe4cfb4223521b8c2a7d143
+SHA256: 8d943cd8d8f527083a4f9ea6712160cd513ec128d50baeffde770620a8ed841a
+SHA512: 1ca60f9c6d2009085fe0ea084d00d2511691b57d227b3f0da8220f1119140ccea57558066375be0ad11676215106c2166f4a4baa42ccf6d4ceb902efe5368f79
 Description: debug symbols for ros-noetic-soem-rsl
 Build-Ids: 24a5ab63cde0ae4d1d50fee81c329a7c92751bf4 535f61ce439475e0b5eedb9d5ab08d58351f651a 5d61bf5f31994c6696de3f1784bfbc32ca218431
 
 Package: ros-noetic-soem-rsl
 Architecture: amd64
-Version: 0-2024.06.19.02.56
+Version: 0-2024.06.19.03.28
 Priority: optional
 Section: misc
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Installed-Size: 519
 Depends: libc6 (>= 2.17)
-Filename: ./ros-noetic-soem-rsl_0-2024.06.19.02.56_amd64.deb
-Size: 77844
-MD5sum: 0c75e511e68e95a7a9a9c6b8fed319ad
-SHA1: c07485d36056c0cc77ad0ab086a3581f8d9b0faa
-SHA256: 731991cab78b5b693fff09cd1b1180498229b08707a154e20d9c7c7e98037ff5
-SHA512: 0ede0e3b958cf0fad398851b5c8f3a7e63ffc05ea92c9bfa25dba4f883114eec5346bc626e64fd8c3dfd104348249b055001a059a0b85cbc157eef9334266c2d
+Filename: ./ros-noetic-soem-rsl_0-2024.06.19.03.28_amd64.deb
+Size: 77836
+MD5sum: 461f1be1db9331ba8c946253ed773342
+SHA1: 74ed7af084b87d196b4aba430581ae2fab1cdc9f
+SHA256: b27fc53d7a44edc9913df513b0987d33105a9e725b5dcfd75ac6fa4a4e698b6f
+SHA512: 580cc746643571455c17d7b60bce959ff4cf9a2f6c0489ba1d7628ba19b99ee5fc89d1a7124eedabe5f8c7fe4a3f18055bedbca67f70ccbf7f0519add289093f
 Description: The soem_rsl package
 
