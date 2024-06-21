@@ -1,0 +1,13 @@
+repositories:
+  any_node:
+    type: git
+    url: https://github.com/leggedrobotics/any_node.git
+    version: 8f5a4949a94979510c86fadf4c86716081efafa2
+  message_logger:
+    type: git
+    url: https://github.com/leggedrobotics/message_logger.git
+    version: c072e00b6ffaf2c7f383273b241b0e7e93a813a2
+  soem_interface:
+    type: git
+    url: https://github.com/leggedrobotics/soem_interface.git
+    version: 0ed0e91d1670ec5707cb2f7c9fe4c487c43d8e6b

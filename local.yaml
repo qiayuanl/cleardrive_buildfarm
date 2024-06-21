@@ -1,0 +1,27 @@
+message_logger:
+  ubuntu:
+  - ros-humble-message-logger
+any_worker:
+  ubuntu:
+  - ros-humble-any-worker
+param_io:
+  ubuntu:
+  - ros-humble-param-io
+signal_handler:
+  ubuntu:
+  - ros-humble-signal-handler
+any_node:
+  ubuntu:
+  - ros-humble-any-node
+any_node_example:
+  ubuntu:
+  - ros-humble-any-node-example
+soem_rsl:
+  ubuntu:
+  - ros-humble-soem-rsl
+soem_interface_rsl:
+  ubuntu:
+  - ros-humble-soem-interface-rsl
+soem_interface_examples:
+  ubuntu:
+  - ros-humble-soem-interface-examples
