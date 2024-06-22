@@ -1,52 +1,89 @@
 Package: ros-humble-message-logger
 Architecture: amd64
-Version: 0.2.0-42-gc072e00-2024.06.21.08.17
+Version: 0-2024.06.22.06.04
 Priority: optional
 Section: misc
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 153
 Depends: ros-humble-rclcpp
-Filename: ./ros-humble-message-logger_0.2.0-42-gc072e00-2024.06.21.08.17_amd64.deb
-Size: 19508
-MD5sum: 13a809993c234cba195089366624fa3b
-SHA1: f7e40a831f4cba9edd7602dbc572d0c505254098
-SHA256: 342dcc82c8448a614134ecccebdcfd9e87c2ec14316a0d058c5d01fcb5b510c1
-SHA512: 361d1479d8314880218dc744c653a52e579a1b0bce91395b281d0d88bf456cd660234acc7f114d35a511b37a240ee22b29ce6d61d8ca1dfdc3d0e8c4baf5a78a
+Filename: ./ros-humble-message-logger_0-2024.06.22.06.04_amd64.deb
+Size: 19418
+MD5sum: a318f15d8d11247c3652f172d0051174
+SHA1: b1af5c6ee6abf6a9412f5ef76a85f832e450edb5
+SHA256: 55e23566de96d48b3315311042b54c9c1ebbaa70c5bb3ff3cb57b774409ce29f
+SHA512: 46717e4abfd73fafcf0329a929da642e1b05db6f7e957b160afe1f417542f2d50d452700a95067c253868bf8487169306027c603b7a3caa163df999fe8777d42
 Description: The message logger package
+
+Package: ros-humble-soem-interface-rsl-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.06.22.06.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-soem-interface-rsl
+Maintainer: Johannes Pankert <pankertj@ethz.ch>
+Installed-Size: 679
+Depends: ros-humble-soem-interface-rsl (= 0-2024.06.22.06.05)
+Filename: ./ros-humble-soem-interface-rsl-dbgsym_0-2024.06.22.06.05_amd64.ddeb
+Size: 620604
+MD5sum: 9767e8bc35cf9e8e4fc9877039ae2bf3
+SHA1: 1f662071d7abba3ea8eaf568a2e5301c16a8efe9
+SHA256: c1c4b04321bd580655440cb71d7a285b8f3b9a62c9b240ef7bbbd979fc6cbca4
+SHA512: 59b95c9d870963c15546e47cbe8734a68e448ad13f41f151170c93c41e58411bad4601f82a892ee92f2576229f10c61008082c07b9411c114da98b59f21c67c3
+Description: debug symbols for ros-humble-soem-interface-rsl
+Build-Ids: 7d9a3b86a81acf6813c908439333a045eec5893a
+
+Package: ros-humble-soem-interface-rsl
+Architecture: amd64
+Version: 0-2024.06.22.06.05
+Priority: optional
+Section: misc
+Maintainer: Johannes Pankert <pankertj@ethz.ch>
+Installed-Size: 367
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-message-logger, ros-humble-soem-rsl
+Filename: ./ros-humble-soem-interface-rsl_0-2024.06.22.06.05_amd64.deb
+Size: 100720
+MD5sum: 01f91916184364f1ee0dc0129e498b55
+SHA1: 43835d77794caf0b909453826ad986746a3d5fb8
+SHA256: d13e0816c5a158f01d322c98043f988537a976a6a1b853db5b965b0d8d10b1c6
+SHA512: 2be1f3d90c6ef1957428b21f4039f36dc504f08d53f1e6b1c39941f9053037334f9cda2be2e9955ad05154226fb646df0f1f439edc10fc3c8cf283cddbda2ab9
+Description: C++ library to create multiple ethercat devices on one or multiple buses.
+ Contains abstract base classes for the communication interface.
 
 Package: ros-humble-soem-rsl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.06.21.08.18
+Version: 0-2024.06.22.06.05
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-soem-rsl
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Installed-Size: 270
-Depends: ros-humble-soem-rsl (= 0-2024.06.21.08.18)
-Filename: ./ros-humble-soem-rsl-dbgsym_0-2024.06.21.08.18_amd64.ddeb
-Size: 226720
-MD5sum: 4ad8d6a9bdf79a56a178c8d0d72bfe1c
-SHA1: 6c4ac10e7645c2840d01f177abb4499e41c89b6e
-SHA256: 986ecfed4c4c4c8f85fd6c570fdc7602bb4d80eedb01ebc2d0498badc6379579
-SHA512: 9a8acebcd812023e47cc339485055cf4ad513279476575f48e61af15c54c4625502c71fe3c63da4b2a8cac0aa0ad60a51ed5e0de599cca1a95735cfe6a48c6f5
+Depends: ros-humble-soem-rsl (= 0-2024.06.22.06.05)
+Filename: ./ros-humble-soem-rsl-dbgsym_0-2024.06.22.06.05_amd64.ddeb
+Size: 226708
+MD5sum: 141ca0fd40c855998d389375860c5381
+SHA1: a7d79869c088fd5ae472410d4fb7003d087bfc42
+SHA256: b86e3688c500024687f93103dfd9d712b43e9f49bb7878b7608b54f7e1928100
+SHA512: 75328e5c520365d84b3fb29a12318a38318ad2cde72333c04e87b4ca91b970ea1586031cf7d3fa0d93f9ed850e34747b372ad5df409c5a0081738370c712ceca
 Description: debug symbols for ros-humble-soem-rsl
-Build-Ids: 3b0132bf101772045362ed9b15b3eb407accd577 5916fbd8825375d261bf03e4579dba5063696d95 9e198281758b5a67155ca4e62de20e512ea3980d
+Build-Ids: 3b91967f1b0d05f186bf89240f837e4f390d9a88 e3bb9ecc16330587f03146cf0ca8ed524a6c773c f77069e39ba1e989bf2b767e93a4541b7651848c
 
 Package: ros-humble-soem-rsl
 Architecture: amd64
-Version: 0-2024.06.21.08.18
+Version: 0-2024.06.22.06.05
 Priority: optional
 Section: misc
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
-Installed-Size: 437
+Installed-Size: 434
 Depends: libc6 (>= 2.34)
-Filename: ./ros-humble-soem-rsl_0-2024.06.21.08.18_amd64.deb
-Size: 99112
-MD5sum: c16f5d531a40b911889c97e15b8247a5
-SHA1: 2ae5cbc852945d0d3441834e193adc2671ba4836
-SHA256: 88005dd8bc3d5f333e9c3134b3aaf7f020555374673d8f8796a65f2ba299c5a9
-SHA512: fdbd98f44be95e6769d829228b3984fc63b808cd48e2406973fdee765b3d20d497b006d8000cd70f6a142d1491bd268b1df8e549b3acd6f75f24fc6fab6960cb
+Filename: ./ros-humble-soem-rsl_0-2024.06.22.06.05_amd64.deb
+Size: 98780
+MD5sum: a7ad04c2b221d0bac95bff8809c9d7dc
+SHA1: 0d512955b51db438a746ffb5e9907d94ce03190f
+SHA256: e13867b2af904ec3d71c5a55cb0a0c295fcf4770a02a3fad61da3e591656ec4b
+SHA512: c96effda444325fbda54d06f7aa141e1cc2ae9744bc50051665ce49081721e593786b591533f6b48e171c8cf9a1e79df4b5fcfcf74af4e416a6dbd70b737d0f7
 Description: The soem_rsl package
 
