@@ -4,14 +4,14 @@ Binary: ros-humble-message-logger
 Architecture: amd64
 Version: 0-2024.08.25.20.14
 Checksums-Md5:
- 4e75e37fe424bba3fc146d7a9a17409a 19418 ros-humble-message-logger_0-2024.08.25.20.14_amd64.deb
+ b998ced595ec5e199c7a5f97d1699b93 19428 ros-humble-message-logger_0-2024.08.25.20.14_amd64.deb
 Checksums-Sha1:
- 02f4c98245ccbd826982d5b4f3cfa141fbd5be89 19418 ros-humble-message-logger_0-2024.08.25.20.14_amd64.deb
+ a9a4bb772f13d10716714248c74e81e87afe3021 19428 ros-humble-message-logger_0-2024.08.25.20.14_amd64.deb
 Checksums-Sha256:
- 796468eef76ee4b5ff0fd7614d324772b8d49ae76c08124982586a732b09df9d 19418 ros-humble-message-logger_0-2024.08.25.20.14_amd64.deb
+ e6deedf7eaff7f56dcf1fa802be5f2b7bdb544e3920af36fe40868b78bdf8434 19428 ros-humble-message-logger_0-2024.08.25.20.14_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 25 Aug 2024 20:14:52 +0000
+Build-Date: Sun, 25 Aug 2024 20:15:03 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -343,4 +343,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1724616847"
+ SOURCE_DATE_EPOCH="1724616854"
