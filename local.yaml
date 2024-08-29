@@ -10,3 +10,6 @@ soem_interface_rsl:
 soem_interface_examples:
   ubuntu:
   - ros-humble-soem-interface-examples
+soem_ros2:
+  ubuntu:
+  - ros-humble-soem-ros2

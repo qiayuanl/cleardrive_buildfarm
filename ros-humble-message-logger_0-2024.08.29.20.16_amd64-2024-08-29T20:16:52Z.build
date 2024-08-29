@@ -1,44 +1,44 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az768-396.40rqqy2ogysuddehfxxvv4ylpd.ex.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az1206-258.0vxl32vwipkujoye4f0dw5oaka.dx.internal.cloudapp.net
 
 +======================================================================================+
-| ros-humble-message-logger 0-2024.08.29.18.40 (amd64) Thu, 29 Aug 2024 18:40:23 +0000 |
+| ros-humble-message-logger 0-2024.08.29.20.16 (amd64) Thu, 29 Aug 2024 20:16:52 +0000 |
 +======================================================================================+
 
 Package: ros-humble-message-logger
-Version: 0-2024.08.29.18.40
-Source Version: 0-2024.08.29.18.40
+Version: 0-2024.08.29.20.16
+Source Version: 0-2024.08.29.20.16
 Distribution: jammy
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.hcP4iylr29...
+Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild._ik5rquvdk...
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-HsjQHh' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-YJKS8x' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-DkTgAl/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-DkTgAl/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-DkTgAl/apt_archive ./ Release [568 B]
-Get:2 file:/build/package//resolver-DkTgAl/apt_archive ./ Release [568 B]
-Get:3 file:/build/package//resolver-DkTgAl/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-DkTgAl/apt_archive ./ Release.gpg
-Get:4 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
-Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
-Get:6 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
-Get:7 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
-Get:8 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1604 kB]
-Get:9 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1769 kB]
-Get:11 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [890 kB]
-Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
-Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1987 kB]
+Get:1 file:/build/package//resolver-EquEhr/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-EquEhr/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-EquEhr/apt_archive ./ Release [568 B]
+Get:2 file:/build/package//resolver-EquEhr/apt_archive ./ Release [568 B]
+Get:3 file:/build/package//resolver-EquEhr/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-EquEhr/apt_archive ./ Release.gpg
+Get:4 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+Get:5 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:6 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:7 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1604 kB]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1769 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [890 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1988 kB]
 Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1112 kB]
-Fetched 23.4 MB in 2s (10.0 MB/s)
+Fetched 23.4 MB in 4s (6146 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -54,7 +54,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/hrg_buildfarm/hrg_buildfarm/src/ros-humble-message-logger_0-2024.08.29.18.40.dsc exists in /home/runner/work/hrg_buildfarm/hrg_buildfarm/src; copying to chroot
+/home/runner/work/hrg_buildfarm/hrg_buildfarm/src/ros-humble-message-logger_0-2024.08.29.20.16.dsc exists in /home/runner/work/hrg_buildfarm/hrg_buildfarm/src; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -76,12 +76,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [676 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [708 B]
 Fetched 1964 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-DkTgAl/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-DkTgAl/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-DkTgAl/apt_archive ./ Release [568 B]
-Get:2 file:/<<BUILDDIR>>/resolver-DkTgAl/apt_archive ./ Release [568 B]
-Get:3 file:/<<BUILDDIR>>/resolver-DkTgAl/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-DkTgAl/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-EquEhr/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-EquEhr/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-EquEhr/apt_archive ./ Release [568 B]
+Get:2 file:/<<BUILDDIR>>/resolver-EquEhr/apt_archive ./ Release [568 B]
+Get:3 file:/<<BUILDDIR>>/resolver-EquEhr/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-EquEhr/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
 Reading package lists...
@@ -234,7 +234,7 @@ The following NEW packages will be installed:
 0 upgraded, 192 newly installed, 0 to remove and 0 not upgraded.
 Need to get 62.6 MB of archives.
 After this operation, 262 MB of additional disk space will be used.
-Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [704 B]
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [706 B]
 Get:2 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 1.0.0-1 [43.2 kB]
 Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-package amd64 0.14.0-4jammy.20220421.093117 [23.6 kB]
 Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-core amd64 1.3.10-1jammy.20240728.190459 [29.1 kB]
@@ -266,63 +266,63 @@ Get:29 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-ind
 Get:30 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-index-python amd64 1.4.0-2jammy.20240728.200002 [12.3 kB]
 Get:31 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-fastcdr amd64 1.0.24-2jammy.20240728.192110 [44.2 kB]
 Get:32 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-python-cmake-module amd64 0.10.0-2jammy.20240728.202845 [7996 B]
-Get:33 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.12-1~22.04.5 [813 kB]
-Get:34 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcutils amd64 5.1.6-1jammy.20240728.203234 [87.8 kB]
-Get:35 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-interface amd64 3.1.5-2jammy.20240728.202928 [8858 B]
-Get:36 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-runtime-c amd64 3.1.5-2jammy.20240728.204550 [26.5 kB]
-Get:37 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw amd64 6.1.2-1jammy.20240728.204856 [67.5 kB]
-Get:38 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-cli amd64 3.1.5-2jammy.20240728.200201 [18.8 kB]
-Get:39 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-adapter amd64 3.1.5-2jammy.20240728.201622 [19.3 kB]
-Get:40 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-parser amd64 3.1.5-2jammy.20240728.202913 [19.4 kB]
-Get:41 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-cmake amd64 3.1.5-2jammy.20240728.203038 [15.7 kB]
-Get:42 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-generator-c amd64 3.1.5-2jammy.20240728.204857 [20.1 kB]
-Get:43 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcpputils amd64 2.4.3-1jammy.20240728.204545 [53.5 kB]
-Get:44 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-c amd64 2.0.1-1jammy.20240728.205331 [24.4 kB]
-Get:45 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rpyutils amd64 0.2.1-2jammy.20240728.200220 [6120 B]
-Get:46 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-generator-py amd64 0.14.4-1jammy.20240728.210540 [29.5 kB]
-Get:47 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-runtime-cpp amd64 3.1.5-2jammy.20240728.205044 [15.4 kB]
-Get:48 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-cpp amd64 2.0.1-1jammy.20240728.205721 [23.5 kB]
-Get:49 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-fastrtps-cmake-module amd64 2.2.2-2jammy.20240728.202329 [7156 B]
-Get:50 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-generator-cpp amd64 3.1.5-2jammy.20240728.205427 [21.3 kB]
-Get:51 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-fastrtps-cpp amd64 2.2.2-2jammy.20240728.205803 [25.8 kB]
-Get:52 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-fastrtps-c amd64 2.2.2-2jammy.20240728.210059 [24.0 kB]
-Get:53 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-introspection-c amd64 3.1.5-2jammy.20240728.205029 [22.5 kB]
-Get:54 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-introspection-cpp amd64 3.1.5-2jammy.20240728.205326 [22.7 kB]
-Get:55 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-default-runtime amd64 1.2.0-2jammy.20240728.210843 [6494 B]
-Get:56 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-builtin-interfaces amd64 1.2.1-1jammy.20240728.211104 [41.0 kB]
-Get:57 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-foonathan-memory-vendor amd64 1.2.0-3jammy.20240728.201001 [769 kB]
-Get:58 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-fastrtps amd64 2.6.8-1jammy.20240728.201342 [2763 kB]
-Get:59 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.3 [91.0 kB]
-Get:60 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.12-1~22.04.5 [2244 kB]
-Get:61 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04.1 [24.3 kB]
-Get:62 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
-Get:63 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
-Get:64 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
-Get:65 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
-Get:66 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.3 [641 kB]
-Get:67 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl-interfaces amd64 1.2.1-1jammy.20240728.211344 [222 kB]
-Get:68 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.12-1~22.04.5 [1849 kB]
-Get:69 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10 amd64 3.10.12-1~22.04.5 [509 kB]
-Get:70 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl-logging-interface amd64 2.3.1-1jammy.20240728.205107 [12.8 kB]
-Get:71 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-spdlog-vendor amd64 1.3.1-1jammy.20240728.202943 [6234 B]
-Get:72 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl-logging-spdlog amd64 2.3.1-1jammy.20240728.205441 [17.7 kB]
-Get:73 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-libyaml-vendor amd64 1.2.2-2jammy.20240728.205125 [68.4 kB]
-Get:74 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04.1 [6812 B]
-Get:75 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3 amd64 3.10.6-1~22.04.1 [22.8 kB]
-Get:76 http://archive.ubuntu.com/ubuntu jammy/main amd64 sgml-base all 1.30 [12.5 kB]
-Get:77 http://archive.ubuntu.com/ubuntu jammy/main amd64 libelf1 amd64 0.186-1build1 [51.0 kB]
-Get:78 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu70 amd64 70.1-2 [10.6 MB]
-Get:79 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl-yaml-param-parser amd64 5.3.9-1jammy.20240728.205348 [30.0 kB]
-Get:80 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-implementation-cmake amd64 6.1.2-1jammy.20240728.202910 [8872 B]
-Get:81 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-dds-common amd64 1.6.0-2jammy.20240728.211100 [96.2 kB]
-Get:82 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-tracetools amd64 4.1.1-1jammy.20240728.202425 [17.9 kB]
-Get:83 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-fastrtps-shared-cpp amd64 6.2.7-1jammy.20240728.211440 [162 kB]
-Get:84 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-fastrtps-cpp amd64 6.2.7-1jammy.20240728.212513 [90.9 kB]
-Get:85 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-implementation amd64 2.8.4-1jammy.20240728.212901 [25.4 kB]
-Get:86 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl amd64 5.3.9-1jammy.20240728.213530 [146 kB]
-Get:87 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-statistics-msgs amd64 1.2.1-1jammy.20240728.212036 [58.3 kB]
-Get:88 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-std-msgs amd64 4.2.4-1jammy.20240728.212043 [192 kB]
-Get:89 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-libstatistics-collector amd64 1.3.2-1jammy.20240728.214914 [25.6 kB]
+Get:33 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcutils amd64 5.1.6-1jammy.20240728.203234 [87.8 kB]
+Get:34 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-interface amd64 3.1.5-2jammy.20240728.202928 [8858 B]
+Get:35 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-runtime-c amd64 3.1.5-2jammy.20240728.204550 [26.5 kB]
+Get:36 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw amd64 6.1.2-1jammy.20240728.204856 [67.5 kB]
+Get:37 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-cli amd64 3.1.5-2jammy.20240728.200201 [18.8 kB]
+Get:38 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-adapter amd64 3.1.5-2jammy.20240728.201622 [19.3 kB]
+Get:39 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-parser amd64 3.1.5-2jammy.20240728.202913 [19.4 kB]
+Get:40 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-cmake amd64 3.1.5-2jammy.20240728.203038 [15.7 kB]
+Get:41 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-generator-c amd64 3.1.5-2jammy.20240728.204857 [20.1 kB]
+Get:42 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcpputils amd64 2.4.3-1jammy.20240728.204545 [53.5 kB]
+Get:43 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-c amd64 2.0.1-1jammy.20240728.205331 [24.4 kB]
+Get:44 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rpyutils amd64 0.2.1-2jammy.20240728.200220 [6120 B]
+Get:45 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-generator-py amd64 0.14.4-1jammy.20240728.210540 [29.5 kB]
+Get:46 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-runtime-cpp amd64 3.1.5-2jammy.20240728.205044 [15.4 kB]
+Get:47 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-cpp amd64 2.0.1-1jammy.20240728.205721 [23.5 kB]
+Get:48 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-fastrtps-cmake-module amd64 2.2.2-2jammy.20240728.202329 [7156 B]
+Get:49 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-generator-cpp amd64 3.1.5-2jammy.20240728.205427 [21.3 kB]
+Get:50 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-fastrtps-cpp amd64 2.2.2-2jammy.20240728.205803 [25.8 kB]
+Get:51 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-fastrtps-c amd64 2.2.2-2jammy.20240728.210059 [24.0 kB]
+Get:52 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-introspection-c amd64 3.1.5-2jammy.20240728.205029 [22.5 kB]
+Get:53 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-typesupport-introspection-cpp amd64 3.1.5-2jammy.20240728.205326 [22.7 kB]
+Get:54 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosidl-default-runtime amd64 1.2.0-2jammy.20240728.210843 [6494 B]
+Get:55 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-builtin-interfaces amd64 1.2.1-1jammy.20240728.211104 [41.0 kB]
+Get:56 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-foonathan-memory-vendor amd64 1.2.0-3jammy.20240728.201001 [769 kB]
+Get:57 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-fastrtps amd64 2.6.8-1jammy.20240728.201342 [2763 kB]
+Get:58 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl-interfaces amd64 1.2.1-1jammy.20240728.211344 [222 kB]
+Get:59 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl-logging-interface amd64 2.3.1-1jammy.20240728.205107 [12.8 kB]
+Get:60 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-spdlog-vendor amd64 1.3.1-1jammy.20240728.202943 [6234 B]
+Get:61 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl-logging-spdlog amd64 2.3.1-1jammy.20240728.205441 [17.7 kB]
+Get:62 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-libyaml-vendor amd64 1.2.2-2jammy.20240728.205125 [68.4 kB]
+Get:63 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.12-1~22.04.5 [813 kB]
+Get:64 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl-yaml-param-parser amd64 5.3.9-1jammy.20240728.205348 [30.0 kB]
+Get:65 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-implementation-cmake amd64 6.1.2-1jammy.20240728.202910 [8872 B]
+Get:66 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-dds-common amd64 1.6.0-2jammy.20240728.211100 [96.2 kB]
+Get:67 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-tracetools amd64 4.1.1-1jammy.20240728.202425 [17.9 kB]
+Get:68 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-fastrtps-shared-cpp amd64 6.2.7-1jammy.20240728.211440 [162 kB]
+Get:69 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-fastrtps-cpp amd64 6.2.7-1jammy.20240728.212513 [90.9 kB]
+Get:70 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rmw-implementation amd64 2.8.4-1jammy.20240728.212901 [25.4 kB]
+Get:71 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rcl amd64 5.3.9-1jammy.20240728.213530 [146 kB]
+Get:72 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.3 [91.0 kB]
+Get:73 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.12-1~22.04.5 [2244 kB]
+Get:74 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-statistics-msgs amd64 1.2.1-1jammy.20240728.212036 [58.3 kB]
+Get:75 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-std-msgs amd64 4.2.4-1jammy.20240728.212043 [192 kB]
+Get:76 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04.1 [24.3 kB]
+Get:77 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
+Get:78 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
+Get:79 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
+Get:80 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
+Get:81 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.3 [641 kB]
+Get:82 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.12-1~22.04.5 [1849 kB]
+Get:83 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10 amd64 3.10.12-1~22.04.5 [509 kB]
+Get:84 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-libstatistics-collector amd64 1.3.2-1jammy.20240728.214914 [25.6 kB]
+Get:85 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04.1 [6812 B]
+Get:86 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3 amd64 3.10.6-1~22.04.1 [22.8 kB]
+Get:87 http://archive.ubuntu.com/ubuntu jammy/main amd64 sgml-base all 1.30 [12.5 kB]
+Get:88 http://archive.ubuntu.com/ubuntu jammy/main amd64 libelf1 amd64 0.186-1build1 [51.0 kB]
+Get:89 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu70 amd64 70.1-2 [10.6 MB]
 Get:90 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rosgraph-msgs amd64 1.2.1-1jammy.20240728.212021 [35.9 kB]
 Get:91 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-rclcpp amd64 16.0.10-1jammy.20240728.215214 [642 kB]
 Get:92 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxml2 amd64 2.9.13+dfsg-1ubuntu0.4 [763 kB]
@@ -427,7 +427,7 @@ Get:190 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-setupt
 Get:191 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libtinyxml2-dev amd64 9.0.0+dfsg-3 [18.6 kB]
 Get:192 http://archive.ubuntu.com/ubuntu jammy/main amd64 libyaml-dev amd64 0.2.2-1build2 [62.8 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 62.6 MB in 5s (13.3 MB/s)
+Fetched 62.6 MB in 7s (8786 kB/s)
 Selecting previously unselected package libpython3.10-minimal:amd64.
 (Reading database ... 10529 files and directories currently installed.)
 Preparing to unpack .../libpython3.10-minimal_3.10.12-1~22.04.5_amd64.deb ...
@@ -1037,8 +1037,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
 Setting up tzdata (2024a-0ubuntu0.22.04.1) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Thu Aug 29 18:40:49 UTC 2024.
-Universal Time is now:  Thu Aug 29 18:40:49 UTC 2024.
+Local time is now:      Thu Aug 29 20:17:21 UTC 2024.
+Universal Time is now:  Thu Aug 29 20:17:21 UTC 2024.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.28-1ubuntu1) ...
@@ -1242,22 +1242,22 @@ Format: 1.0
 Source: ros-humble-message-logger
 Binary: ros-humble-message-logger
 Architecture: any
-Version: 0-2024.08.29.18.40
+Version: 0-2024.08.29.20.16
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-humble-ament-cmake-auto, ros-humble-rclcpp
 Package-List:
  ros-humble-message-logger deb misc optional arch=any
 Checksums-Sha1:
- 338d1b1ddc7419deba33734b4eaba6eec770085b 105670 ros-humble-message-logger_0-2024.08.29.18.40.tar.gz
+ bb7252e31bd2ddfa657e8cd8f7e0d79282f93cb9 105808 ros-humble-message-logger_0-2024.08.29.20.16.tar.gz
 Checksums-Sha256:
- f74a57be944e6b5c100802eb8829920768f0b8f6a411264394ddf2bdc01ce611 105670 ros-humble-message-logger_0-2024.08.29.18.40.tar.gz
+ ebb6f8e5edc0a3d6640fd1d6f23ffdf487fd00407a61cf61238b9b839a4cbd5c 105808 ros-humble-message-logger_0-2024.08.29.20.16.tar.gz
 Files:
- 2d658d04f4f47d819fde9c682324ca0d 105670 ros-humble-message-logger_0-2024.08.29.18.40.tar.gz
+ 107e52dcd214657c2d356a8e22cc2040 105808 ros-humble-message-logger_0-2024.08.29.20.16.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-humble-message-logger_0-2024.08.29.18.40.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-humble-message-logger_0-2024.08.29.20.16.dsc)
 dpkg-source: info: extracting ros-humble-message-logger in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-humble-message-logger_0-2024.08.29.18.40.tar.gz
+dpkg-source: info: unpacking ros-humble-message-logger_0-2024.08.29.20.16.tar.gz
 
 Check disk space
 ----------------
@@ -1285,7 +1285,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-humble-message-logger
-dpkg-buildpackage: info: source version 0-2024.08.29.18.40
+dpkg-buildpackage: info: source version 0-2024.08.29.20.16
 dpkg-buildpackage: info: source distribution jammy
 dpkg-buildpackage: info: source changed by Philipp Leemann <pleemann@anybotics.com>
  dpkg-source --before-build .
@@ -1400,42 +1400,42 @@ make  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles/message_logger.dir/DependInfo.cmake --color=
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /opt/ros/humble/src/gtest_vendor /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /opt/ros/humble/src/gtest_vendor /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/message_logger.dir/build.make CMakeFiles/message_logger.dir/build
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 10%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-[ 30%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-[ 30%] Building CXX object CMakeFiles/message_logger.dir/src/time/Time.cpp.o
-cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest && /usr/lib/ccache/c++  -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Wpedantic -fPIC -std=gnu++14 -MD -MT gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -MF CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[ 20%] Building CXX object CMakeFiles/message_logger.dir/src/log/globals.cpp.o
+[ 20%] Building CXX object CMakeFiles/message_logger.dir/src/time/Time.cpp.o
 /usr/lib/ccache/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/<<BUILDDIR>>package/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Wpedantic -fPIC -MD -MT CMakeFiles/message_logger.dir/src/time/Time.cpp.o -MF CMakeFiles/message_logger.dir/src/time/Time.cpp.o.d -o CMakeFiles/message_logger.dir/src/time/Time.cpp.o -c /<<BUILDDIR>>package/src/time/Time.cpp
+[ 30%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 40%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest && /usr/lib/ccache/c++  -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -fPIC -Wno-null-dereference -std=gnu++14 -MD -MT gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest-all.cc
-[ 40%] Building CXX object CMakeFiles/message_logger.dir/src/log/globals.cpp.o
 /usr/lib/ccache/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/<<BUILDDIR>>package/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Wpedantic -fPIC -MD -MT CMakeFiles/message_logger.dir/src/log/globals.cpp.o -MF CMakeFiles/message_logger.dir/src/log/globals.cpp.o.d -o CMakeFiles/message_logger.dir/src/log/globals.cpp.o -c /<<BUILDDIR>>package/src/log/globals.cpp
-[ 60%] Building CXX object CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest && /usr/lib/ccache/c++  -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Wpedantic -fPIC -std=gnu++14 -MD -MT gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -MF CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[ 50%] Building CXX object CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o
+/usr/lib/ccache/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/<<BUILDDIR>>package/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Wpedantic -fPIC -MD -MT CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o -MF CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o.d -o CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o -c /<<BUILDDIR>>package/src/time/TimeStd.cpp
 [ 60%] Linking CXX static library libgtest_main.a
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest && /usr/bin/cmake -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-/usr/lib/ccache/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/<<BUILDDIR>>package/include -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Wpedantic -fPIC -MD -MT CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o -MF CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o.d -o CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o -c /<<BUILDDIR>>package/src/time/TimeStd.cpp
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest && /usr/bin/cmake -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=1
 [ 70%] Linking CXX static library libmessage_logger.a
 /usr/bin/cmake -P CMakeFiles/message_logger.dir/cmake_clean_target.cmake
 /usr/bin/ar qc libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 /usr/bin/ranlib libgtest_main.a
 /usr/bin/cmake -E cmake_link_script CMakeFiles/message_logger.dir/link.txt --verbose=1
-make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 [ 80%] Linking CXX static library libgtest.a
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest && /usr/bin/cmake -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 /usr/bin/ar qc libmessage_logger.a CMakeFiles/message_logger.dir/src/log/globals.cpp.o CMakeFiles/message_logger.dir/src/time/Time.cpp.o CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o
-[ 80%] Built target gtest_main
 /usr/bin/ranlib libmessage_logger.a
+[ 80%] Built target gtest_main
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest && /usr/bin/cmake -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=1
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 /usr/bin/ar qc libgtest.a CMakeFiles/gtest.dir/src/gtest-all.cc.o
@@ -1501,30 +1501,30 @@ make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /opt/ros/humble/src/gtest_vendor /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /opt/ros/humble/src/gtest_vendor /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest /<<BUILDDIR>>package/obj-x86_64-linux-gnu/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=
-Consolidate compiler generated dependencies of target gtest
-make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
 Consolidate compiler generated dependencies of target gtest_main
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+Consolidate compiler generated dependencies of target gtest
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
 Consolidate compiler generated dependencies of target message_logger
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/message_logger.dir/build.make CMakeFiles/message_logger.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Nothing to be done for 'gtest/CMakeFiles/gtest_main.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[ 20%] Built target gtest_main
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Nothing to be done for 'gtest/CMakeFiles/gtest.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Nothing to be done for 'CMakeFiles/message_logger.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 20%] Built target gtest_main
 [ 40%] Built target gtest
+[ 80%] Built target message_logger
 make  -f CMakeFiles/empty_test.dir/build.make CMakeFiles/empty_test.dir/depend
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles/empty_test.dir/DependInfo.cmake --color=
-[ 80%] Built target message_logger
 Consolidate compiler generated dependencies of target empty_test
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/empty_test.dir/build.make CMakeFiles/empty_test.dir/build
@@ -1632,16 +1632,16 @@ dpkg-gencontrol: warning: Depends field of package ros-humble-message-logger: su
 	chown 0:0 -- debian/ros-humble-message-logger/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-humble-message-logger ..
-dpkg-deb: building package 'ros-humble-message-logger' in '../ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb'.
- dpkg-genbuildinfo --build=binary -O../ros-humble-message-logger_0-2024.08.29.18.40_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-humble-message-logger_0-2024.08.29.18.40_amd64.changes
-dpkg-genchanges: warning: the current version (0-2024.08.29.18.40) is earlier than the previous one (0.0.1-0jammy)
+dpkg-deb: building package 'ros-humble-message-logger' in '../ros-humble-message-logger_0-2024.08.29.20.16_amd64.deb'.
+ dpkg-genbuildinfo --build=binary -O../ros-humble-message-logger_0-2024.08.29.20.16_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-humble-message-logger_0-2024.08.29.20.16_amd64.changes
+dpkg-genchanges: warning: the current version (0-2024.08.29.20.16) is earlier than the previous one (0.0.1-0jammy)
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2024-08-29T18:41:03Z
+Build finished at 2024-08-29T20:17:35Z
 
 Finished
 --------
@@ -1653,16 +1653,16 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-humble-message-logger_0-2024.08.29.18.40_amd64.changes:
+ros-humble-message-logger_0-2024.08.29.20.16_amd64.changes:
 -----------------------------------------------------------
 
 Format: 1.8
-Date: Thu, 29 Aug 2024 18:40:22 -0000
+Date: Thu, 29 Aug 2024 20:16:51 -0000
 Source: ros-humble-message-logger
 Binary: ros-humble-message-logger
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 0-2024.08.29.18.40
+Version: 0-2024.08.29.20.16
 Distribution: jammy
 Urgency: high
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
@@ -1670,18 +1670,18 @@ Changed-By: Philipp Leemann <pleemann@anybotics.com>
 Description:
  ros-humble-message-logger - The message logger package
 Changes:
- ros-humble-message-logger (0-2024.08.29.18.40) jammy; urgency=high
+ ros-humble-message-logger (0-2024.08.29.20.16) jammy; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- 8a54137fd84e3528d943e5a8aa7fb40da9128516 13979 ros-humble-message-logger_0-2024.08.29.18.40_amd64.buildinfo
- e6094841199e1d0f7ea093ea2239c6406b65e860 19434 ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
+ 10bd103d651241e253fd9aca2e1b0951f5d9d62a 13979 ros-humble-message-logger_0-2024.08.29.20.16_amd64.buildinfo
+ 8aab2b1bb6906d12b73b7b758a3b941868cc504c 19416 ros-humble-message-logger_0-2024.08.29.20.16_amd64.deb
 Checksums-Sha256:
- 72eb5bc28c7831bcff49f2bd571c178b3bca24a2d3b9505359d965e41448a5e8 13979 ros-humble-message-logger_0-2024.08.29.18.40_amd64.buildinfo
- f37c09028d933e9e5b7fe0c8a882344125964bf64f89e67d8955738f8ba2f2c5 19434 ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
+ 3a4019aad181a20fde43693325e1d80f0100cd261cc93fcee468970ace920b3d 13979 ros-humble-message-logger_0-2024.08.29.20.16_amd64.buildinfo
+ dac28cfc195937dbf69132b05ef80a1007a983d0b38e889fc4759075a668a38f 19416 ros-humble-message-logger_0-2024.08.29.20.16_amd64.deb
 Files:
- 1b01734580a61ac4fcd242215435b049 13979 misc optional ros-humble-message-logger_0-2024.08.29.18.40_amd64.buildinfo
- 508e17ff40cdd173f1d2c791df3d9377 19434 misc optional ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
+ 71c380ce4c15e327dae68e6f39016140 13979 misc optional ros-humble-message-logger_0-2024.08.29.20.16_amd64.buildinfo
+ 3933ef3f5f4d573233ea8e38ba7a2292 19416 misc optional ros-humble-message-logger_0-2024.08.29.20.16_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -1691,16 +1691,16 @@ Format: 1.0
 Source: ros-humble-message-logger
 Binary: ros-humble-message-logger
 Architecture: amd64
-Version: 0-2024.08.29.18.40
+Version: 0-2024.08.29.20.16
 Checksums-Md5:
- 508e17ff40cdd173f1d2c791df3d9377 19434 ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
+ 3933ef3f5f4d573233ea8e38ba7a2292 19416 ros-humble-message-logger_0-2024.08.29.20.16_amd64.deb
 Checksums-Sha1:
- e6094841199e1d0f7ea093ea2239c6406b65e860 19434 ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
+ 8aab2b1bb6906d12b73b7b758a3b941868cc504c 19416 ros-humble-message-logger_0-2024.08.29.20.16_amd64.deb
 Checksums-Sha256:
- f37c09028d933e9e5b7fe0c8a882344125964bf64f89e67d8955738f8ba2f2c5 19434 ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
+ dac28cfc195937dbf69132b05ef80a1007a983d0b38e889fc4759075a668a38f 19416 ros-humble-message-logger_0-2024.08.29.20.16_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 29 Aug 2024 18:41:03 +0000
+Build-Date: Thu, 29 Aug 2024 20:17:35 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -2032,7 +2032,7 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1724956822"
+ SOURCE_DATE_EPOCH="1724962611"
 
 
 +------------------------------------------------------------------------------+
@@ -2040,15 +2040,15 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
+ros-humble-message-logger_0-2024.08.29.20.16_amd64.deb
 ------------------------------------------------------
 
  new Debian package, version 2.0.
- size 19434 bytes: control archive=1392 bytes.
+ size 19416 bytes: control archive=1392 bytes.
      256 bytes,     9 lines      control              
     3439 bytes,    35 lines      md5sums              
  Package: ros-humble-message-logger
- Version: 0-2024.08.29.18.40
+ Version: 0-2024.08.29.20.16
  Architecture: amd64
  Maintainer: Philipp Leemann <pleemann@anybotics.com>
  Installed-Size: 153
@@ -2057,64 +2057,64 @@ ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
  Priority: optional
  Description: The message logger package
 
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/include/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/common/
--rw-r--r-- root/root       477 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/common/colors.hpp
--rw-r--r-- root/root     18744 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/common/preprocessor_defines.hpp
--rw-r--r-- root/root      2704 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/common/source_file_pos.hpp
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/log/
--rw-r--r-- root/root       164 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/log/globals.hpp
--rw-r--r-- root/root      5932 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/log/log_messages.hpp
--rw-r--r-- root/root      4185 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/log/log_messages_backend.hpp
--rw-r--r-- root/root      2629 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/log/log_messages_backend_config.hpp
--rw-r--r-- root/root      2634 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/log/log_messages_backend_config.hpp.in
--rw-r--r-- root/root     10279 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/log/log_messages_ros.hpp
--rw-r--r-- root/root      6563 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/log/log_messages_std.hpp
--rw-r--r-- root/root      2050 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/message_logger.hpp
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/time/
--rw-r--r-- root/root      2391 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/time/Time.hpp
--rw-r--r-- root/root      5020 2024-08-29 18:40 ./opt/ros/humble/include/message_logger/time/TimeStd.hpp
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/lib/
--rw-r--r-- root/root     25278 2024-08-29 18:40 ./opt/ros/humble/lib/libmessage_logger.a
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/ament_index/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/ament_index/resource_index/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/
--rw-r--r-- root/root        12 2024-08-29 18:40 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/message_logger
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/ament_index/resource_index/packages/
--rw-r--r-- root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/ament_index/resource_index/packages/message_logger
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/
--rw-r--r-- root/root         8 2024-08-29 18:40 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/message_logger
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/cmake/
--rw-r--r-- root/root      3970 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/cmake/ament_cmake_export_dependencies-extras.cmake
--rw-r--r-- root/root       785 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/cmake/ament_cmake_export_include_directories-extras.cmake
--rw-r--r-- root/root      5077 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/cmake/ament_cmake_export_libraries-extras.cmake
--rw-r--r-- root/root       432 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/cmake/message_loggerConfig-version.cmake
--rw-r--r-- root/root      1445 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/cmake/message_loggerConfig.cmake
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/environment/
--rw-r--r-- root/root        41 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/environment/ament_prefix_path.dsv
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/include/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/common/
+-rw-r--r-- root/root       477 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/common/colors.hpp
+-rw-r--r-- root/root     18744 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/common/preprocessor_defines.hpp
+-rw-r--r-- root/root      2704 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/common/source_file_pos.hpp
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/log/
+-rw-r--r-- root/root       164 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/log/globals.hpp
+-rw-r--r-- root/root      5932 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/log/log_messages.hpp
+-rw-r--r-- root/root      4185 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/log/log_messages_backend.hpp
+-rw-r--r-- root/root      2629 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/log/log_messages_backend_config.hpp
+-rw-r--r-- root/root      2634 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/log/log_messages_backend_config.hpp.in
+-rw-r--r-- root/root     10279 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/log/log_messages_ros.hpp
+-rw-r--r-- root/root      6563 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/log/log_messages_std.hpp
+-rw-r--r-- root/root      2050 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/message_logger.hpp
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/time/
+-rw-r--r-- root/root      2391 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/time/Time.hpp
+-rw-r--r-- root/root      5020 2024-08-29 20:16 ./opt/ros/humble/include/message_logger/time/TimeStd.hpp
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/lib/
+-rw-r--r-- root/root     25278 2024-08-29 20:16 ./opt/ros/humble/lib/libmessage_logger.a
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/ament_index/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/
+-rw-r--r-- root/root        12 2024-08-29 20:16 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/message_logger
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/ament_index/resource_index/packages/message_logger
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/
+-rw-r--r-- root/root         8 2024-08-29 20:16 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/message_logger
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/cmake/
+-rw-r--r-- root/root      3970 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/cmake/ament_cmake_export_dependencies-extras.cmake
+-rw-r--r-- root/root       785 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/cmake/ament_cmake_export_include_directories-extras.cmake
+-rw-r--r-- root/root      5077 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/cmake/ament_cmake_export_libraries-extras.cmake
+-rw-r--r-- root/root       432 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/cmake/message_loggerConfig-version.cmake
+-rw-r--r-- root/root      1445 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/cmake/message_loggerConfig.cmake
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/environment/
+-rw-r--r-- root/root        41 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/environment/ament_prefix_path.dsv
 -rw-r--r-- root/root       160 2024-07-26 13:29 ./opt/ros/humble/share/message_logger/environment/ament_prefix_path.sh
--rw-r--r-- root/root        42 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/environment/library_path.dsv
+-rw-r--r-- root/root        42 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/environment/library_path.dsv
 -rw-r--r-- root/root       411 2022-04-19 23:53 ./opt/ros/humble/share/message_logger/environment/library_path.sh
--rw-r--r-- root/root        41 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/environment/path.dsv
+-rw-r--r-- root/root        41 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/environment/path.dsv
 -rw-r--r-- root/root       185 2024-07-26 13:29 ./opt/ros/humble/share/message_logger/environment/path.sh
--rw-r--r-- root/root      1594 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/local_setup.bash
--rw-r--r-- root/root       165 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/local_setup.dsv
--rw-r--r-- root/root      5109 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/local_setup.sh
--rw-r--r-- root/root      1957 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/local_setup.zsh
--rw-r--r-- root/root       176 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/package.dsv
--rw-r--r-- root/root       529 2024-08-29 18:40 ./opt/ros/humble/share/message_logger/package.xml
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./usr/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./usr/share/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./usr/share/doc/
-drwxr-xr-x root/root         0 2024-08-29 18:40 ./usr/share/doc/ros-humble-message-logger/
--rw-r--r-- root/root       553 2024-08-29 18:40 ./usr/share/doc/ros-humble-message-logger/changelog.Debian.gz
+-rw-r--r-- root/root      1594 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/local_setup.bash
+-rw-r--r-- root/root       165 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/local_setup.dsv
+-rw-r--r-- root/root      5109 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/local_setup.sh
+-rw-r--r-- root/root      1957 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/local_setup.zsh
+-rw-r--r-- root/root       176 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/package.dsv
+-rw-r--r-- root/root       529 2024-08-29 20:16 ./opt/ros/humble/share/message_logger/package.xml
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./usr/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./usr/share/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./usr/share/doc/
+drwxr-xr-x root/root         0 2024-08-29 20:16 ./usr/share/doc/ros-humble-message-logger/
+-rw-r--r-- root/root       552 2024-08-29 20:16 ./usr/share/doc/ros-humble-message-logger/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -2136,18 +2136,18 @@ Not cleaning session: cloned chroot in use
 Build Architecture: amd64
 Build Type: binary
 Build-Space: 32536
-Build-Time: 7
+Build-Time: 6
 Distribution: jammy
 Host Architecture: amd64
-Install-Time: 22
-Job: /home/runner/work/hrg_buildfarm/hrg_buildfarm/src/ros-humble-message-logger_0-2024.08.29.18.40.dsc
+Install-Time: 24
+Job: /home/runner/work/hrg_buildfarm/hrg_buildfarm/src/ros-humble-message-logger_0-2024.08.29.20.16.dsc
 Machine Architecture: amd64
 Package: ros-humble-message-logger
-Package-Time: 40
-Source-Version: 0-2024.08.29.18.40
+Package-Time: 43
+Source-Version: 0-2024.08.29.20.16
 Space: 32536
 Status: successful
-Version: 0-2024.08.29.18.40
+Version: 0-2024.08.29.20.16
 --------------------------------------------------------------------------------
-Finished at 2024-08-29T18:41:03Z
-Build needed 00:00:40, 32536k disk space
+Finished at 2024-08-29T20:17:35Z
+Build needed 00:00:43, 32536k disk space

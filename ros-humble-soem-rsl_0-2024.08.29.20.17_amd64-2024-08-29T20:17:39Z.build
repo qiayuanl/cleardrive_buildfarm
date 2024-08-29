@@ -1,45 +1,45 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az768-396.40rqqy2ogysuddehfxxvv4ylpd.ex.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az1206-258.0vxl32vwipkujoye4f0dw5oaka.dx.internal.cloudapp.net
 
 +================================================================================+
-| ros-humble-soem-rsl 0-2024.08.29.18.41 (amd64) Thu, 29 Aug 2024 18:41:07 +0000 |
+| ros-humble-soem-rsl 0-2024.08.29.20.17 (amd64) Thu, 29 Aug 2024 20:17:39 +0000 |
 +================================================================================+
 
 Package: ros-humble-soem-rsl
-Version: 0-2024.08.29.18.41
-Source Version: 0-2024.08.29.18.41
+Version: 0-2024.08.29.20.17
+Source Version: 0-2024.08.29.20.17
 Distribution: jammy
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.8ATQRr0jGM...
+Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.MIwuS17ghr...
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-HndX9I' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-S0VGCp' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-kgC4NN/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-kgC4NN/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-kgC4NN/apt_archive ./ Release [574 B]
-Get:2 file:/build/package//resolver-kgC4NN/apt_archive ./ Release [574 B]
-Get:3 file:/build/package//resolver-kgC4NN/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-kgC4NN/apt_archive ./ Release.gpg
-Get:4 file:/build/package//resolver-kgC4NN/apt_archive ./ Packages [497 B]
-Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
-Get:6 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+Get:1 file:/build/package//resolver-cNw6hE/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-cNw6hE/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-cNw6hE/apt_archive ./ Release [574 B]
+Get:2 file:/build/package//resolver-cNw6hE/apt_archive ./ Release [574 B]
+Get:3 file:/build/package//resolver-cNw6hE/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-cNw6hE/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-cNw6hE/apt_archive ./ Packages [497 B]
+Get:5 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+Get:6 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
 Get:7 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1604 kB]
-Get:8 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [890 kB]
-Get:9 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1769 kB]
-Get:11 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
-Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
-Get:13 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1987 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1769 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [890 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1988 kB]
 Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1112 kB]
-Fetched 23.4 MB in 3s (7537 kB/s)
+Fetched 23.4 MB in 4s (5970 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -55,7 +55,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/hrg_buildfarm/hrg_buildfarm/src/soem_interface/ros-humble-soem-rsl_0-2024.08.29.18.41.dsc exists in /home/runner/work/hrg_buildfarm/hrg_buildfarm/src/soem_interface; copying to chroot
+/home/runner/work/hrg_buildfarm/hrg_buildfarm/src/soem_interface/ros-humble-soem-rsl_0-2024.08.29.20.17.dsc exists in /home/runner/work/hrg_buildfarm/hrg_buildfarm/src/soem_interface; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -77,12 +77,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [638 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [670 B]
 Fetched 1888 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-kgC4NN/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-kgC4NN/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-kgC4NN/apt_archive ./ Release [574 B]
-Get:2 file:/<<BUILDDIR>>/resolver-kgC4NN/apt_archive ./ Release [574 B]
-Get:3 file:/<<BUILDDIR>>/resolver-kgC4NN/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-kgC4NN/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-cNw6hE/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-cNw6hE/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-cNw6hE/apt_archive ./ Release [574 B]
+Get:2 file:/<<BUILDDIR>>/resolver-cNw6hE/apt_archive ./ Release [574 B]
+Get:3 file:/<<BUILDDIR>>/resolver-cNw6hE/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-cNw6hE/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
 Reading package lists...
@@ -166,27 +166,27 @@ The following NEW packages will be installed:
 0 upgraded, 100 newly installed, 0 to remove and 0 not upgraded.
 Need to get 36.0 MB of archives.
 After this operation, 138 MB of additional disk space will be used.
-Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [688 B]
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [686 B]
 Get:2 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 1.0.0-1 [43.2 kB]
-Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-package amd64 0.14.0-4jammy.20220421.093117 [23.6 kB]
-Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-core amd64 1.3.10-1jammy.20240728.190459 [29.1 kB]
-Get:5 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ros-workspace amd64 1.0.2-2jammy.20240728.191004 [16.8 kB]
-Get:6 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-definitions amd64 1.3.10-1jammy.20240728.192015 [7514 B]
-Get:7 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-libraries amd64 1.3.10-1jammy.20240728.191938 [7166 B]
-Get:8 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-dependencies amd64 1.3.10-1jammy.20240728.192011 [9030 B]
-Get:9 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-include-directories amd64 1.3.10-1jammy.20240728.191515 [7844 B]
-Get:10 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-libraries amd64 1.3.10-1jammy.20240728.191624 [10.6 kB]
-Get:11 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-interfaces amd64 1.3.10-1jammy.20240728.191653 [8242 B]
-Get:12 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-link-flags amd64 1.3.10-1jammy.20240728.192014 [7114 B]
-Get:13 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-targets amd64 1.3.10-1jammy.20240728.191833 [8046 B]
-Get:14 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-gen-version-h amd64 1.3.10-1jammy.20240728.192636 [9220 B]
-Get:15 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-python amd64 1.3.10-1jammy.20240728.191604 [10.6 kB]
-Get:16 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-include-directories amd64 1.3.10-1jammy.20240728.192016 [7538 B]
-Get:17 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-target-dependencies amd64 1.3.10-1jammy.20240728.192104 [9766 B]
-Get:18 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-test amd64 1.3.10-1jammy.20240728.191740 [16.9 kB]
-Get:19 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-version amd64 1.3.10-1jammy.20240728.192011 [7318 B]
-Get:20 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake amd64 1.3.10-1jammy.20240728.192834 [7650 B]
-Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.12-1~22.04.5 [813 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.12-1~22.04.5 [813 kB]
+Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-package amd64 0.14.0-4jammy.20220421.093117 [23.6 kB]
+Get:5 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-core amd64 1.3.10-1jammy.20240728.190459 [29.1 kB]
+Get:6 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ros-workspace amd64 1.0.2-2jammy.20240728.191004 [16.8 kB]
+Get:7 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-definitions amd64 1.3.10-1jammy.20240728.192015 [7514 B]
+Get:8 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-libraries amd64 1.3.10-1jammy.20240728.191938 [7166 B]
+Get:9 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-dependencies amd64 1.3.10-1jammy.20240728.192011 [9030 B]
+Get:10 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-include-directories amd64 1.3.10-1jammy.20240728.191515 [7844 B]
+Get:11 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-libraries amd64 1.3.10-1jammy.20240728.191624 [10.6 kB]
+Get:12 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-interfaces amd64 1.3.10-1jammy.20240728.191653 [8242 B]
+Get:13 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-link-flags amd64 1.3.10-1jammy.20240728.192014 [7114 B]
+Get:14 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-export-targets amd64 1.3.10-1jammy.20240728.191833 [8046 B]
+Get:15 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-gen-version-h amd64 1.3.10-1jammy.20240728.192636 [9220 B]
+Get:16 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-python amd64 1.3.10-1jammy.20240728.191604 [10.6 kB]
+Get:17 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-include-directories amd64 1.3.10-1jammy.20240728.192016 [7538 B]
+Get:18 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-target-dependencies amd64 1.3.10-1jammy.20240728.192104 [9766 B]
+Get:19 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-test amd64 1.3.10-1jammy.20240728.191740 [16.9 kB]
+Get:20 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-version amd64 1.3.10-1jammy.20240728.192011 [7318 B]
+Get:21 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake amd64 1.3.10-1jammy.20240728.192834 [7650 B]
 Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.3 [91.0 kB]
 Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.12-1~22.04.5 [2244 kB]
 Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04.1 [24.3 kB]
@@ -267,7 +267,7 @@ Get:98 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-zipp al
 Get:99 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-importlib-metadata all 4.6.4-1 [16.2 kB]
 Get:100 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-setuptools all 59.6.0-1.2ubuntu0.22.04.1 [339 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 36.0 MB in 3s (13.2 MB/s)
+Fetched 36.0 MB in 4s (8678 kB/s)
 Selecting previously unselected package libpython3.10-minimal:amd64.
 (Reading database ... 10529 files and directories currently installed.)
 Preparing to unpack .../libpython3.10-minimal_3.10.12-1~22.04.5_amd64.deb ...
@@ -595,8 +595,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
 Setting up tzdata (2024a-0ubuntu0.22.04.1) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Thu Aug 29 18:41:29 UTC 2024.
-Universal Time is now:  Thu Aug 29 18:41:29 UTC 2024.
+Local time is now:      Thu Aug 29 20:18:03 UTC 2024.
+Universal Time is now:  Thu Aug 29 20:18:03 UTC 2024.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.28-1ubuntu1) ...
@@ -711,22 +711,22 @@ Format: 1.0
 Source: ros-humble-soem-rsl
 Binary: ros-humble-soem-rsl
 Architecture: any
-Version: 0-2024.08.29.18.41
+Version: 0-2024.08.29.20.17
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake
 Package-List:
  ros-humble-soem-rsl deb misc optional arch=any
 Checksums-Sha1:
- c0684818eb0dd7f23f10b497bfa922e4f3467cdd 378933 ros-humble-soem-rsl_0-2024.08.29.18.41.tar.gz
+ 2ee0c4b205442b5d9a59caf83bb291670e1729b1 379759 ros-humble-soem-rsl_0-2024.08.29.20.17.tar.gz
 Checksums-Sha256:
- 62405dc7912d53079ec7ba2608ac8c85891cd227ce7b43c87a116c068972b148 378933 ros-humble-soem-rsl_0-2024.08.29.18.41.tar.gz
+ 939018dec167014aee7afef0f508f39e2d11475eef75ee740b811ee85cf6a338 379759 ros-humble-soem-rsl_0-2024.08.29.20.17.tar.gz
 Files:
- 5bd4db36d216012b7e3bc4c36375f3f6 378933 ros-humble-soem-rsl_0-2024.08.29.18.41.tar.gz
+ e43b58796e37cf00c9ffc86245c7e3a0 379759 ros-humble-soem-rsl_0-2024.08.29.20.17.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-humble-soem-rsl_0-2024.08.29.18.41.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-humble-soem-rsl_0-2024.08.29.20.17.dsc)
 dpkg-source: info: extracting ros-humble-soem-rsl in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-humble-soem-rsl_0-2024.08.29.18.41.tar.gz
+dpkg-source: info: unpacking ros-humble-soem-rsl_0-2024.08.29.20.17.tar.gz
 
 Check disk space
 ----------------
@@ -754,7 +754,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-humble-soem-rsl
-dpkg-buildpackage: info: source version 0-2024.08.29.18.41
+dpkg-buildpackage: info: source version 0-2024.08.29.20.17
 dpkg-buildpackage: info: source distribution jammy
 dpkg-buildpackage: info: source changed by Johannes Pankert <johannes.pankert@mavt.ethz.ch>
  dpkg-source --before-build .
@@ -840,30 +840,30 @@ cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends 
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f CMakeFiles/soem_rsl.dir/build.make CMakeFiles/soem_rsl.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 15%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatbase.c.o
-[ 15%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatcoe.c.o
-[ 15%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o
-[ 21%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o
+[ 10%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatcoe.c.o
+[ 10%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatbase.c.o
+[ 15%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o
 /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatcoe.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatcoe.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatcoe.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatcoe.c
-/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatconfig.c
-/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatdc.c
 /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatbase.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatbase.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatbase.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatbase.c
+/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatdc.c
+[ 21%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o
+/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatconfig.c
+[ 26%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o
 [ 31%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatfoe.c.o
-[ 31%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o
+/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercateoe.c
 /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatfoe.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatfoe.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatfoe.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatfoe.c
 [ 36%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatmain.c.o
-/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercateoe.c
 [ 42%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatprint.c.o
 /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatmain.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatmain.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatmain.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatmain.c
 /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatprint.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatprint.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatprint.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatprint.c
 [ 47%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatsoe.c.o
-[ 52%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o
-/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o -c /<<BUILDDIR>>package/soem_rsl/osal/linux/osal.c
+/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatsoe.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatsoe.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatsoe.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatsoe.c
+[ 57%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o
 [ 57%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/nicdrv.c.o
+/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o -c /<<BUILDDIR>>package/soem_rsl/osal/linux/osal.c
 [ 63%] Building C object CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/oshw.c.o
 /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/nicdrv.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/nicdrv.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/nicdrv.c.o -c /<<BUILDDIR>>package/soem_rsl/oshw/linux/nicdrv.c
 /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/oshw.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/oshw.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/oshw.c.o -c /<<BUILDDIR>>package/soem_rsl/oshw/linux/oshw.c
-/usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -fPIC -MD -MT CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatsoe.c.o -MF CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatsoe.c.o.d -o CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatsoe.c.o -c /<<BUILDDIR>>package/soem_rsl/soem_rsl/ethercatsoe.c
 [ 68%] Linking C static library libsoem_rsl.a
 /usr/bin/cmake -P CMakeFiles/soem_rsl.dir/cmake_clean_target.cmake
 /usr/bin/cmake -E cmake_link_script CMakeFiles/soem_rsl.dir/link.txt --verbose=1
@@ -881,29 +881,29 @@ cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends 
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package/soem_rsl/test/linux/simple_test /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/simple_test /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/DependInfo.cmake --color=
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make  -f soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build.make soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build
-make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f soem_rsl/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir/build.make soem_rsl/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir/build
-make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build.make soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/build.make soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-[ 73%] Building C object soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/simple_test.c.o
-[ 78%] Building C object soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/eepromtool.c.o
-cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/simple_test && /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -MD -MT soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/simple_test.c.o -MF CMakeFiles/simple_test.dir/simple_test.c.o.d -o CMakeFiles/simple_test.dir/simple_test.c.o -c /<<BUILDDIR>>package/soem_rsl/test/linux/simple_test/simple_test.c
-cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/eepromtool && /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -MD -MT soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/eepromtool.c.o -MF CMakeFiles/eepromtool.dir/eepromtool.c.o.d -o CMakeFiles/eepromtool.dir/eepromtool.c.o -c /<<BUILDDIR>>package/soem_rsl/test/linux/eepromtool/eepromtool.c
-[ 84%] Building C object soem_rsl/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir/slaveinfo.c.o
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[ 73%] Building C object soem_rsl/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir/slaveinfo.c.o
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/slaveinfo && /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -MD -MT soem_rsl/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir/slaveinfo.c.o -MF CMakeFiles/slaveinfo.dir/slaveinfo.c.o.d -o CMakeFiles/slaveinfo.dir/slaveinfo.c.o -c /<<BUILDDIR>>package/soem_rsl/test/linux/slaveinfo/slaveinfo.c
-[ 89%] Linking C executable simple_test
-cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/simple_test && /usr/bin/cmake -E cmake_link_script CMakeFiles/simple_test.dir/link.txt --verbose=1
-[ 94%] Linking C executable eepromtool
+[ 78%] Building C object soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/eepromtool.c.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/eepromtool && /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -MD -MT soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/eepromtool.c.o -MF CMakeFiles/eepromtool.dir/eepromtool.c.o.d -o CMakeFiles/eepromtool.dir/eepromtool.c.o -c /<<BUILDDIR>>package/soem_rsl/test/linux/eepromtool/eepromtool.c
+[ 84%] Building C object soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/simple_test.c.o
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/simple_test && /usr/lib/ccache/cc  -I/<<BUILDDIR>>package/soem_rsl/soem_rsl -I/<<BUILDDIR>>package/soem_rsl/osal -I/<<BUILDDIR>>package/soem_rsl/osal/linux -I/<<BUILDDIR>>package/soem_rsl/oshw/linux -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror -MD -MT soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/simple_test.c.o -MF CMakeFiles/simple_test.dir/simple_test.c.o.d -o CMakeFiles/simple_test.dir/simple_test.c.o -c /<<BUILDDIR>>package/soem_rsl/test/linux/simple_test/simple_test.c
+[ 89%] Linking C executable eepromtool
+[ 94%] Linking C executable slaveinfo
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/eepromtool && /usr/bin/cmake -E cmake_link_script CMakeFiles/eepromtool.dir/link.txt --verbose=1
-[100%] Linking C executable slaveinfo
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/slaveinfo && /usr/bin/cmake -E cmake_link_script CMakeFiles/slaveinfo.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror CMakeFiles/simple_test.dir/simple_test.c.o -o simple_test  ../../../../libsoem_rsl.a -lpthread -lrt 
+[100%] Linking C executable simple_test
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/soem_rsl/test/linux/simple_test && /usr/bin/cmake -E cmake_link_script CMakeFiles/simple_test.dir/link.txt --verbose=1
 /usr/lib/ccache/cc -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror CMakeFiles/eepromtool.dir/eepromtool.c.o -o eepromtool  ../../../../libsoem_rsl.a -lpthread -lrt 
 /usr/lib/ccache/cc -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror CMakeFiles/slaveinfo.dir/slaveinfo.c.o -o slaveinfo  ../../../../libsoem_rsl.a -lpthread -lrt 
+/usr/lib/ccache/cc -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -Wextra -Werror CMakeFiles/simple_test.dir/simple_test.c.o -o simple_test  ../../../../libsoem_rsl.a -lpthread -lrt 
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 [100%] Built target eepromtool
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
@@ -968,24 +968,24 @@ cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends 
 Consolidate compiler generated dependencies of target slaveinfo
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f soem_rsl/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir/build.make soem_rsl/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir/build
-Consolidate compiler generated dependencies of target eepromtool
 Consolidate compiler generated dependencies of target simple_test
-make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make  -f soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build.make soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build
+Consolidate compiler generated dependencies of target eepromtool
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Nothing to be done for 'soem_rsl/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/build.make soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/build
-make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
-make[4]: Nothing to be done for 'soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build.make soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make[4]: Nothing to be done for 'soem_rsl/test/linux/simple_test/CMakeFiles/simple_test.dir/build'.
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[4]: Nothing to be done for 'soem_rsl/test/linux/eepromtool/CMakeFiles/eepromtool.dir/build'.
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 [ 78%] Built target slaveinfo
-[ 89%] Built target eepromtool
-[100%] Built target simple_test
+[ 89%] Built target simple_test
+[100%] Built target eepromtool
 make[3]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 /usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles 0
 make  -f CMakeFiles/Makefile2 preinstall
@@ -1060,48 +1060,48 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	find debian/ros-humble-soem-rsl -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
    dh_missing -O-v -O--buildsystem=cmake
    dh_strip -O-v -O--buildsystem=cmake
-	debugedit --build-id --build-id-seed=ros-humble-soem-rsl/0-2024.08.29.18.41 debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool
-6605a95a4701b5eff8e9700a0a634eaafd1b6ee2
-	install -d debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/66
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/66/05a95a4701b5eff8e9700a0a634eaafd1b6ee2.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/66/05a95a4701b5eff8e9700a0a634eaafd1b6ee2.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/66/05a95a4701b5eff8e9700a0a634eaafd1b6ee2.debug
-	strip --remove-section=.comment --remove-section=.note -o /tmp/LTi3wA68aN/stripybeBG_ debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool
-	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool /tmp/LTi3wA68aN/stripybeBG_
-	cat '/tmp/LTi3wA68aN/stripybeBG_' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool'
-	chmod --reference /tmp/LTi3wA68aN/stripybeBG_ debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/66/05a95a4701b5eff8e9700a0a634eaafd1b6ee2.debug debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool /tmp/LTi3wA68aN/objcopyi2zWZP
-	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool /tmp/LTi3wA68aN/objcopyi2zWZP
-	cat '/tmp/LTi3wA68aN/objcopyi2zWZP' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool'
-	chmod --reference /tmp/LTi3wA68aN/objcopyi2zWZP debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool
-	debugedit --build-id --build-id-seed=ros-humble-soem-rsl/0-2024.08.29.18.41 debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test
-cd6bf2557d55379822bd4e49d841984ba4029218
-	install -d debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/cd
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/cd/6bf2557d55379822bd4e49d841984ba4029218.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/cd/6bf2557d55379822bd4e49d841984ba4029218.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/cd/6bf2557d55379822bd4e49d841984ba4029218.debug
-	strip --remove-section=.comment --remove-section=.note -o /tmp/LTi3wA68aN/stripoHApuY debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test
-	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test /tmp/LTi3wA68aN/stripoHApuY
-	cat '/tmp/LTi3wA68aN/stripoHApuY' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test'
-	chmod --reference /tmp/LTi3wA68aN/stripoHApuY debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/cd/6bf2557d55379822bd4e49d841984ba4029218.debug debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test /tmp/LTi3wA68aN/objcopyuz4Sal
-	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test /tmp/LTi3wA68aN/objcopyuz4Sal
-	cat '/tmp/LTi3wA68aN/objcopyuz4Sal' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test'
-	chmod --reference /tmp/LTi3wA68aN/objcopyuz4Sal debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test
-	debugedit --build-id --build-id-seed=ros-humble-soem-rsl/0-2024.08.29.18.41 debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo
-4e6827435e3ea57b7cc4238df7049678c206dead
-	install -d debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/4e
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/4e/6827435e3ea57b7cc4238df7049678c206dead.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/4e/6827435e3ea57b7cc4238df7049678c206dead.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/4e/6827435e3ea57b7cc4238df7049678c206dead.debug
-	strip --remove-section=.comment --remove-section=.note -o /tmp/LTi3wA68aN/stripze1xzt debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo
-	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo /tmp/LTi3wA68aN/stripze1xzt
-	cat '/tmp/LTi3wA68aN/stripze1xzt' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo'
-	chmod --reference /tmp/LTi3wA68aN/stripze1xzt debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/4e/6827435e3ea57b7cc4238df7049678c206dead.debug debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo /tmp/LTi3wA68aN/objcopyYbNAOB
-	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo /tmp/LTi3wA68aN/objcopyYbNAOB
-	cat '/tmp/LTi3wA68aN/objcopyYbNAOB' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo'
-	chmod --reference /tmp/LTi3wA68aN/objcopyYbNAOB debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo
+	debugedit --build-id --build-id-seed=ros-humble-soem-rsl/0-2024.08.29.20.17 debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool
+beba430826f6c4c2a72247cf1b079310c90adfaa
+	install -d debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/be
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/be/ba430826f6c4c2a72247cf1b079310c90adfaa.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/be/ba430826f6c4c2a72247cf1b079310c90adfaa.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/be/ba430826f6c4c2a72247cf1b079310c90adfaa.debug
+	strip --remove-section=.comment --remove-section=.note -o /tmp/XPlNig1nfW/stripqpXWPa debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool
+	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool /tmp/XPlNig1nfW/stripqpXWPa
+	cat '/tmp/XPlNig1nfW/stripqpXWPa' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool'
+	chmod --reference /tmp/XPlNig1nfW/stripqpXWPa debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/be/ba430826f6c4c2a72247cf1b079310c90adfaa.debug debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool /tmp/XPlNig1nfW/objcopyUlEpMm
+	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool /tmp/XPlNig1nfW/objcopyUlEpMm
+	cat '/tmp/XPlNig1nfW/objcopyUlEpMm' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool'
+	chmod --reference /tmp/XPlNig1nfW/objcopyUlEpMm debian/ros-humble-soem-rsl/opt/ros/humble/bin/eepromtool
+	debugedit --build-id --build-id-seed=ros-humble-soem-rsl/0-2024.08.29.20.17 debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test
+8b503f587f28f2b7073d8d7dbf7951fbc64622fb
+	install -d debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/8b
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/8b/503f587f28f2b7073d8d7dbf7951fbc64622fb.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/8b/503f587f28f2b7073d8d7dbf7951fbc64622fb.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/8b/503f587f28f2b7073d8d7dbf7951fbc64622fb.debug
+	strip --remove-section=.comment --remove-section=.note -o /tmp/XPlNig1nfW/stripapHvGQ debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test
+	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test /tmp/XPlNig1nfW/stripapHvGQ
+	cat '/tmp/XPlNig1nfW/stripapHvGQ' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test'
+	chmod --reference /tmp/XPlNig1nfW/stripapHvGQ debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/8b/503f587f28f2b7073d8d7dbf7951fbc64622fb.debug debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test /tmp/XPlNig1nfW/objcopyviIzmu
+	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test /tmp/XPlNig1nfW/objcopyviIzmu
+	cat '/tmp/XPlNig1nfW/objcopyviIzmu' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test'
+	chmod --reference /tmp/XPlNig1nfW/objcopyviIzmu debian/ros-humble-soem-rsl/opt/ros/humble/bin/simple_test
+	debugedit --build-id --build-id-seed=ros-humble-soem-rsl/0-2024.08.29.20.17 debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo
+ddc87f42f429bd09dc0aecb9f2c60260d0079ec2
+	install -d debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/dd
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/dd/c87f42f429bd09dc0aecb9f2c60260d0079ec2.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/dd/c87f42f429bd09dc0aecb9f2c60260d0079ec2.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/dd/c87f42f429bd09dc0aecb9f2c60260d0079ec2.debug
+	strip --remove-section=.comment --remove-section=.note -o /tmp/XPlNig1nfW/stripLiklFu debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo
+	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo /tmp/XPlNig1nfW/stripLiklFu
+	cat '/tmp/XPlNig1nfW/stripLiklFu' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo'
+	chmod --reference /tmp/XPlNig1nfW/stripLiklFu debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/lib/debug/.build-id/dd/c87f42f429bd09dc0aecb9f2c60260d0079ec2.debug debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo /tmp/XPlNig1nfW/objcopyNCa6yf
+	chmod --reference debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo /tmp/XPlNig1nfW/objcopyNCa6yf
+	cat '/tmp/XPlNig1nfW/objcopyNCa6yf' > 'debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo'
+	chmod --reference /tmp/XPlNig1nfW/objcopyNCa6yf debian/ros-humble-soem-rsl/opt/ros/humble/bin/slaveinfo
 	strip --strip-debug --remove-section=.comment --remove-section=.note --enable-deterministic-archives -R .gnu.lto_\* -R .gnu.debuglto_\* -N __gnu_lto_slim -N __gnu_lto_v1 debian/ros-humble-soem-rsl/opt/ros/humble/lib/libsoem_rsl.a
 	readelf -W --section-headers debian/ros-humble-soem-rsl/opt/ros/humble/lib/libsoem_rsl.a | sed -n '/^ *\[[ 0-9]*]/s/ *\[[ 0-9]*\] *//p' | awk 'BEGIN {rv=1} /^NULL/ {next} $1 ~ /^.(text|data|(preinit|init|fini)_array$)/ {if ($5 !~ /^0+$/) rv=0} END { exit rv}'
 	install -d debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/usr/share/doc
@@ -1124,7 +1124,7 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	echo misc:Depends= >> debian/ros-humble-soem-rsl.substvars
 	echo misc:Pre-Depends= >> debian/ros-humble-soem-rsl.substvars
 	install -d debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/DEBIAN
-	dpkg-gencontrol -pros-humble-soem-rsl -ldebian/changelog -Tdebian/ros-humble-soem-rsl.substvars -Pdebian/.debhelper/ros-humble-soem-rsl/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-humble-soem-rsl-dbgsym "-DDepends=ros-humble-soem-rsl (= \${binary:Version})" "-DDescription=debug symbols for ros-humble-soem-rsl" "-DBuild-Ids=4e6827435e3ea57b7cc4238df7049678c206dead 6605a95a4701b5eff8e9700a0a634eaafd1b6ee2 cd6bf2557d55379822bd4e49d841984ba4029218" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
+	dpkg-gencontrol -pros-humble-soem-rsl -ldebian/changelog -Tdebian/ros-humble-soem-rsl.substvars -Pdebian/.debhelper/ros-humble-soem-rsl/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-humble-soem-rsl-dbgsym "-DDepends=ros-humble-soem-rsl (= \${binary:Version})" "-DDescription=debug symbols for ros-humble-soem-rsl" "-DBuild-Ids=8b503f587f28f2b7073d8d7dbf7951fbc64622fb beba430826f6c4c2a72247cf1b079310c90adfaa ddc87f42f429bd09dc0aecb9f2c60260d0079ec2" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
 	chmod 0644 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/DEBIAN/control
 	chown 0:0 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/DEBIAN/control
 	dpkg-gencontrol -pros-humble-soem-rsl -ldebian/changelog -Tdebian/ros-humble-soem-rsl.substvars -Pdebian/ros-humble-soem-rsl
@@ -1139,20 +1139,20 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	chown 0:0 -- debian/.debhelper/ros-humble-soem-rsl/dbgsym-root/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-humble-soem-rsl ..
-dpkg-deb: building package 'ros-humble-soem-rsl' in '../ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb'.
+dpkg-deb: building package 'ros-humble-soem-rsl' in '../ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.deb'.
 	install -d debian/.debhelper/scratch-space/build-ros-humble-soem-rsl
 	dpkg-deb --build debian/.debhelper/ros-humble-soem-rsl/dbgsym-root debian/.debhelper/scratch-space/build-ros-humble-soem-rsl
-dpkg-deb: building package 'ros-humble-soem-rsl-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-humble-soem-rsl/ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.deb'.
-	Renaming ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.deb to ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.ddeb
-	mv debian/.debhelper/scratch-space/build-ros-humble-soem-rsl/ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.deb ../ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.ddeb
- dpkg-genbuildinfo --build=binary -O../ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.changes
+dpkg-deb: building package 'ros-humble-soem-rsl-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-humble-soem-rsl/ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.deb'.
+	Renaming ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.deb to ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.ddeb
+	mv debian/.debhelper/scratch-space/build-ros-humble-soem-rsl/ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.deb ../ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.ddeb
+ dpkg-genbuildinfo --build=binary -O../ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2024-08-29T18:41:39Z
+Build finished at 2024-08-29T20:18:13Z
 
 Finished
 --------
@@ -1164,16 +1164,16 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.changes:
+ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.changes:
 -----------------------------------------------------
 
 Format: 1.8
-Date: Thu, 29 Aug 2024 18:41:07 -0000
+Date: Thu, 29 Aug 2024 20:17:39 -0000
 Source: ros-humble-soem-rsl
 Binary: ros-humble-soem-rsl
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 0-2024.08.29.18.41
+Version: 0-2024.08.29.20.17
 Distribution: jammy
 Urgency: high
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
@@ -1181,21 +1181,21 @@ Changed-By: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Description:
  ros-humble-soem-rsl - The soem_rsl package
 Changes:
- ros-humble-soem-rsl (0-2024.08.29.18.41) jammy; urgency=high
+ ros-humble-soem-rsl (0-2024.08.29.20.17) jammy; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- b405826f97ea13b175c6dbeb7c355b037acff5be 226704 ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.ddeb
- 5af92c07bec2e832e69baba03b371479158bb1aa 9567 ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.buildinfo
- 4001be7a819170e3e37daf6c7699daa7cd248816 98746 ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb
+ 87a16f7d9217536739f8e4d002b6c3ac3bdbb12f 226716 ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.ddeb
+ 27bfd618ec76971f1b8b51be8244453fa68a53b7 9567 ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.buildinfo
+ 4bdf0b03ae0e72a1165914325adaab06fee091dc 98758 ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.deb
 Checksums-Sha256:
- 0428452dd72e013d7ff13250aec52cd544d4060aa80c6ce6fcb6865807359b77 226704 ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.ddeb
- c9c12f346b8f3d6d3916c62f520e31eecef3f3272a1d00680fa5304149c9ef8b 9567 ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.buildinfo
- cb6517cbdbb1f5938c7bdb46a1eb544359297b39c49ea3383ce03acdcd5b0cea 98746 ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb
+ b2dcdbaa36b7b4778b5bbc5e8598c470b0f3f0d24c8fd5eca22eebb457b648a5 226716 ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.ddeb
+ a16c4fbe6ee48b946b824b9b6b82f68f38fbb115494c245e6cdbb94d9197d9e0 9567 ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.buildinfo
+ 0c3d8bd6b831e6aebb68187ad9aae0acbb0c53ddb7e21cf5dd1c558115d230d6 98758 ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.deb
 Files:
- 332580f2423a31957775c5ec0044c69d 226704 debug optional ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.ddeb
- 8c73a282e3a070e2abf41b030b1fd540 9567 misc optional ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.buildinfo
- 8fa9c1dee5266b3b0bf13678f37c64c1 98746 misc optional ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb
+ d8b93f82e9d1872fdcf7a9e1627768ec 226716 debug optional ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.ddeb
+ 2e6d06bbedfe8d145b48f3165a3a3355 9567 misc optional ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.buildinfo
+ 0dd0a0197be7102979e231d216dffa7b 98758 misc optional ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -1205,19 +1205,19 @@ Format: 1.0
 Source: ros-humble-soem-rsl
 Binary: ros-humble-soem-rsl ros-humble-soem-rsl-dbgsym
 Architecture: amd64
-Version: 0-2024.08.29.18.41
+Version: 0-2024.08.29.20.17
 Checksums-Md5:
- 332580f2423a31957775c5ec0044c69d 226704 ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.ddeb
- 8fa9c1dee5266b3b0bf13678f37c64c1 98746 ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb
+ d8b93f82e9d1872fdcf7a9e1627768ec 226716 ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.ddeb
+ 0dd0a0197be7102979e231d216dffa7b 98758 ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.deb
 Checksums-Sha1:
- b405826f97ea13b175c6dbeb7c355b037acff5be 226704 ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.ddeb
- 4001be7a819170e3e37daf6c7699daa7cd248816 98746 ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb
+ 87a16f7d9217536739f8e4d002b6c3ac3bdbb12f 226716 ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.ddeb
+ 4bdf0b03ae0e72a1165914325adaab06fee091dc 98758 ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.deb
 Checksums-Sha256:
- 0428452dd72e013d7ff13250aec52cd544d4060aa80c6ce6fcb6865807359b77 226704 ros-humble-soem-rsl-dbgsym_0-2024.08.29.18.41_amd64.ddeb
- cb6517cbdbb1f5938c7bdb46a1eb544359297b39c49ea3383ce03acdcd5b0cea 98746 ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb
+ b2dcdbaa36b7b4778b5bbc5e8598c470b0f3f0d24c8fd5eca22eebb457b648a5 226716 ros-humble-soem-rsl-dbgsym_0-2024.08.29.20.17_amd64.ddeb
+ 0c3d8bd6b831e6aebb68187ad9aae0acbb0c53ddb7e21cf5dd1c558115d230d6 98758 ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 29 Aug 2024 18:41:39 +0000
+Build-Date: Thu, 29 Aug 2024 20:18:12 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -1457,7 +1457,7 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1724956867"
+ SOURCE_DATE_EPOCH="1724962659"
 
 
 +------------------------------------------------------------------------------+
@@ -1465,15 +1465,15 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb
+ros-humble-soem-rsl_0-2024.08.29.20.17_amd64.deb
 ------------------------------------------------
 
  new Debian package, version 2.0.
- size 98746 bytes: control archive=1523 bytes.
+ size 98758 bytes: control archive=1522 bytes.
      250 bytes,     9 lines      control              
     3537 bytes,    42 lines      md5sums              
  Package: ros-humble-soem-rsl
- Version: 0-2024.08.29.18.41
+ Version: 0-2024.08.29.20.17
  Architecture: amd64
  Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
  Installed-Size: 434
@@ -1482,69 +1482,69 @@ ros-humble-soem-rsl_0-2024.08.29.18.41_amd64.deb
  Priority: optional
  Description: The soem_rsl package
 
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/bin/
--rwxr-xr-x root/root     22864 2024-08-29 18:41 ./opt/ros/humble/bin/eepromtool
--rwxr-xr-x root/root     55632 2024-08-29 18:41 ./opt/ros/humble/bin/simple_test
--rwxr-xr-x root/root     76112 2024-08-29 18:41 ./opt/ros/humble/bin/slaveinfo
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/include/
--rw-r--r-- root/root     14510 2024-08-29 18:40 ./opt/ros/humble/include/ethercattype.h
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/include/soem_rsl/
--rw-r--r-- root/root       570 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercat.h
--rw-r--r-- root/root      3418 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatbase.h
--rw-r--r-- root/root      3692 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatcoe.h
--rw-r--r-- root/root      1265 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatconfig.h
--rw-r--r-- root/root      5717 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatconfiglist.h
--rw-r--r-- root/root       839 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatdc.h
--rw-r--r-- root/root      6504 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercateoe.h
--rw-r--r-- root/root       883 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatfoe.h
--rw-r--r-- root/root     15640 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatmain.h
--rw-r--r-- root/root       669 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatprint.h
--rw-r--r-- root/root      3148 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercatsoe.h
--rw-r--r-- root/root     14510 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/ethercattype.h
--rw-r--r-- root/root      3041 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/nicdrv.h
--rw-r--r-- root/root      1473 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/osal.h
--rw-r--r-- root/root       649 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/osal_defs.h
--rw-r--r-- root/root       557 2024-08-29 18:40 ./opt/ros/humble/include/soem_rsl/oshw.h
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/lib/
--rw-r--r-- root/root    149122 2024-08-29 18:41 ./opt/ros/humble/lib/libsoem_rsl.a
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/ament_index/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/ament_index/resource_index/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/
--rw-r--r-- root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/soem_rsl
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/ament_index/resource_index/packages/
--rw-r--r-- root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/ament_index/resource_index/packages/soem_rsl
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/
--rw-r--r-- root/root         8 2024-08-29 18:41 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/soem_rsl
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/cmake/
--rw-r--r-- root/root       969 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/cmake/ament_cmake_export_targets-extras.cmake
--rw-r--r-- root/root       838 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/cmake/export_soem_rslExport-none.cmake
--rw-r--r-- root/root      3533 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/cmake/export_soem_rslExport.cmake
--rw-r--r-- root/root       432 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/cmake/soem_rslConfig-version.cmake
--rw-r--r-- root/root      1268 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/cmake/soem_rslConfig.cmake
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/environment/
--rw-r--r-- root/root        41 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/environment/ament_prefix_path.dsv
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/bin/
+-rwxr-xr-x root/root     22864 2024-08-29 20:17 ./opt/ros/humble/bin/eepromtool
+-rwxr-xr-x root/root     55632 2024-08-29 20:17 ./opt/ros/humble/bin/simple_test
+-rwxr-xr-x root/root     76112 2024-08-29 20:17 ./opt/ros/humble/bin/slaveinfo
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/include/
+-rw-r--r-- root/root     14510 2024-08-29 20:16 ./opt/ros/humble/include/ethercattype.h
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/include/soem_rsl/
+-rw-r--r-- root/root       570 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercat.h
+-rw-r--r-- root/root      3418 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatbase.h
+-rw-r--r-- root/root      3692 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatcoe.h
+-rw-r--r-- root/root      1265 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatconfig.h
+-rw-r--r-- root/root      5717 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatconfiglist.h
+-rw-r--r-- root/root       839 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatdc.h
+-rw-r--r-- root/root      6504 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercateoe.h
+-rw-r--r-- root/root       883 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatfoe.h
+-rw-r--r-- root/root     15640 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatmain.h
+-rw-r--r-- root/root       669 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatprint.h
+-rw-r--r-- root/root      3148 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercatsoe.h
+-rw-r--r-- root/root     14510 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/ethercattype.h
+-rw-r--r-- root/root      3041 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/nicdrv.h
+-rw-r--r-- root/root      1473 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/osal.h
+-rw-r--r-- root/root       649 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/osal_defs.h
+-rw-r--r-- root/root       557 2024-08-29 20:16 ./opt/ros/humble/include/soem_rsl/oshw.h
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/lib/
+-rw-r--r-- root/root    149122 2024-08-29 20:17 ./opt/ros/humble/lib/libsoem_rsl.a
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/ament_index/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/
+-rw-r--r-- root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/soem_rsl
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/ament_index/resource_index/packages/soem_rsl
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/
+-rw-r--r-- root/root         8 2024-08-29 20:17 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/soem_rsl
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/cmake/
+-rw-r--r-- root/root       969 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/cmake/ament_cmake_export_targets-extras.cmake
+-rw-r--r-- root/root       838 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/cmake/export_soem_rslExport-none.cmake
+-rw-r--r-- root/root      3533 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/cmake/export_soem_rslExport.cmake
+-rw-r--r-- root/root       432 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/cmake/soem_rslConfig-version.cmake
+-rw-r--r-- root/root      1268 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/cmake/soem_rslConfig.cmake
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/environment/
+-rw-r--r-- root/root        41 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/environment/ament_prefix_path.dsv
 -rw-r--r-- root/root       160 2024-07-26 13:29 ./opt/ros/humble/share/soem_rsl/environment/ament_prefix_path.sh
--rw-r--r-- root/root        42 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/environment/library_path.dsv
+-rw-r--r-- root/root        42 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/environment/library_path.dsv
 -rw-r--r-- root/root       411 2022-04-19 23:53 ./opt/ros/humble/share/soem_rsl/environment/library_path.sh
--rw-r--r-- root/root        41 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/environment/path.dsv
+-rw-r--r-- root/root        41 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/environment/path.dsv
 -rw-r--r-- root/root       185 2024-07-26 13:29 ./opt/ros/humble/share/soem_rsl/environment/path.sh
--rw-r--r-- root/root      1594 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/local_setup.bash
--rw-r--r-- root/root       147 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/local_setup.dsv
--rw-r--r-- root/root      5091 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/local_setup.sh
--rw-r--r-- root/root      1957 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/local_setup.zsh
--rw-r--r-- root/root       152 2024-08-29 18:41 ./opt/ros/humble/share/soem_rsl/package.dsv
--rw-r--r-- root/root       465 2024-08-29 18:40 ./opt/ros/humble/share/soem_rsl/package.xml
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./usr/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./usr/share/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./usr/share/doc/
-drwxr-xr-x root/root         0 2024-08-29 18:41 ./usr/share/doc/ros-humble-soem-rsl/
--rw-r--r-- root/root       204 2024-08-29 18:41 ./usr/share/doc/ros-humble-soem-rsl/changelog.Debian.gz
+-rw-r--r-- root/root      1594 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/local_setup.bash
+-rw-r--r-- root/root       147 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/local_setup.dsv
+-rw-r--r-- root/root      5091 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/local_setup.sh
+-rw-r--r-- root/root      1957 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/local_setup.zsh
+-rw-r--r-- root/root       152 2024-08-29 20:17 ./opt/ros/humble/share/soem_rsl/package.dsv
+-rw-r--r-- root/root       465 2024-08-29 20:16 ./opt/ros/humble/share/soem_rsl/package.xml
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./usr/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./usr/share/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./usr/share/doc/
+drwxr-xr-x root/root         0 2024-08-29 20:17 ./usr/share/doc/ros-humble-soem-rsl/
+-rw-r--r-- root/root       204 2024-08-29 20:17 ./usr/share/doc/ros-humble-soem-rsl/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -1566,18 +1566,18 @@ Not cleaning session: cloned chroot in use
 Build Architecture: amd64
 Build Type: binary
 Build-Space: 8044
-Build-Time: 5
+Build-Time: 6
 Distribution: jammy
 Host Architecture: amd64
-Install-Time: 14
-Job: /home/runner/work/hrg_buildfarm/hrg_buildfarm/src/soem_interface/ros-humble-soem-rsl_0-2024.08.29.18.41.dsc
+Install-Time: 15
+Job: /home/runner/work/hrg_buildfarm/hrg_buildfarm/src/soem_interface/ros-humble-soem-rsl_0-2024.08.29.20.17.dsc
 Machine Architecture: amd64
 Package: ros-humble-soem-rsl
-Package-Time: 32
-Source-Version: 0-2024.08.29.18.41
+Package-Time: 34
+Source-Version: 0-2024.08.29.20.17
 Space: 8044
 Status: successful
-Version: 0-2024.08.29.18.41
+Version: 0-2024.08.29.20.17
 --------------------------------------------------------------------------------
-Finished at 2024-08-29T18:41:39Z
-Build needed 00:00:32, 8044k disk space
+Finished at 2024-08-29T20:18:13Z
+Build needed 00:00:34, 8044k disk space

@@ -7,3 +7,7 @@ repositories:
     type: git
     url: https://github.com/qiayuanl/soem_interface.git
     version: 80eaa5d3dab80f440ec24096cc776e01176ce519
+  soem_ros2:
+    type: git
+    url: https://github.com/qiayuanl/soem_ros2
+    version: 83fdd6a25a1be0db285d64982c9d9bb8493ed13e
