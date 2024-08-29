@@ -1,20 +1,17 @@
 Format: 1.0
-Source: ros-humble-soem-interface-rsl
-Binary: ros-humble-soem-interface-rsl ros-humble-soem-interface-rsl-dbgsym
+Source: ros-humble-message-logger
+Binary: ros-humble-message-logger
 Architecture: amd64
-Version: 0-2024.08.25.20.15
+Version: 0-2024.08.29.18.40
 Checksums-Md5:
- c25b316b7bacb9b9781eb9e1bf99d729 678448 ros-humble-soem-interface-rsl-dbgsym_0-2024.08.25.20.15_amd64.ddeb
- fa2b3b02b2426dd16d0ca07204951270 107532 ros-humble-soem-interface-rsl_0-2024.08.25.20.15_amd64.deb
+ 508e17ff40cdd173f1d2c791df3d9377 19434 ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
 Checksums-Sha1:
- 291be583a4e5374e82d210577d79d1451b613677 678448 ros-humble-soem-interface-rsl-dbgsym_0-2024.08.25.20.15_amd64.ddeb
- d30b8d5158090fb5b40abc2342db7b1b5c0a1bcb 107532 ros-humble-soem-interface-rsl_0-2024.08.25.20.15_amd64.deb
+ e6094841199e1d0f7ea093ea2239c6406b65e860 19434 ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
 Checksums-Sha256:
- dfa1227467d8ab911b5967da8828fe567983f2fb11d7b5ee2d1ee5b3568af21e 678448 ros-humble-soem-interface-rsl-dbgsym_0-2024.08.25.20.15_amd64.ddeb
- 716bf86306dc81656cc0766625cb93b9fb7766afa435253a1361aa70f25000d8 107532 ros-humble-soem-interface-rsl_0-2024.08.25.20.15_amd64.deb
+ f37c09028d933e9e5b7fe0c8a882344125964bf64f89e67d8955738f8ba2f2c5 19434 ros-humble-message-logger_0-2024.08.29.18.40_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 25 Aug 2024 20:16:26 +0000
+Build-Date: Thu, 29 Aug 2024 18:41:03 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -256,6 +253,7 @@ Installed-Build-Depends:
  python3.10-minimal (= 3.10.12-1~22.04.5),
  readline-common (= 8.1.2-1),
  ros-humble-ament-cmake (= 1.3.10-1jammy.20240728.192834),
+ ros-humble-ament-cmake-auto (= 1.3.10-1jammy.20240728.193007),
  ros-humble-ament-cmake-core (= 1.3.10-1jammy.20240728.190459),
  ros-humble-ament-cmake-export-definitions (= 1.3.10-1jammy.20240728.192015),
  ros-humble-ament-cmake-export-dependencies (= 1.3.10-1jammy.20240728.192011),
@@ -288,7 +286,6 @@ Installed-Build-Depends:
  ros-humble-gtest-vendor (= 1.10.9006-1jammy.20240728.191526),
  ros-humble-libstatistics-collector (= 1.3.2-1jammy.20240728.214914),
  ros-humble-libyaml-vendor (= 1.2.2-2jammy.20240728.205125),
- ros-humble-message-logger (= 0-2024.08.25.20.14),
  ros-humble-python-cmake-module (= 0.10.0-2jammy.20240728.202845),
  ros-humble-rcl (= 5.3.9-1jammy.20240728.213530),
  ros-humble-rcl-interfaces (= 1.2.1-1jammy.20240728.211344),
@@ -324,7 +321,6 @@ Installed-Build-Depends:
  ros-humble-rosidl-typesupport-introspection-c (= 3.1.5-2jammy.20240728.205029),
  ros-humble-rosidl-typesupport-introspection-cpp (= 3.1.5-2jammy.20240728.205326),
  ros-humble-rpyutils (= 0.2.1-2jammy.20240728.200220),
- ros-humble-soem-rsl (= 0-2024.08.25.20.15),
  ros-humble-spdlog-vendor (= 1.3.1-1jammy.20240728.202943),
  ros-humble-statistics-msgs (= 1.2.1-1jammy.20240728.212036),
  ros-humble-std-msgs (= 4.2.4-1jammy.20240728.212043),
@@ -347,4 +343,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1724616941"
+ SOURCE_DATE_EPOCH="1724956822"
