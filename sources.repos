@@ -1,4 +1,8 @@
 repositories:
+  legged_control2:
+    type: git
+    url: https://github.com/qiayuanl/legged_control2
+    version: 2f3c90bf55c8d952aefd3f8b95e59f66c14f7123
   message_logger:
     type: git
     url: https://github.com/qiayuanl/message_logger.git
@@ -10,4 +14,4 @@ repositories:
   soem_ros2:
     type: git
     url: https://github.com/qiayuanl/soem_ros2
-    version: 83fdd6a25a1be0db285d64982c9d9bb8493ed13e
+    version: 480ec2064cdbe520576f756e4a217dce94805cb6
