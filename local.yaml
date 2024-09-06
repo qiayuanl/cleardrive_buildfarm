@@ -46,9 +46,6 @@ cleardrive_manager:
 cleardrive_example:
   ubuntu:
   - ros-humble-cleardrive-example
-cleardrive_ros:
-  ubuntu:
-  - ros-humble-cleardrive-ros
 cleardrive_ros2:
   ubuntu:
   - ros-humble-cleardrive-ros2
