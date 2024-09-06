@@ -1,8 +1,12 @@
 repositories:
+  cleardrive:
+    type: git
+    url: https://github.com/qiayuanl/cleardrive
+    version: a714d5ba953f0ca67a95c8ef27107351e2c456b7
   legged_control2:
     type: git
     url: https://github.com/qiayuanl/legged_control2
-    version: a110ab06dc4b7916e7e2ba7c165524e07df25f44
+    version: b07d4fc6f53393e50ea7c1bb0b54e7bd10149e3a
   message_logger:
     type: git
     url: https://github.com/qiayuanl/message_logger.git
@@ -14,4 +18,4 @@ repositories:
   soem_ros2:
     type: git
     url: https://github.com/qiayuanl/soem_ros2
-    version: 480ec2064cdbe520576f756e4a217dce94805cb6
+    version: 554d82d639fe83dd397d703bfc2562390a7dd890
