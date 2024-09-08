@@ -2,11 +2,11 @@ repositories:
   cleardrive:
     type: git
     url: https://github.com/qiayuanl/cleardrive
-    version: 6da8665a3c31455f832e4f89a87716e6e400d324
+    version: 929321f5232b59f923d36b4cd1f4e9f792af0aec
   legged_control2:
     type: git
     url: https://github.com/qiayuanl/legged_control2
-    version: b07d4fc6f53393e50ea7c1bb0b54e7bd10149e3a
+    version: 26ecb496ad5ce946cca144684fb75726e76ad904
   message_logger:
     type: git
     url: https://github.com/qiayuanl/message_logger.git
