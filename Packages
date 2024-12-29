@@ -1,111 +1,111 @@
 Package: ros-humble-cleardrive-foc-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.40
+Version: 0-2024.12.29.12.41
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-cleardrive-foc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 716
-Depends: ros-humble-cleardrive-foc (= 0-2024.12.29.11.40)
-Filename: ./ros-humble-cleardrive-foc-dbgsym_0-2024.12.29.11.40_amd64.ddeb
-Size: 662968
-MD5sum: 729209fe01c2f42695e1c1366ce53030
-SHA1: 510d11d35ea5e550ba64c4aa8ce110d1d0ed0a33
-SHA256: 11ac0ed3964cecd60ace908dae03d9cb63a7782c97c528bfc76250a08529901d
-SHA512: 5649ba22401afe57ca811368b29a716f9b2b3c6f925ea2f833bce1258ca37c35b67976bbdc878aa59f64dc6627b2a9dfda204fefabcdae3bd23378323654af51
+Depends: ros-humble-cleardrive-foc (= 0-2024.12.29.12.41)
+Filename: ./ros-humble-cleardrive-foc-dbgsym_0-2024.12.29.12.41_amd64.ddeb
+Size: 662964
+MD5sum: 8b6e8c74e809d838797537025e0872c0
+SHA1: c94042d78723e7cb3ef99acde8a992ae57829457
+SHA256: 585c7173c05411a54dc848d5921b751e49234126cb7f6555a4407d1de5f22fca
+SHA512: 2afcb567e77a9fe29953bc2bf8abf97dda79b1f967e058d8560989df231415e2c86e4ff91bf7393c0ce649d4aee7075ddd86b436cbec5d846be600e2a26236d7
 Description: debug symbols for ros-humble-cleardrive-foc
-Build-Ids: ee7e5d9623af67c5a0844f783e33cda3225b811f
+Build-Ids: 19664129fb38a3194a589f932ca5782a401828d8
 
 Package: ros-humble-cleardrive-foc
 Architecture: amd64
-Version: 0-2024.12.29.11.40
+Version: 0-2024.12.29.12.41
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 239
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev, ros-humble-soem-interface-rsl
-Filename: ./ros-humble-cleardrive-foc_0-2024.12.29.11.40_amd64.deb
-Size: 61084
-MD5sum: b9aa2e46a0abae769e9a2ea3ab027b65
-SHA1: f1b7f71f18045ac6c6f76f97c528147e3a0515b8
-SHA256: 0199687500a7ab868787438bf7fc2218bd607164a7b191894647f2f206888c7b
-SHA512: 34c7d1c1f387439de1ad90fec0bb52b5d40707c792dccc9631e36178abde3e547233fc147f66f4f50bfd7e7167e3a4b369b782a06b4e5f168e49c02c0583b6fc
+Filename: ./ros-humble-cleardrive-foc_0-2024.12.29.12.41_amd64.deb
+Size: 61082
+MD5sum: 6ca2a482a56b0f22ca7867afa37dab56
+SHA1: f12a8c5651ece83b4bb115b691644998b8f3964d
+SHA256: 785c3c46dfc7af9e9ee2f3dc295b8327e4675658ae9d6e3617f7c0b74d3927ea
+SHA512: 20b3b57cdcf28c278208452900751f0f83d61874cd22828b45e4b2ee2c9265fadfa4b0cdb117553896ce4137a824efd3e8f8638401a6ef185452637e24c7ad15
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: CLEAR FOC Ethercat implementation.
 
 Package: ros-humble-cleardrive-imu-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.41
+Version: 0-2024.12.29.12.42
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-cleardrive-imu
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 2946
-Depends: ros-humble-cleardrive-imu (= 0-2024.12.29.11.41)
-Filename: ./ros-humble-cleardrive-imu-dbgsym_0-2024.12.29.11.41_amd64.ddeb
-Size: 2926478
-MD5sum: 7ef6dae6a61ac48161793c5c6a6a5f14
-SHA1: 09e4f7b4970c9f6a58c1e2afb8670a83134e79fb
-SHA256: f42c4d7b8b3cf7df013453838bc7081619ba79ea2be545369455fa633a69f104
-SHA512: 87f95c38c69940878b6106e63a785a0fc97042de8e98ceec4c667b94c7c69ddf90d4f666a6440606961e0163ef4606659afcdb1dcbb5463907bb9d54d3dee174
+Depends: ros-humble-cleardrive-imu (= 0-2024.12.29.12.42)
+Filename: ./ros-humble-cleardrive-imu-dbgsym_0-2024.12.29.12.42_amd64.ddeb
+Size: 2926482
+MD5sum: 61fc3cd24d68fb05241fa27fa8858aad
+SHA1: 429bd1a9fc111e79a10cf1162d989ac389c488e1
+SHA256: bcaeab8d3b4bc02b390302f839e06d3b38b8a96b1dbe4f995200bbb0144cb35a
+SHA512: 6e04040450813b5889cc1ecf275eb4c1a8da4a2bb731021d1bcb65fd96d0ffaaaaf9eb30358e9ecd43f6eb32df7dfdb62d8e36aab6c8ca9a3a19afeabd6daa75
 Description: debug symbols for ros-humble-cleardrive-imu
-Build-Ids: 217e1aa740bb77c1324a180402f4fcc3028a818c
+Build-Ids: c8a9576f3b9ca7753cc61ac6a926988d8fce7679
 
 Package: ros-humble-cleardrive-imu
 Architecture: amd64
-Version: 0-2024.12.29.11.41
+Version: 0-2024.12.29.12.42
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 271
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), libeigen3-dev, libyaml-cpp-dev, ros-humble-soem-interface-rsl
-Filename: ./ros-humble-cleardrive-imu_0-2024.12.29.11.41_amd64.deb
-Size: 81040
-MD5sum: 7664b8eaba5a1360f2206daf8ef349d7
-SHA1: 61dbc600286f628275eff5b9b4a249a9a5107506
-SHA256: e78f530752d847b90fba7fb11497255ed6db032850c89f6996c0f0e337ab613d
-SHA512: 294aee44268bb691aac26b5cd42828b4e2e32b945a278eb76b1fef6e04a526677951a59e879c3bd5a5fe3c167dca94b3d7d90b9ee9f10e2489a4e0141b617572
+Filename: ./ros-humble-cleardrive-imu_0-2024.12.29.12.42_amd64.deb
+Size: 81026
+MD5sum: 381e253abb7bfacc7932b94f3b3fd3b8
+SHA1: 2df91913ad94d93f30c63fffa1dfcb041c3d38b9
+SHA256: b21476ffc449546eb32ce11c0ec174f442b7ea5d6403c9ea1f8e33403edf5df2
+SHA512: 3d492c03a5416100743b020466a88538ded327b949386f651ea3e8bf0b1ebc10ec82a968f02279c8a2e71ebba543cc6266ce6ee4cb12ffc7958509bf9926ecaf
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: CLEAR IMU Ethercat implementation.
 
 Package: ros-humble-cleardrive-manager-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.43
+Version: 0-2024.12.29.12.44
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-cleardrive-manager
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 142
-Depends: ros-humble-cleardrive-manager (= 0-2024.12.29.11.43)
-Filename: ./ros-humble-cleardrive-manager-dbgsym_0-2024.12.29.11.43_amd64.ddeb
-Size: 125082
-MD5sum: 131988fe6f8accf7b1ac90941a54bc0e
-SHA1: c713196153fcb04c6898e314ad126685a1680be5
-SHA256: 776c02703c86eff8813b114ae2f519913db968f0e7842fc0bf77b9f1c28cfacc
-SHA512: 738a80a4a4610752fa0257199e0b0e9b18a31a9dc35b1a8be996ffbb0dec23857f8dfb1eec3b35000d04fe89b1bfbe0c7f89ac3256dce137787cb1a59976a7f9
+Depends: ros-humble-cleardrive-manager (= 0-2024.12.29.12.44)
+Filename: ./ros-humble-cleardrive-manager-dbgsym_0-2024.12.29.12.44_amd64.ddeb
+Size: 125084
+MD5sum: 07bb9062f768c31cbf5893efff76bfd9
+SHA1: 004ceaf1798a87919a7e439d82cf491cd0a691b1
+SHA256: 304d55c3766ebbb01f874de9ebd45e892833afa8e1d38efc5097c9e9e260fc13
+SHA512: 11e531ea7e11ecd05598ca2a0c960f67390a5ff696b2a06af4fcc519df6e40bbda49f8fa15fc07142fe9f1a86a6937e1da6067fd4b471560bc0b029aeb283c77
 Description: debug symbols for ros-humble-cleardrive-manager
-Build-Ids: ca9e208b8b8cf45ea20ddcdf8a4dbb1156eecc61
+Build-Ids: df23f3008383ebade092d142bbc7cdf80d89b48a
 
 Package: ros-humble-cleardrive-manager
 Architecture: amd64
-Version: 0-2024.12.29.11.43
+Version: 0-2024.12.29.12.44
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 83
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-cleardrive-foc, ros-humble-cleardrive-imu, ros-humble-soem-ros2
-Filename: ./ros-humble-cleardrive-manager_0-2024.12.29.11.43_amd64.deb
-Size: 12768
-MD5sum: a04e625dd848801492badd2598210e1f
-SHA1: 17179b1a0cccfe8f02adfe0f933a82344cfef97e
-SHA256: e6916ebb6560f23c848eeb8244aae228254dbbc6f2eac32d21425a415c35a5c8
-SHA512: 1f10ac53277a2cbddf494820d7e410f25a663bca5983f8a5be23dadd0a1e8c999416f01bb2cbc052107fef96fb1efd63daf0d840b0b430db3e1d0328b94b3251
+Filename: ./ros-humble-cleardrive-manager_0-2024.12.29.12.44_amd64.deb
+Size: 12758
+MD5sum: da2bbbfcba3d075a207fda78608af1b8
+SHA1: 86904f8c1b86327e7a9dc47a0f2f428b71f74e81
+SHA256: a16cd444cc019d9f89704e3f19e6f184e0a01cb22d8c9e2a803728d99c8e8fb8
+SHA512: e1d74bd589fdea18167bebcc86ff1cb5449e4c08e44a1edeb89e5fc22a2865d57177ec4814df93dc97e7437f5cb430cf20eb17474ee56a20f3874b25600392e3
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: Core C++ library to interface one or multiple drives.
  Contains abstract base classes for the communication interface.
@@ -113,394 +113,394 @@ Description: Core C++ library to interface one or multiple drives.
 Package: ros-humble-cleardrive-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.27
+Version: 0-2024.12.29.12.32
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-cleardrive-msgs
 Maintainer: qiayuan <liaoqiayuan@gmail.com>
-Installed-Size: 1160
-Depends: ros-humble-cleardrive-msgs (= 0-2024.12.29.11.27)
-Filename: ./ros-humble-cleardrive-msgs-dbgsym_0-2024.12.29.11.27_amd64.ddeb
-Size: 849188
-MD5sum: da2afaba370b2f00a5846d2cb03e0d16
-SHA1: 61c588ba190c222092c926f3c27fe4ac151c8fe9
-SHA256: 5e36d19606b96cfae37fbab2028e4e894712171231de33ba42277f6514aed9e1
-SHA512: 50c03a8ae0974a2237bb5c977e93ce4ca4f2622f81a09bd0e8df1596a7804115712ae2533520ba43a48a01eafbcad03060143288c31463d0952fec99c882a253
+Installed-Size: 1161
+Depends: ros-humble-cleardrive-msgs (= 0-2024.12.29.12.32)
+Filename: ./ros-humble-cleardrive-msgs-dbgsym_0-2024.12.29.12.32_amd64.ddeb
+Size: 848322
+MD5sum: 66c86c07cfd421bb844e45bd778c0a10
+SHA1: ac87ef04a2c90f67ece083654a57fffbc816cf8d
+SHA256: 30deac1c066a17b6b4f3c44f145c58ffa8e598c44a6ae62e4682f4affa35220a
+SHA512: 13512275f6334f43e29773b72ba61466f25d015e0c3bdd9e00beffcfc008e17f3738c7e48754f36e9f5e8aa02f24e340791333175c121e5fcd7dbf8cbf03a825
 Description: debug symbols for ros-humble-cleardrive-msgs
-Build-Ids: 02f63e7cf3a186fa77627e669ea3c0c88f5e7c93 15c267affee090e79f9a36dc405975072b25df37 180da6f518d92c3c3310f25dd587ebc4c671d38f 2058e1fc9a955dd26aba77d27d76516c607285c3 5d9c19f5b0673d5dfdf991fca5d51539f79da635 67684a2192f93e5d4797bb6c8735f6ded5567c85 67f1b40c5a95471d916eac57ade3ba8207f0e6ec 6f351912a55d2984f66f7d992df299321e06922a 744231c4e6dd942d12fec1138c0328bc43d9784d 819e5624b0b2efedace0e270c49e8220578f3f79 b03b97cbd021e212ee1bae806117aabf6a174eea d3222ea97495fe85f2eea80fd055b1f4af56cd78
+Build-Ids: 0ceaa6417f53d2d415ad13e7a1823c62f61e6fc5 3352c9229b5004ba25f87403b51cff01f9cf7853 3ed54587d8d98e3bceaf45d8a5a7d13f69aebde3 46bc126450286fc5fa51bc1d2b217063424c52ac 4ec8c58c7e6d3aedbee7e488cbb010f53e28d8a5 7ad94219164f5bd635e94a1d8845c5070afd8cd1 7e57a56d943278b245fd93a9039fc24ed2994d7d 96b631406541978d85fa9b168575d56135f75ed1 9a61947ee2c1478a8292f0dcabf4a04f67b5f0e1 e691ca65862d1cc23a0354f38d9fc56a6f080286 f19a0e6bb53e89e81b18f342a76e5fcb683ed4bc fc7c68ae7a9f2f0fae1c93290819da6eb166c9f1
 
 Package: ros-humble-cleardrive-msgs
 Architecture: amd64
-Version: 0-2024.12.29.11.27
+Version: 0-2024.12.29.12.32
 Priority: optional
 Section: misc
 Maintainer: qiayuan <liaoqiayuan@gmail.com>
 Installed-Size: 1647
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-geometry-msgs, ros-humble-rosidl-default-runtime, ros-humble-sensor-msgs
-Filename: ./ros-humble-cleardrive-msgs_0-2024.12.29.11.27_amd64.deb
-Size: 114624
-MD5sum: e6407025298236e12547680ae856310c
-SHA1: 3644dbbd0318fde28f7fa072b2881fdcbb2e9abe
-SHA256: 8d3931b99ce00c5a6201200349157e4c11d9637b94b4a49ad526be5d78d3149c
-SHA512: 108481cba4c80d39226190381c8f7f1a01762abbf256457a4dc83d29119522913e79a720b3d522a78b0dc825696bd25e03e8eb4ca3e33993e5b50b96709495d8
+Filename: ./ros-humble-cleardrive-msgs_0-2024.12.29.12.32_amd64.deb
+Size: 114616
+MD5sum: 4f2074ac0548ce1eb4a92e6b46720fc8
+SHA1: c9fc4a670d4a4ca51a575f452699735f96b82c7b
+SHA256: a389cead8785474dc6654e0a92d7693aa00a3c425ec677de0b1da545d122f818
+SHA512: ec62f9192305ed61274c114aee8fcf2a2e82dff2dafbcf8324360827d0da7fb565ff0895073deb69ce307edb575e2f6dc2bd16df88a811978901273ab4ade47b
 Description: The rm_msgs package provides the ROS messages
 
 Package: ros-humble-cleardrive-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.44
+Version: 0-2024.12.29.12.45
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-cleardrive-ros2
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 4222
-Depends: ros-humble-cleardrive-ros2 (= 0-2024.12.29.11.44)
-Filename: ./ros-humble-cleardrive-ros2-dbgsym_0-2024.12.29.11.44_amd64.ddeb
-Size: 3744562
-MD5sum: f0a5689d59f27170f0cd9f3ad6a5234f
-SHA1: 22af7b3ada837cbd0dd0736f568c1266e354b89d
-SHA256: 1811a74044eb2e0f0a38775853d703178fe3d6671810e70bea9ae7027107d621
-SHA512: 836efbdad34bbb62f68212ba7516b69c3bfe6e9a82cb5eaf66850f71ffc7e762cb6773eade1ffac8ae2ac8640d0877f5322aa564e51e71b8bd3ba2b4f85e970c
+Depends: ros-humble-cleardrive-ros2 (= 0-2024.12.29.12.45)
+Filename: ./ros-humble-cleardrive-ros2-dbgsym_0-2024.12.29.12.45_amd64.ddeb
+Size: 3744568
+MD5sum: 2910ea693d56f86a543d949109ae2054
+SHA1: e043b3adb46556aeda8cac797b5abccc45d7bf59
+SHA256: 9db494cd589af7891baf7426860dfaf74dfbfa1b86378ed1c1bab43d3d50f034
+SHA512: 669e841f4b2ed05473ce3201c175f140d080fe981f511c91bd735d692df9cd63e9c90a89996b4e9d5b66cf176fd0376c0d7ae6d0a9e1e254efb53285b35e88b1
 Description: debug symbols for ros-humble-cleardrive-ros2
-Build-Ids: 2687e636be6580298c19c60cb5a142ccfc225972
+Build-Ids: 1628cee9d91837f2acc20fe5e195d5a042130dfc
 
 Package: ros-humble-cleardrive-ros2
 Architecture: amd64
-Version: 0-2024.12.29.11.44
+Version: 0-2024.12.29.12.45
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 786
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-cleardrive-foc, ros-humble-cleardrive-imu, ros-humble-cleardrive-manager, ros-humble-cleardrive-msgs, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-soem-ros2
-Filename: ./ros-humble-cleardrive-ros2_0-2024.12.29.11.44_amd64.deb
-Size: 172478
-MD5sum: 954b08febbddaa5d8c53708e103ededf
-SHA1: c7007234f9c8b7c291691546a91751ab35c177ee
-SHA256: 0c1407185bfb267086cc5e71e906e2fbb251055572813cd466ce06654be0c056
-SHA512: ed35662079f0ddfc30c87c4cd6e7a8088238e9a6f530fa8a9d68cbdfac222e456ad9683a3e618e3adf668d9c3d23f24d0ba1053a4458197f3574804a9ee23c6d
+Filename: ./ros-humble-cleardrive-ros2_0-2024.12.29.12.45_amd64.deb
+Size: 172456
+MD5sum: 4f327bc3f067ef8de536c11d0371ba19
+SHA1: 796212e020162aab412435f2a2324ac9f07cfc8f
+SHA256: e96fb9da1a00ed3065f627f8d2081b00dc856dc01699a8e2d046dcca8b815866
+SHA512: 52170c282d5173831430113dac042145a2f9b4ce94bfe1d596c6a3b6fd47af28da865af29c8113087274bd93bec29d8148233a3cd5c40999bc4f5e2e43430b7c
 Description: ClearDrive for `ros2_control`
 
 Package: ros-humble-legged-controllers-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.35
+Version: 0-2024.12.29.12.38
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-legged-controllers
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 10527
-Depends: ros-humble-legged-controllers (= 0-2024.12.29.11.35)
-Filename: ./ros-humble-legged-controllers-dbgsym_0-2024.12.29.11.35_amd64.ddeb
-Size: 9896284
-MD5sum: 38151c2ad6a29b50c088d94eb988b0de
-SHA1: 94f8838459e1669d35743a941d1ccf51e131a5c1
-SHA256: 7ae57d9fac0fc9080b7303d16888190d4bc7ebf0f1caa6aa710505b55bdb904b
-SHA512: ba9aec0562edc61bbc940ebc5ae194696b991a1c90dbcde6036c099c55819472575f4198e49776de548fd13ad77a879629a364c6003c32a6a1fb60bdbb18b2e1
+Depends: ros-humble-legged-controllers (= 0-2024.12.29.12.38)
+Filename: ./ros-humble-legged-controllers-dbgsym_0-2024.12.29.12.38_amd64.ddeb
+Size: 9896282
+MD5sum: cd0ea95f07c1388bb172199078eac1ee
+SHA1: 8b26762a287a5aaa5a5a939cb828f1d6aa412a0a
+SHA256: 75a838edf2426a2765e6686232f049b79fd699c2d9f9d8900d170ddbaf15e6fa
+SHA512: ae387292717951d3f42cfd4e751578865e06411550fb6b5e33692580f3a1b900771dd2c4a74f7b104495277ee2ed1d4180c1ec5a66685fb9e434be1acbe37f52
 Description: debug symbols for ros-humble-legged-controllers
-Build-Ids: 0803f1312df4712510441f95aefcf1ffd476cdfb
+Build-Ids: 81de3d07ad158f80eed359940e55dd6c43439609
 
 Package: ros-humble-legged-controllers
 Architecture: amd64
-Version: 0-2024.12.29.11.35
+Version: 0-2024.12.29.12.38
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 1040
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.0), libstdc++6 (>= 11), ros-humble-controller-interface, ros-humble-geometry-msgs, ros-humble-legged-estimation, ros-humble-legged-model-ros2, ros-humble-nav-msgs, ros-humble-realtime-tools, ros-humble-tf2-msgs
-Filename: ./ros-humble-legged-controllers_0-2024.12.29.11.35_amd64.deb
-Size: 223074
-MD5sum: 6d9766e2962f17391867bae510e98634
-SHA1: abcc923f47686faaaacb3405a6eb7e41b88c0916
-SHA256: c8b17b61e90b72070cc34329f0e1b1428877ebe318b60b31acd661543f0d7051
-SHA512: a35cb07b51e3af52f6d90dfd7fea2f6f7cbebfabf0d496e6661eaa7f35065f594744f9c420e84fe25cb90061385da11c27a2149718c66565bc612b78515135d4
+Filename: ./ros-humble-legged-controllers_0-2024.12.29.12.38_amd64.deb
+Size: 223076
+MD5sum: 6355cf37b8eac1fb9f4dbed8f6075e55
+SHA1: 901a1a65e073762f23946de5251781287e88dfda
+SHA256: db931738f9a558ee96d512c1ad0b5a32214a82b48f08b19660555f9d1c347679
+SHA512: ade1d47a2b41c7242948c196d21e7ab948ee7eed486893c2c3c7a9edbb326e133218ba142bfafaa4cd71a7e858d367e2781fe90e240eae56611966426bd61244
 Description: Model of legged robot
 
 Package: ros-humble-legged-estimation-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.32
+Version: 0-2024.12.29.12.36
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-legged-estimation
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 8458
-Depends: ros-humble-legged-estimation (= 0-2024.12.29.11.32)
-Filename: ./ros-humble-legged-estimation-dbgsym_0-2024.12.29.11.32_amd64.ddeb
-Size: 8415488
-MD5sum: 9aaea7830ba4082b1cc39f156a6c8640
-SHA1: 8fbcbeb63ae9f085cbab5b62d09f3219af0257bf
-SHA256: deea94dea594e720d50f0431df0ae7a68b084fb7961605685621b5eee21c2310
-SHA512: 904005ffb28fc784bfe460930e360cf85a83214c5356432f75e32cc10619accc4d9079d8806709e86a80475347cb77277b02278c75bee72d136d42063fefdbcf
+Depends: ros-humble-legged-estimation (= 0-2024.12.29.12.36)
+Filename: ./ros-humble-legged-estimation-dbgsym_0-2024.12.29.12.36_amd64.ddeb
+Size: 8415482
+MD5sum: 9b148e809dc3d80f19ee3ba30e2defee
+SHA1: 51d25dfda1f18b476b55c8d9f3268d700897dc3f
+SHA256: e054d749afb8d12000b9add4cecb6a679a21416ab64059660967a66cf368fa39
+SHA512: 5837faf8c84c43ad1d4d36e0e99013a5f2cc81ff63da8733015ef1eb9cebf24f729b786dc2f0c8b39b6660c861e74026e62a5bbcaa6e6ce326e8e2e764085259
 Description: debug symbols for ros-humble-legged-estimation
-Build-Ids: d9711e9694e5d8857026e838a5302367c785b0b1
+Build-Ids: 54a4978c1f5f70e2e619501de4a453941c3659b9
 
 Package: ros-humble-legged-estimation
 Architecture: amd64
-Version: 0-2024.12.29.11.32
+Version: 0-2024.12.29.12.36
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 315
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-urdfdom, ros-humble-legged-model
-Filename: ./ros-humble-legged-estimation_0-2024.12.29.11.32_amd64.deb
-Size: 94838
-MD5sum: fdfdfb18ab297c3a8120e7dc67bfdb0f
-SHA1: 1755761a06b608e36947542e9a5c651dc07b4eae
-SHA256: 077bccfd318391224a36c9fb4ab993d035229ad0006dc960c21de0777e22eee6
-SHA512: 8cd7d4e3ec9eb19cb20782157a2d742f1b5316d7bd2819c28ead0a7582b96d01e2b9a5722b79eb94eff1303d37cd7326e1b759b1a25da2b56931dd88e00f31c4
+Filename: ./ros-humble-legged-estimation_0-2024.12.29.12.36_amd64.deb
+Size: 94826
+MD5sum: 89d906b2b813c26a8c48584ebca1a3c4
+SHA1: bdb18820345519dc0f7e62a767350415236b9dc1
+SHA256: c502573d9a849e2d3284c308929b9bb92c32b096564916cfb62d4a17efd4941a
+SHA512: d935605a5ab5a066b9ac990c53d05a8d27464bfeb3f16b7377234ac09d954fea8a35ff074816538c3b6d537b98530114448d31fae3e221ade3a1c6b0cab41d83
 Description: State estimation of legged robot
 
 Package: ros-humble-legged-gazebo-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.28
+Version: 0-2024.12.29.12.33
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-legged-gazebo
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 1548
-Depends: ros-humble-legged-gazebo (= 0-2024.12.29.11.28)
-Filename: ./ros-humble-legged-gazebo-dbgsym_0-2024.12.29.11.28_amd64.ddeb
+Depends: ros-humble-legged-gazebo (= 0-2024.12.29.12.33)
+Filename: ./ros-humble-legged-gazebo-dbgsym_0-2024.12.29.12.33_amd64.ddeb
 Size: 1480898
-MD5sum: d6c54f3d631aad4698370226209a2a7e
-SHA1: af260c6275e339791f177fc0f578bad6e303e073
-SHA256: efd9188f0058ef5d302feff3ffb97002429d74ede0ee408c9d71dff1a36555d2
-SHA512: d01ae6ec43f2e07db88f13b00b2da3356c77ecb1913451e8516358014ce7bdfaf1f98f314178beb5e3f02ffd36f46d41c38a8172c77a391f6d7d389baa1b4aab
+MD5sum: d3ee830a8e9a36dc48e3720f15a807b9
+SHA1: 9522ccd20eb49fd7d7efadd3dfa866c12fadbca7
+SHA256: 278e03ac3cf02cc23a4bc96dcb86f989c382a40832e2e69d8361f46f2d122419
+SHA512: a3e722978ab7db1c2bc6c54f1e1a926558664d41d39ceb4031a0dc2ee5139b255d081b27112b3fbf8720c59d6ac611356c4fcb04af6c88dca5c7c8e0b3e677d7
 Description: debug symbols for ros-humble-legged-gazebo
-Build-Ids: d3125a68e764c8444948befc8f199995a218c207
+Build-Ids: 455e93a7aa85056b28db547b55c1dbdfa39cfb42
 
 Package: ros-humble-legged-gazebo
 Architecture: amd64
-Version: 0-2024.12.29.11.28
+Version: 0-2024.12.29.12.33
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 310
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgazebo11 (>= 11.10.2+dfsg), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-gazebo-ros2-control, ros-humble-hardware-interface, ros-humble-pluginlib
-Filename: ./ros-humble-legged-gazebo_0-2024.12.29.11.28_amd64.deb
-Size: 94892
-MD5sum: 3a8dd63548eec52bc4ed0ca3116bbc9e
-SHA1: 4e00e2f3d4d13197e8f9eec316fdf88dff7fd874
-SHA256: 66d43fc59ca37764d0ae291a59f9c26a9f7ddd08782d892e47858096cc851e83
-SHA512: e6a0f381e1c53bdfa17a535ff6606e74f262ce500c829c2802a2335a92fa23c2f1ae994d6285a5fbbb19e22954555c8da43290eaba41925cd42bbe172e66ef19
+Filename: ./ros-humble-legged-gazebo_0-2024.12.29.12.33_amd64.deb
+Size: 94900
+MD5sum: 418f421f416799e5a7e7a3b10c0e0747
+SHA1: ee7a7113f857ca2f83ba82543e1452587f7692cc
+SHA256: 5a37dd6a297d76e08b3a9bd457f4d4a6bc37dc3d230e4c3c1513f9a977107cb3
+SHA512: 2a4d853650008d064fa361fcedcf3d595427584c311a99f8cc0c87df54b627dc09bc32ac8fa4867e5ec2afcc09ce0b9c5a551af47d81d52c36c803580dbfec93
 Description: Model of legged robot
 
 Package: ros-humble-legged-model-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.30
+Version: 0-2024.12.29.12.34
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-legged-model
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 15090
-Depends: ros-humble-legged-model (= 0-2024.12.29.11.30)
-Filename: ./ros-humble-legged-model-dbgsym_0-2024.12.29.11.30_amd64.ddeb
-Size: 14921520
-MD5sum: 149a2db7c9beff70406b5a9cfc9b35e9
-SHA1: 301a44196548ab0b8a4e5d9a7d7ec17bae9f95c0
-SHA256: c9cbed34b749679fae99b35960ed2046c98bf73aaa9d2d1c76e64fb4bc84d26d
-SHA512: 4d34cc1e2c8e1bdc55d3c2b1e22e148d5a06e4ce7aaefe59708b647d0bdac0a70a2d2018d310a46486723bf15b44a28d12af3529c4e13ccf8880b7a382cd779e
+Depends: ros-humble-legged-model (= 0-2024.12.29.12.34)
+Filename: ./ros-humble-legged-model-dbgsym_0-2024.12.29.12.34_amd64.ddeb
+Size: 14921510
+MD5sum: e2df525ca166076742faa8b74a32f696
+SHA1: 8cb22f50f3e8d9bc1b9fa982784f69f673adb36c
+SHA256: 42755d1e9320c66c678c2c3571d72f10055f737e296af4326a898f974ba94eee
+SHA512: 1f677f15f4a2154cf67569fa55dd2ff2168e6b4304b8cc42154ccdf21e23b7a04efa7985c7f2d8d9e2076709c6b33bf24132a888f8161fa6eb801fba54c13950
 Description: debug symbols for ros-humble-legged-model
-Build-Ids: ed17517d6fbad4010f3ac5bc5ac1fa5ee6c613a6
+Build-Ids: be925e508a5aca1c561d91e2153ef699601bce44
 
 Package: ros-humble-legged-model-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.34
+Version: 0-2024.12.29.12.37
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-legged-model-ros2
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 994
-Depends: ros-humble-legged-model-ros2 (= 0-2024.12.29.11.34)
-Filename: ./ros-humble-legged-model-ros2-dbgsym_0-2024.12.29.11.34_amd64.ddeb
-Size: 979114
-MD5sum: dc8851255273e7d0b34ae77ae853de57
-SHA1: 7491fa668bdf96d89d2b2d7e6b30e2a26bc1379c
-SHA256: 3723c85ece11d453c79a6e373a056dd988ceb5e6c513109829f65892efa614a8
-SHA512: 7f8a278c0004343abbf4a133e88decf6f16f97636303a6fcb25ed41641819a8017b61f80aed6dd94a51a00c89f55d29cf9f80f76fa05a82afd855f4bb86be2fd
+Depends: ros-humble-legged-model-ros2 (= 0-2024.12.29.12.37)
+Filename: ./ros-humble-legged-model-ros2-dbgsym_0-2024.12.29.12.37_amd64.ddeb
+Size: 979116
+MD5sum: 5d4a790646b3279fb033b4830901b79f
+SHA1: 0b1c5877480e91b5a3b106873cff308beb35c256
+SHA256: 4f178e14f03417a76ced8139d5ce08988eb7ad511dbb6c725b9da38af40c79f1
+SHA512: f533d8828c296992da348b64488e5001925c65ec329bca3bb2b8dac138a7e414984dd17bd60f437a700e6ee9abf0a81c1e81fd7ee6a4d977a5f0af2d23e3f2b5
 Description: debug symbols for ros-humble-legged-model-ros2
-Build-Ids: 9ced10096a885239251c915fbe831490c85c8314
+Build-Ids: 996dd3ba8e25142eee7d4347bd6b40d3893ce54a
 
 Package: ros-humble-legged-model-ros2
 Architecture: amd64
-Version: 0-2024.12.29.11.34
+Version: 0-2024.12.29.12.37
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 108
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-urdfdom, ros-humble-controller-interface, ros-humble-legged-model
-Filename: ./ros-humble-legged-model-ros2_0-2024.12.29.11.34_amd64.deb
-Size: 25538
-MD5sum: 5c1623c398e24d3cf19c88c6ad44bc2f
-SHA1: 5abb6d9e11f8c2e194bb055d5c56d2cdff207242
-SHA256: f183b73abcd3655d1a7bff30e98548fdfeff0a48dc8a381b54af5397e222f492
-SHA512: 92601d7b8409b478f6546504f4e86087d336b8426c18f3a1be43b7739ff2fc5c14dae7abcc143243bf22b835229142515185163caafa3630af1b6540b4bc495d
+Filename: ./ros-humble-legged-model-ros2_0-2024.12.29.12.37_amd64.deb
+Size: 25548
+MD5sum: ca6c9cf4f5787608a29f79710aae7482
+SHA1: fca2c9da2a4c3ca4566ebc97dcbb26588a67e771
+SHA256: 1328fc322179198b9b1672e7d60cd218b8f6fa17ba91e318000b200d4ebb4b7c
+SHA512: 1734ea41265fed63c5f83ad590cfc138bdd43ad5fa53faceb67dad5092bea7fc4a45a06f96e3cbc676b430d06b9957ab589857422b657aded7fa765b497fc4f6
 Description: Model of legged robot
 
 Package: ros-humble-legged-model
 Architecture: amd64
-Version: 0-2024.12.29.11.30
+Version: 0-2024.12.29.12.34
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 656
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-pinocchio, ros-humble-urdfdom
-Filename: ./ros-humble-legged-model_0-2024.12.29.11.30_amd64.deb
-Size: 158374
-MD5sum: 1e77c883422bd937e24eb83f7d787add
-SHA1: eb31201ea4b09a7e7007530804150859ed752f33
-SHA256: acaa300fbc1b194aa79bc7aa553ae7bee25feb0b2395d7724997a32e89ba1848
-SHA512: 21f9afbca5ca93603eafe38dab46d79d974484dc2ff0c4528ecd0743dc2e26227591d3fef9dfb0ce252ba900a785c284881eb9bca95a8d4cd714bded5cc1f494
+Filename: ./ros-humble-legged-model_0-2024.12.29.12.34_amd64.deb
+Size: 158366
+MD5sum: 0bf82fdefeb2f8c6f7eea53e039647a2
+SHA1: ed07f121f4cc94fe8c6fb847b7ed8c2418b8cab9
+SHA256: 05eb80f08fee73ab794bb302c82143f8879c4f7abc8180a8fe0e41516ae66520
+SHA512: 5341bedf149dc8ef9d932943ce6457698c8e91f62326243630d1dfc7d8f2b00958cae8928b715b20c905bf43af19a385d7391480f0a32c9091d86be955146ecd
 Description: Model of legged robot
 
 Package: ros-humble-message-logger
 Architecture: amd64
-Version: 0-2024.12.29.11.37
+Version: 0-2024.12.29.12.39
 Priority: optional
 Section: misc
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 153
 Depends: ros-humble-rclcpp
-Filename: ./ros-humble-message-logger_0-2024.12.29.11.37_amd64.deb
-Size: 19428
-MD5sum: 0dc6fbe6658d82bd21fcae40f57ca098
-SHA1: c1fe79d0612786bb398f1051bce1345b6fe01186
-SHA256: 87b441d3f4ed2c523b55db1372c1ed8ceba2ba4a56a0a9d51346dc9e54568b00
-SHA512: 0c589c980236bcbd9098f5d2c32fc39a411ab0cba73fb6c7f584c6424c27dca5e5ba95f9e9420faa3c36f7715e544b48e13f8369f97ca22a66ad7a75d5d563d8
+Filename: ./ros-humble-message-logger_0-2024.12.29.12.39_amd64.deb
+Size: 19426
+MD5sum: 90bd033601f039be944252e69667bdb6
+SHA1: cb60a29b3bf01b97b4ec4af502074de808136322
+SHA256: 79392a8876b42cb092e8b49d649da37c83f9773fe9d7f74cc7d4502920d47146
+SHA512: 653f868eccceff07978b32c229e85bee1901a3bf293407d5026902f3150c35c726b493da31c5369ed171e06ef4cb61149dbd35ed0d3a9f25d63e8f0f2c8b14d3
 Description: The message logger package
 
 Package: ros-humble-rqt-cleardrive
 Architecture: amd64
-Version: 0-2024.12.29.11.38
+Version: 0-2024.12.29.12.40
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 79
 Depends: ros-humble-cleardrive-msgs, ros-humble-rclpy, ros-humble-rqt-gui, ros-humble-rqt-gui-py
-Filename: ./ros-humble-rqt-cleardrive_0-2024.12.29.11.38_amd64.deb
-Size: 13354
-MD5sum: ab8268cb267c0cb968737334914b0653
-SHA1: d16a9913a3d28bf3ec2e72fda6658d3069a2cdec
-SHA256: 68e41c06d78cd5814ed2ec0013429384c8871b6cfe3a5a8d41dde93bc81dc8fc
-SHA512: 29d1ed98ce499a168f1a748d933e78b37f37ea8e672762fafa26dec0806cc52aa934c72b5d9988a26af16c028be360747ac03d0fbe5184d264a7191959edc568
+Filename: ./ros-humble-rqt-cleardrive_0-2024.12.29.12.40_amd64.deb
+Size: 13340
+MD5sum: 4a702fa3e285ead6dbeaa15f25194202
+SHA1: fb8742335a08e15fc97270652e83fb87bf20651e
+SHA256: 4f91e0eaf429b23d3e76043258a2a119001ddd8b101ec417ce45b03e90141e5b
+SHA512: ee8d9b12b26714c1c0df480a51692bc2bf374e18b09f1939af97183cc45875476ba5cc5608cd68baf63b27e91b3b06e3d5310f83033880f7c099b38846054c08
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: TODO
 
 Package: ros-humble-soem-interface-rsl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.39
+Version: 0-2024.12.29.12.41
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-soem-interface-rsl
 Maintainer: Johannes Pankert <pankertj@ethz.ch>
 Installed-Size: 740
-Depends: ros-humble-soem-interface-rsl (= 0-2024.12.29.11.39)
-Filename: ./ros-humble-soem-interface-rsl-dbgsym_0-2024.12.29.11.39_amd64.ddeb
-Size: 678456
-MD5sum: 31f7cd7bb361f6708f86ab736a7fec65
-SHA1: 0bc890120ac0dc7c89e80c8e080a0e0fb1d95657
-SHA256: f639274f268ea3622a51ebcbe348517ab69903733ada6b833a96e743744525a5
-SHA512: c6a64b647b83f99e8276cf7e67084f253761f4a324f5e0609f0db6e6605ed5ec12531c32fcf93bf2cd60c71833fb3ddbcee5138764d57f4b868261d4c31b9994
+Depends: ros-humble-soem-interface-rsl (= 0-2024.12.29.12.41)
+Filename: ./ros-humble-soem-interface-rsl-dbgsym_0-2024.12.29.12.41_amd64.ddeb
+Size: 677834
+MD5sum: 840145dc3a6dc32c8c50432e98c83d51
+SHA1: a03cd00e7f953d7f9c0cc9e4ab43fb906e7d9f94
+SHA256: bb3f6dbee92c309a4d9ef0b4c8eeaf488d47241fb4b8866b593cc6f7da51b20d
+SHA512: 3280d59feb87fb1bd1493e2bab8af0f2b5fc61c457b2a2c34cb998ff8a14004038af0c9d0cd2423ac0482ed654ca0e12fc7a2e58df864b3d1fe2b5046340f435
 Description: debug symbols for ros-humble-soem-interface-rsl
-Build-Ids: 9d59e1a7b180ffc6402ce2a43a29468a66e6b476
+Build-Ids: fe2d8643748cb29c91b0a7fe6b49eab447f64596
 
 Package: ros-humble-soem-interface-rsl
 Architecture: amd64
-Version: 0-2024.12.29.11.39
+Version: 0-2024.12.29.12.41
 Priority: optional
 Section: misc
 Maintainer: Johannes Pankert <pankertj@ethz.ch>
 Installed-Size: 388
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-message-logger, ros-humble-soem-rsl
-Filename: ./ros-humble-soem-interface-rsl_0-2024.12.29.11.39_amd64.deb
-Size: 107550
-MD5sum: 499bf319c0c5b080c838ed7be802b817
-SHA1: dafdfd5949cb89b3e02dab647b7171630b4a7306
-SHA256: 452840992f9ebbcc26e49fd4592732755bbb1ced0ad5910bdcab889430dde55e
-SHA512: a67ae836568389fe67d1088e0d5762efc6ef2134343eca785166a60f25dd52bb61a5fa3bb08df8f5d607c9aaabc6543c4a57b4d723fd11106447c7494c53e2a7
+Filename: ./ros-humble-soem-interface-rsl_0-2024.12.29.12.41_amd64.deb
+Size: 107562
+MD5sum: affc78466348d2fdd5dde2c7a361c544
+SHA1: b885c70bd941a62dfa1f67b0594655d583369bd4
+SHA256: a0af78d5736bb139620ee6e7528b70ff92db8745d967e4a47cce1615fa67cace
+SHA512: e24162e8d7785e309c7c5b998001652d46d716fd17dc53334735df3d55926b48abffebda6835c32b28f1a087b2d20144d6ce568df97d28cf0822afc6f9984359
 Description: C++ library to create multiple ethercat devices on one or multiple buses.
  Contains abstract base classes for the communication interface.
 
 Package: ros-humble-soem-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.42
+Version: 0-2024.12.29.12.43
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-soem-ros2
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 2036
-Depends: ros-humble-soem-ros2 (= 0-2024.12.29.11.42)
-Filename: ./ros-humble-soem-ros2-dbgsym_0-2024.12.29.11.42_amd64.ddeb
+Depends: ros-humble-soem-ros2 (= 0-2024.12.29.12.43)
+Filename: ./ros-humble-soem-ros2-dbgsym_0-2024.12.29.12.43_amd64.ddeb
 Size: 1926826
-MD5sum: f8e8937aa6a80dc12c699226d235803e
-SHA1: 3d51b5b3d07c82abb209a6396fac18ee4af91de0
-SHA256: 963aff1d0d4480a90f2cffee377ebc77151d65b3cddd9065e0a551e06f735a06
-SHA512: b883ff37a590034660210d4d094a86fa0be4b4bc05147720b295fb34f17c8208ef83ef385afa4a8c2b64a75446987956d0b7a46c3456675c83f44688a11b5004
+MD5sum: 9e82dec7fad455c26c59741a94266b43
+SHA1: 90a7e62fe4da2cdbec6906a74046110f5b4da787
+SHA256: 42ed2535f93da96818ec109f46d48f018f492e7a3d3ec39d656840013475e4bc
+SHA512: ad89145c941d66aa27099c17f8ab52683122c79ef4a160d23c0bd58d6b4282da782062fa4be397e3d7f2a22fedd7cb319295ba98390c9b5441e7be9c937842ab
 Description: debug symbols for ros-humble-soem-ros2
-Build-Ids: 9377187cbbf0a50bdf0e61b3e83b6df31b89a834
+Build-Ids: aa31cb4f29756b8e5451fc296593ca7d80889128
 
 Package: ros-humble-soem-ros2
 Architecture: amd64
-Version: 0-2024.12.29.11.42
+Version: 0-2024.12.29.12.43
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 471
 Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-soem-interface-rsl, ros-humble-transmission-interface
-Filename: ./ros-humble-soem-ros2_0-2024.12.29.11.42_amd64.deb
-Size: 134974
-MD5sum: 0fef1f6f3adad441da0fc03274e2e500
-SHA1: 2cc9a945aef263d4d5b27b55ae6efae5c98b238c
-SHA256: e360a4e43ea0b79ce0900664ceae586435da18824df2ed2778c9b7068a3c3f7b
-SHA512: 6492c06ac5860df347cd012a85488c884b51029c7ef25a2c6a5ef59689c4c9c4c31bff707629ad0f3db9660ab1e9426a497e92f2f5fb31adf02d08e41c8f92f3
+Filename: ./ros-humble-soem-ros2_0-2024.12.29.12.43_amd64.deb
+Size: 134954
+MD5sum: a515310a39add326d0fae5e7a95e1eb0
+SHA1: f52702a556d25e17b615499707ac9e8aa8d93d85
+SHA256: 898d80b806318f24240891ac2da8af5ca69d0cd35c48fd30028e9be84908de5e
+SHA512: 46a6983b49a4962e25fa59a1c1efd5a87ed3cf9fbb5fb931e7a39a3a4c143aee4bd7b9f5a57f9f20083f876be18aee7ca2d5b2da85344ef4e563fbb813028e02
 Description: SOEM for `ros2_control`
 
 Package: ros-humble-soem-rsl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.12.29.11.38
+Version: 0-2024.12.29.12.40
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-soem-rsl
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Installed-Size: 345
-Depends: ros-humble-soem-rsl (= 0-2024.12.29.11.38)
-Filename: ./ros-humble-soem-rsl-dbgsym_0-2024.12.29.11.38_amd64.ddeb
-Size: 290282
-MD5sum: 45150de12c60d87dd4dc39da5111cf94
-SHA1: f1ced62a9a918eeb9fc53dd310f2cb44cd09e288
-SHA256: 83eb91e0fd3c0fe7b018e40f183333d21f272feae3fbc2f137be2ddf47ba2e67
-SHA512: 59f86674e2abcc035c5d81a72c0cf27800b295aa6b294f479ccb2581e83a0d629e0d49d5d16a7ed7ce00dfa7ea8dadccb817552cc147726c99bf8f61beb4f239
+Depends: ros-humble-soem-rsl (= 0-2024.12.29.12.40)
+Filename: ./ros-humble-soem-rsl-dbgsym_0-2024.12.29.12.40_amd64.ddeb
+Size: 290160
+MD5sum: 700c9599b90772aef5e68c3e44fbd2c5
+SHA1: 3bdc2bead4ca342a678a32f841a5581bc00ec3d4
+SHA256: 24ea8c04b7daa72caad3921ac3276d4cd824b6b3335412b0f3bebd03e13b8534
+SHA512: 53c2334cf8188fcef9a8eb64eec992978c0ca967b47cbfdd11c84ba3005b7e8929eb5f1dc1495350c1c583a4d97d80d28f8d55e245855534a84a407cb62cbcce
 Description: debug symbols for ros-humble-soem-rsl
-Build-Ids: 58634204b1a24f124beab631860265ccfc98ad94 d149acaee7d8b27e262acc0b256057fee12e0920 db6f91ec86ce76d32af391bdc173c4ff01824c63 f8a55fc3403c054d39f96546adecc44dfb5cf8a9
+Build-Ids: 33e6d736be72c0143dd77a54a8dc51fabeb597f1 60c8c057fe6d2557f0cca33b07ca6e6431ea621e 90d73ccdc1003fa812fcf545a9b45f98db340da8 baa6de6cc435bae3bacc195f9ba4f6272b1b0dc0
 
 Package: ros-humble-soem-rsl
 Architecture: amd64
-Version: 0-2024.12.29.11.38
+Version: 0-2024.12.29.12.40
 Priority: optional
 Section: misc
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Installed-Size: 465
 Depends: libc6 (>= 2.34)
-Filename: ./ros-humble-soem-rsl_0-2024.12.29.11.38_amd64.deb
-Size: 104558
-MD5sum: e3b024db3e7b2a532ad7dd6fba7fcd69
-SHA1: fb30faad4d1b36ba874d53749d91ef580ad6a7de
-SHA256: 6b2fdf204922a4b5bd17188775fcff911ec690a6e219017db2ae062d969e2c49
-SHA512: f2738150093143bc272da753d95df701ef75a56a2de8bcdee66d995079215ae896e505793bc61856e3c35cd3bd0596eb16c49c45d8ae6960d4f1740d7d4cee4d
+Filename: ./ros-humble-soem-rsl_0-2024.12.29.12.40_amd64.deb
+Size: 104568
+MD5sum: 43742bc21a6974d7893b6145ae31c0ff
+SHA1: f6e066e199d09ac8694fca39c818aa8c32ea73a3
+SHA256: 1e73a09f5a37ba0029761db0b8bbdc511ecc115dd8cf73d850a922630f054ee6
+SHA512: 784215229772fdd882b60c1e5d06608a83efc37276028d1c903ff1cf0f90ee3f1a89d8462eed802a34233e64ecc370fe2012c5098b7ee23d2254d9b3b5554345
 Description: The soem_rsl package
 
