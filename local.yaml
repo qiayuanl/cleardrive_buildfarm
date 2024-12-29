@@ -1,0 +1,54 @@
+cleardrive_msgs:
+  ubuntu:
+  - ros-humble-cleardrive-msgs
+legged_gazebo:
+  ubuntu:
+  - ros-humble-legged-gazebo
+legged_model:
+  ubuntu:
+  - ros-humble-legged-model
+legged_estimation:
+  ubuntu:
+  - ros-humble-legged-estimation
+legged_model_ros2:
+  ubuntu:
+  - ros-humble-legged-model-ros2
+legged_controllers:
+  ubuntu:
+  - ros-humble-legged-controllers
+legged_rl_controllers:
+  ubuntu:
+  - ros-humble-legged-rl-controllers
+message_logger:
+  ubuntu:
+  - ros-humble-message-logger
+rqt_cleardrive:
+  ubuntu:
+  - ros-humble-rqt-cleardrive
+soem_rsl:
+  ubuntu:
+  - ros-humble-soem-rsl
+soem_interface_rsl:
+  ubuntu:
+  - ros-humble-soem-interface-rsl
+cleardrive_foc:
+  ubuntu:
+  - ros-humble-cleardrive-foc
+cleardrive_imu:
+  ubuntu:
+  - ros-humble-cleardrive-imu
+soem_interface_examples:
+  ubuntu:
+  - ros-humble-soem-interface-examples
+soem_ros2:
+  ubuntu:
+  - ros-humble-soem-ros2
+cleardrive_manager:
+  ubuntu:
+  - ros-humble-cleardrive-manager
+cleardrive_example:
+  ubuntu:
+  - ros-humble-cleardrive-example
+cleardrive_ros2:
+  ubuntu:
+  - ros-humble-cleardrive-ros2
