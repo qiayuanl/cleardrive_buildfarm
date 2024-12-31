@@ -16,15 +16,15 @@ legged_model_ros2:
 legged_controllers:
   ubuntu:
   - ros-humble-legged-controllers
-legged_rl_controllers:
-  ubuntu:
-  - ros-humble-legged-rl-controllers
 message_logger:
   ubuntu:
   - ros-humble-message-logger
 onnxruntime_ament:
   ubuntu:
   - ros-humble-onnxruntime-ament
+legged_rl_controllers:
+  ubuntu:
+  - ros-humble-legged-rl-controllers
 rqt_cleardrive:
   ubuntu:
   - ros-humble-rqt-cleardrive
