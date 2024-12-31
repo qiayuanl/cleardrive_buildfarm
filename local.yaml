@@ -22,6 +22,9 @@ legged_rl_controllers:
 message_logger:
   ubuntu:
   - ros-humble-message-logger
+onnxruntime_ament:
+  ubuntu:
+  - ros-humble-onnxruntime-ament
 rqt_cleardrive:
   ubuntu:
   - ros-humble-rqt-cleardrive
