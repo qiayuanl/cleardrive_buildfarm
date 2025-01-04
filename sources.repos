@@ -6,11 +6,15 @@ repositories:
   legged_control2:
     type: git
     url: https://github.com/qiayuanl/legged_control2
-    version: ae5d6bc8e38c42c7ef34dfe9925a41ae2ad2c22e
+    version: f27e0d329d8d250677444c35db72a1a3235783dd
   message_logger:
     type: git
     url: https://github.com/qiayuanl/message_logger.git
     version: 9c1bce22d41fb44a6df0a618f6b53001a4e6d567
+  onnxruntime_ament:
+    type: git
+    url: https://github.com/qiayuanl/onnxruntime_ament
+    version: e61bc26d51bb118e5fb319d2ca1ed755946c087f
   soem_interface:
     type: git
     url: https://github.com/qiayuanl/soem_interface.git
