@@ -3,18 +3,10 @@ repositories:
     type: git
     url: https://github.com/qiayuanl/cleardrive
     version: 3bdb0a79032c141ef2b3803aea56113287fd4b2a
-  legged_control2:
-    type: git
-    url: https://github.com/qiayuanl/legged_control2
-    version: 0c22dbb3bc24fb904c7da9d2c47e16ec5f411e53
   message_logger:
     type: git
     url: https://github.com/qiayuanl/message_logger.git
     version: 9c1bce22d41fb44a6df0a618f6b53001a4e6d567
-  onnxruntime_ament:
-    type: git
-    url: https://github.com/qiayuanl/onnxruntime_ament
-    version: 4d869744c440bd0e33ad604b10c903ee2ba18e5a
   soem_interface:
     type: git
     url: https://github.com/qiayuanl/soem_interface.git
