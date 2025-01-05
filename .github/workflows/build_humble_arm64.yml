@@ -17,17 +17,6 @@ jobs:
           path: 'src/soem_ros2'
       - uses: actions/checkout@v2
         with:
-          repository: qiayuanl/legged_control2
-          token: ${{ secrets.GH_PAT }}
-          path: 'src/legged_control2'
-      - uses: actions/checkout@v2
-        with:
-          repository: qiayuanl/onnxruntime_ament
-          token: ${{ secrets.GH_PAT }}
-          path: 'src/onnxruntime_ament'
-          ref: 'offline'
-      - uses: actions/checkout@v2
-        with:
           repository: qiayuanl/cleardrive
           token: ${{ secrets.GH_PAT }}
           path: 'src/cleardrive'
@@ -44,4 +33,3 @@ jobs:
           SKIP_PACKAGES: >-
             soem_interface_examples
             cleardrive_example
-            legged_gazebo
