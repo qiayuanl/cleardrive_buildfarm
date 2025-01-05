@@ -6,7 +6,7 @@ repositories:
   legged_control2:
     type: git
     url: https://github.com/qiayuanl/legged_control2
-    version: f27e0d329d8d250677444c35db72a1a3235783dd
+    version: 0c22dbb3bc24fb904c7da9d2c47e16ec5f411e53
   message_logger:
     type: git
     url: https://github.com/qiayuanl/message_logger.git
