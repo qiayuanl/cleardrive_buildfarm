@@ -1,0 +1,36 @@
+cleardrive_msgs:
+  ubuntu:
+  - ros-jazzy-cleardrive-msgs
+message_logger:
+  ubuntu:
+  - ros-jazzy-message-logger
+rqt_cleardrive:
+  ubuntu:
+  - ros-jazzy-rqt-cleardrive
+soem_rsl:
+  ubuntu:
+  - ros-jazzy-soem-rsl
+soem_interface_rsl:
+  ubuntu:
+  - ros-jazzy-soem-interface-rsl
+cleardrive_foc:
+  ubuntu:
+  - ros-jazzy-cleardrive-foc
+cleardrive_imu:
+  ubuntu:
+  - ros-jazzy-cleardrive-imu
+soem_interface_examples:
+  ubuntu:
+  - ros-jazzy-soem-interface-examples
+soem_ros2:
+  ubuntu:
+  - ros-jazzy-soem-ros2
+cleardrive_manager:
+  ubuntu:
+  - ros-jazzy-cleardrive-manager
+cleardrive_example:
+  ubuntu:
+  - ros-jazzy-cleardrive-example
+cleardrive_ros2:
+  ubuntu:
+  - ros-jazzy-cleardrive-ros2
