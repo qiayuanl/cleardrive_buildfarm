@@ -2,7 +2,7 @@ repositories:
   cleardrive:
     type: git
     url: https://github.com/qiayuanl/cleardrive
-    version: 5f575575c500a09c5d2d3bfe9e5cd1af7f19c95c
+    version: b78bf3bd806bfb84518cf3098bc291f4595bfa77
   message_logger:
     type: git
     url: https://github.com/qiayuanl/message_logger.git
@@ -14,4 +14,4 @@ repositories:
   soem_ros2:
     type: git
     url: https://github.com/qiayuanl/soem_ros2
-    version: 926f11d000818daf248901a616dd9b46e2cf1e09
+    version: 21a1b8aa2e3183343532098214f311600f326e9f
