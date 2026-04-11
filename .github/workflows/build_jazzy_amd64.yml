@@ -2,11 +2,38 @@ name: Builder Jazzy amd64
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 10 * * *'
   push:
-    paths:
-      - ros2.repos
+    paths: [ros2.repos]
+
 jobs:
-  build_testing:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.ros_cache.outputs.cache-hit }}
+    steps:
+      - name: Get ROS release hash
+        id: ros_check
+        if: github.event_name == 'schedule'
+        run: |
+          HASH=$(curl -sL http://packages.ros.org/ros2/ubuntu/dists/noble/Release \
+            | grep "^Date:" | sha256sum | cut -d' ' -f1)
+          echo "hash=${HASH}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/cache@v4
+        if: github.event_name == 'schedule'
+        id: ros_cache
+        with:
+          path: .ros_release_marker
+          key: ros-noble-jazzy-${{ steps.ros_check.outputs.hash }}
+
+      - if: github.event_name == 'schedule' && steps.ros_cache.outputs.cache-hit != 'true'
+        run: echo "${{ steps.ros_check.outputs.hash }}" > .ros_release_marker
+
+  build:
+    needs: check
+    if: needs.check.outputs.skip != 'true'
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v2
