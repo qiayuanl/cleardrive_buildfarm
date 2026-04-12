@@ -2,7 +2,7 @@ repositories:
   cleardrive:
     type: git
     url: https://github.com/qiayuanl/cleardrive
-    version: 068cca52ee6b4601e1e53ea0cd8b5e1f838a4fa5
+    version: 6151b38938f9b424b746b35fb07c2d4c65a2ef23
   message_logger:
     type: git
     url: https://github.com/qiayuanl/message_logger.git
