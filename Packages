@@ -1,111 +1,111 @@
 Package: ros-jazzy-cleardrive-foc-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.04.29.11.31
+Version: 0-2026.06.18.12.53
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-cleardrive-foc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 701
-Depends: ros-jazzy-cleardrive-foc (= 0-2026.04.29.11.31)
-Filename: ./ros-jazzy-cleardrive-foc-dbgsym_0-2026.04.29.11.31_amd64.ddeb
-Size: 648356
-MD5sum: c2bfbf8fd7552cd324578cab8dbcbedb
-SHA1: 9460c99e45315685f3967fc0f94eea749b07a48a
-SHA256: a3144df308f6dce03ec232d5f6f985e310187102884dd16934afd23fff6889e7
-SHA512: b5774d1be1f9ea7421a4c653b03103a069a10aa1a105b2774f8e7cdd04d8bb4801cbeaba706f5b73be9f9fcd525d5b87ea84c121b1dc2251461ec74e8eb91f1b
+Depends: ros-jazzy-cleardrive-foc (= 0-2026.06.18.12.53)
+Filename: ./ros-jazzy-cleardrive-foc-dbgsym_0-2026.06.18.12.53_amd64.ddeb
+Size: 648300
+MD5sum: 98d2c1a980c1246a606c49d5e30829ce
+SHA1: e2861b26326ca2d06e4586d49978813eac4d4f05
+SHA256: 3f7db1e58acfcdefa795dd2a332943337266526e2b1d117ecdc6873638282cd5
+SHA512: fbf8ef8c059a637cc4ccafa520877723c365c36cbb9b472976ec93d6f7fa607cabde92effe00a6663e5962c995320dc89eb74e032ad5feef330ea9f5f72f05f1
 Description: debug symbols for ros-jazzy-cleardrive-foc
-Build-Ids: d89cd482565add03b188b1e70c17fdac3df0187a
+Build-Ids: 1184dbf59d83b98a8c1d07525d2784141f2045d5
 
 Package: ros-jazzy-cleardrive-foc
 Architecture: amd64
-Version: 0-2026.04.29.11.31
+Version: 0-2026.06.18.12.53
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 241
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libyaml-cpp-dev, ros-jazzy-soem-interface-rsl
-Filename: ./ros-jazzy-cleardrive-foc_0-2026.04.29.11.31_amd64.deb
-Size: 61422
-MD5sum: 537b5994c31f4a1a227bede744ef0562
-SHA1: a4e010e600f8f6ca0ffab97d6baa55e445454e38
-SHA256: 24f180ecd38835e6738a9ff6e0866f8ccafce4c10986907c1c06f0eab88f3b03
-SHA512: 4818f5f1a955ea9561aa6538bf98207751413bd490f3179c02dbea5d895e1aa5e39b841cc08cd6419d063e8f17a0732be595f0055975d80ccdee44d76ba97966
+Filename: ./ros-jazzy-cleardrive-foc_0-2026.06.18.12.53_amd64.deb
+Size: 61398
+MD5sum: 068918db29cf3120db8ff394ae0ec9e3
+SHA1: a1d2a9d55721011400149ae6aedbbd211c072ce0
+SHA256: d2ef034008b09070891d5e36883913137735e4cf77c293607298ceca1199266e
+SHA512: c66b389d6636985c8286187d603084471fdd9c99ee447f797146e0be1d9706e7006994c09758759b1ce728c8c38921af8e1346c72dc98cd05fa0b2811bbff132
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: CLEAR FOC Ethercat implementation.
 
 Package: ros-jazzy-cleardrive-imu-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.04.29.11.32
+Version: 0-2026.06.18.12.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-cleardrive-imu
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 2934
-Depends: ros-jazzy-cleardrive-imu (= 0-2026.04.29.11.32)
-Filename: ./ros-jazzy-cleardrive-imu-dbgsym_0-2026.04.29.11.32_amd64.ddeb
-Size: 2915128
-MD5sum: eb80903a7b5f180bc8858ae9de7cb239
-SHA1: 47945ebfccaa5c2ed5549644e4899c58193796ae
-SHA256: 270be91425a2541a89c749809c5e76fe03191ff3c4f6a434bbd694edf972e492
-SHA512: ac699fab1a57ac22676ac501f7529cb9d9d2969ebd61f90623d22c5d40b866fe4009bbbd2435ed2746e2cb57464aed0029a8f38c6f3ece2a4962afab1057a3d9
+Depends: ros-jazzy-cleardrive-imu (= 0-2026.06.18.12.54)
+Filename: ./ros-jazzy-cleardrive-imu-dbgsym_0-2026.06.18.12.54_amd64.ddeb
+Size: 2915138
+MD5sum: 8ba418fbd51fd978732b59dca3a434a8
+SHA1: 4e1c5a3c534e889bfcf7b7fbba6af0f15b14f7ce
+SHA256: f1335bffa9e06add6d8bcbc69561fe2621470a73d7ea2c0d116fdac1024eba51
+SHA512: f8178a8afedb72c07ae1ef782ca6696f2f96292c274269ef2ed259b1feb5b8ab676b39988f48697293d0c814b35d3e03a22bbfd2128f695d953f042e094c8e12
 Description: debug symbols for ros-jazzy-cleardrive-imu
-Build-Ids: f0518ada9880318f3488edc3c6055f5d76ccae9f
+Build-Ids: 9f555f1bfc602c5b804cd8268b31c84920f78ccd
 
 Package: ros-jazzy-cleardrive-imu
 Architecture: amd64
-Version: 0-2026.04.29.11.32
+Version: 0-2026.06.18.12.54
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 276
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libeigen3-dev, libyaml-cpp-dev, ros-jazzy-soem-interface-rsl
-Filename: ./ros-jazzy-cleardrive-imu_0-2026.04.29.11.32_amd64.deb
-Size: 82346
-MD5sum: 789c883797bf1aa456f31532a836ffe9
-SHA1: 097eea16be1a5273b5ffef9b7914f3010300a548
-SHA256: 0be7a2e7c6a675f57b05df37c7947488675099d4f7f27d35c3309bb26422a87a
-SHA512: 4a97842804fb5a7f33fe7d5f7bff89aaccae54cef92fc0acbe74550ffb11ee037306ac2cdcde78b12f46bd18c72dddd16c0f2d1c78568f2dd2e9d045dc9749ae
+Filename: ./ros-jazzy-cleardrive-imu_0-2026.06.18.12.54_amd64.deb
+Size: 82350
+MD5sum: 718d93d16dfee00a46666423bcb606d1
+SHA1: 7084ca1c2d7afd6ea750c6ac699ef9172bfeb135
+SHA256: be6eb9f28bc428de1d7e3acbdceea94e5590ef23cf28715ae7fcce957e83a3fe
+SHA512: fc11f247ba06b6074451eb30825cb6d3a8646ddb03d07845baab935142f0f83a9cac25948e2a8212fa4f8f44c22df1af4b959f7afd91df7f7d2175d3d42fd8d9
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: CLEAR IMU Ethercat implementation.
 
 Package: ros-jazzy-cleardrive-manager-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.04.29.11.34
+Version: 0-2026.06.18.12.56
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-cleardrive-manager
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 140
-Depends: ros-jazzy-cleardrive-manager (= 0-2026.04.29.11.34)
-Filename: ./ros-jazzy-cleardrive-manager-dbgsym_0-2026.04.29.11.34_amd64.ddeb
-Size: 123928
-MD5sum: 2365f34ec6d6e8d667b2e1075e13cde5
-SHA1: 6c7bd88a778a871fcef17133bb4f894317907210
-SHA256: 5d3278a8c1d35e68875c59bf0cb8676aa4adbf5693f31cc794d0f3a1e69ac18b
-SHA512: 7c97223a6a9dcb06a96f06022fa5c107030b24044bdee75677bb6cbfa2402b031d3e331bc6536cee07a1e7bd059e1cadee2894d141a05aa36d551b4a74552b82
+Depends: ros-jazzy-cleardrive-manager (= 0-2026.06.18.12.56)
+Filename: ./ros-jazzy-cleardrive-manager-dbgsym_0-2026.06.18.12.56_amd64.ddeb
+Size: 123908
+MD5sum: 4abbf710898d98b1198194437f59e4c4
+SHA1: 31f81e510b596f17fc5651bc35fd63fc1ed4262a
+SHA256: c18244556e4d3e8b04f7a33697c6bb225b92258eb350c27b389d5fc0707505c6
+SHA512: 37aec819d434b17791d23b55f050404c6e49bb472629a585394e959d05347f85e2f0eb065304038750ac68b875c56798228c9afd25f1663c7cce3fc1790ed1dd
 Description: debug symbols for ros-jazzy-cleardrive-manager
-Build-Ids: d77ea9e1c0b48229e1e7e6e24f6f46f872e7c884
+Build-Ids: e845e9174b9fb75d19a55cc02ebcf1263af9915f
 
 Package: ros-jazzy-cleardrive-manager
 Architecture: amd64
-Version: 0-2026.04.29.11.34
+Version: 0-2026.06.18.12.56
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 82
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-cleardrive-foc, ros-jazzy-cleardrive-imu, ros-jazzy-soem-ros2
-Filename: ./ros-jazzy-cleardrive-manager_0-2026.04.29.11.34_amd64.deb
-Size: 12788
-MD5sum: de754d563ed458c917dc385f38039bd8
-SHA1: 6686b3088a0181d0fa0e66d4522b01a300d1d78e
-SHA256: c8aa4c2b79926333653f915bea4082d92f67a0ed89c16220a4c54b58f372261b
-SHA512: c4958bb2f2afc732d24c995b6ac7ce4ed84feddf54539046ed2a52d0eeb47690ed45c1ed849ef6bbb85ca51c0ab24e26ed1a0f2af0c91c51706c5c798bde4c2e
+Filename: ./ros-jazzy-cleardrive-manager_0-2026.06.18.12.56_amd64.deb
+Size: 12782
+MD5sum: ba0b0d77b8f7578a7ae9342cf3480a5e
+SHA1: 21836eadfd04ed9cf777c2419035cf93784f9c59
+SHA256: 8357cbaf523daa901cc0bb0bb764ab120abf3a1b54b5211a3252daf8744e46de
+SHA512: 17131822647170166d9fc94403ec3ee2e0c95ea14ea9aa7479a10fc43dde39cc1472b5869e224be0c97a00c380d40c1448ea01e72104b328166a190243d6b0f8
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: Core C++ library to interface one or multiple drives.
  Contains abstract base classes for the communication interface.
@@ -113,214 +113,214 @@ Description: Core C++ library to interface one or multiple drives.
 Package: ros-jazzy-cleardrive-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.04.29.11.27
+Version: 0-2026.06.18.12.49
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-cleardrive-msgs
 Maintainer: qiayuan <liaoqiayuan@gmail.com>
 Installed-Size: 1563
-Depends: ros-jazzy-cleardrive-msgs (= 0-2026.04.29.11.27)
-Filename: ./ros-jazzy-cleardrive-msgs-dbgsym_0-2026.04.29.11.27_amd64.ddeb
-Size: 1256156
-MD5sum: ba7408242ab6f25a7cd0bbcf4b22576a
-SHA1: a8c9851f4176cc9e9d01b17a67daded705700a0a
-SHA256: 39eb3c9e6083674a5ecaa598ff21245bc6e66f0b3387ec4d91ba7058d1a509f8
-SHA512: c242ca049a07d038db0d60e9710d61c115dbcae1f1a9ebe78b86d85eeff5f8fbed6d2f15ebb2e5633dfde74c060d10f1ccff599e3f0c21372b00c0f85e8edbb4
+Depends: ros-jazzy-cleardrive-msgs (= 0-2026.06.18.12.49)
+Filename: ./ros-jazzy-cleardrive-msgs-dbgsym_0-2026.06.18.12.49_amd64.ddeb
+Size: 1256246
+MD5sum: 40d782b611f1422ae1f1b432615d848a
+SHA1: f9c8296b73d47a7b4990f53a76134851c49e8777
+SHA256: 7a489d91be63be8b66d7e8bbff85b6500758bf06bdef6d705162e43e66b10e9f
+SHA512: 88f105dc84e6e6ee4921163630800b235fe868daa80e374e881ed829b1f51568ed227dad1c4e53adc779de50f0f1a119a39dfa08fa7a4f82529a9f2242196a9a
 Description: debug symbols for ros-jazzy-cleardrive-msgs
-Build-Ids: 1cf7c7ca8d9b649cd6c72ebd7e07024377a57b97 2ce88e03adbef7525234809a18e744495269c82f 336e26b7cfe571b610a5d41d499b50b0c4fbffef 38e888503d4b345dccc338401a1c600d03f6bf76 6b23c034f53b533e54b3b2ef4c14d6c0d6f391c6 96660de8ff7e3ecb91a4d1053e302cf7efd968f1 9d505512bb3578bccc16de0ae0359eab435dab86 ac0a77377cdfbdd1ac627c8ad014f82ab8ceea67 b51d61d9616da6a74039cc7841749d7e41a07d91 c223f88c45778e116f9c22c2b6db2eba9027b30a fe28e943b022edbad5429d1436e58107450151b7
+Build-Ids: 11b968a30e38788b3530f7869821a7cd6c76020c 1acb84627151ef29eb16125d0394765501766661 4c3394ec4191a4755b8448d362974be20a747125 554782b136766dbae9484e408e3d33b0dda97b97 7bedbea4b6abbc2212ca45f59ad286389a42b3be 93bc93588d2fbcb2202242a15cb679dc2ef60b69 a4417c77acd8e1d34122978f5517332504d5ee34 a53ca6a9b77cfaeef80c4ab1b114bd5905fd69f9 a94be45b5741aaa0d6a7c7f736bb82bf60439103 afa35f862db5637d24b3b98ff3fceefa9e3319a3 c5da9aea3a4b5c9242c95eee8e3f1a0fe679b2b3
 
 Package: ros-jazzy-cleardrive-msgs
 Architecture: amd64
-Version: 0-2026.04.29.11.27
+Version: 0-2026.06.18.12.49
 Priority: optional
 Section: misc
 Maintainer: qiayuan <liaoqiayuan@gmail.com>
-Installed-Size: 2121
+Installed-Size: 2123
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs
-Filename: ./ros-jazzy-cleardrive-msgs_0-2026.04.29.11.27_amd64.deb
-Size: 158912
-MD5sum: 498105eb85d9ce8981f2efa73f5a8662
-SHA1: 33f972dfc7c865c7882d0a45bd26560660621676
-SHA256: d7fd18e8f1ae3b64db1cc2b35c19e6a45581493647dd41a4a035f60ebfe63bd6
-SHA512: cf2a93ba5fbee024a6c6d6cacf26866fe8501d200e12091e7b680ab1bfd8c4ca6e0072818d4d9dd940e3e79a7d247a05290006213c50de5533de6290cc621712
+Filename: ./ros-jazzy-cleardrive-msgs_0-2026.06.18.12.49_amd64.deb
+Size: 159160
+MD5sum: e0068301ec7a00609609f03a8bd9f85d
+SHA1: 605a54f92bcb8aa644d3593b106304553af7b653
+SHA256: 266679c937c777241b89be6aa77c129042d9074e1866504ae75e83a943519eb6
+SHA512: 773f70ca9c94067989893027b88d6bb7d406e44ba3df0b94d3455862af09e899640d47179a0003c6c634791924a4f41c285da58b261d7a24789b6b22af5fcf19
 Description: The rm_msgs package provides the ROS messages
 
 Package: ros-jazzy-cleardrive-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.04.29.11.35
+Version: 0-2026.06.18.12.57
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-cleardrive-ros2
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
-Installed-Size: 4436
-Depends: ros-jazzy-cleardrive-ros2 (= 0-2026.04.29.11.35)
-Filename: ./ros-jazzy-cleardrive-ros2-dbgsym_0-2026.04.29.11.35_amd64.ddeb
-Size: 3986250
-MD5sum: 836885bd3ec43afa5d688215cc4446f8
-SHA1: 500bfd605d73ebe8aff9c2ffa63f440bbc87ba9f
-SHA256: 28a3ab0620020bb7e8684851c3283e4a57f26a5dc2979b93435c2c5a71145ac2
-SHA512: 52c4c2c3f32ee3b19403bc63c11529d0e15c8884f05a4b3622ee4ab61259d0faceb573512c5adc9f9fe5f2fbce47b2d3eabd2dcb6d87236b3f52f2656141b191
+Installed-Size: 4442
+Depends: ros-jazzy-cleardrive-ros2 (= 0-2026.06.18.12.57)
+Filename: ./ros-jazzy-cleardrive-ros2-dbgsym_0-2026.06.18.12.57_amd64.ddeb
+Size: 3994412
+MD5sum: 73a40548d42498b93987540a2dfd6a84
+SHA1: 842e17c19707b128d2f8c655af867723306bd834
+SHA256: 7f93507ddf21731049006d0a3bc36f9a2f8e2f4e10fc6638173409f1393e4bb6
+SHA512: 81e5db75b835e4941d60785d89c9fedbf9b4654f26a70699cbd332e4d11fd2c3c979353f21c2498bfdd84c798b446707ed3cbf3021276fbcf4a7a8d7dabd6211
 Description: debug symbols for ros-jazzy-cleardrive-ros2
-Build-Ids: 4084c3f7bd8eef7d7e45bd61968294c68b67a92d
+Build-Ids: 2862018183592669abcaafc02f5fd45a62bde597
 
 Package: ros-jazzy-cleardrive-ros2
 Architecture: amd64
-Version: 0-2026.04.29.11.35
+Version: 0-2026.06.18.12.57
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 794
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-cleardrive-foc, ros-jazzy-cleardrive-imu, ros-jazzy-cleardrive-manager, ros-jazzy-cleardrive-msgs, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-soem-ros2
-Filename: ./ros-jazzy-cleardrive-ros2_0-2026.04.29.11.35_amd64.deb
+Filename: ./ros-jazzy-cleardrive-ros2_0-2026.06.18.12.57_amd64.deb
 Size: 176044
-MD5sum: 9b9fa736a1cab00b4809fed0b276703f
-SHA1: 6351bbfab38f538758d95416255596f9d50d3cd7
-SHA256: 27d16e1cdb7c9c4a7f3f235d249af6ff8c7ddc9f8ecb4e9fe286d64954facba0
-SHA512: 0f1102d812ba5d10f21e8d10e36497c85bd321bdc1eab978b6fccfd33002f14df1bfeec7cd9a806bab7ebfdcac715b4e216cd85105e6891b7373bda99cc0d8c3
+MD5sum: 804db0ada1dabb71b22305734e0eca42
+SHA1: 0715881262ec281cad6175c5ae60ca9efc4eed59
+SHA256: ceaf3514d531484fcf390c71262256fe077faedcd934f17f06f5f78744a7568b
+SHA512: 42ca3beb8b6a12d9ccc75ce8517387b98e9b31889017b7470fd3c9d963b17fa30c468c09f9db2c808048d2fa90edfe054023978fd99baadc712785d9eac98c32
 Description: ClearDrive for `ros2_control`
 
 Package: ros-jazzy-message-logger
 Architecture: amd64
-Version: 0-2026.04.29.11.28
+Version: 0-2026.06.18.12.50
 Priority: optional
 Section: misc
 Maintainer: Philipp Leemann <pleemann@anybotics.com>
 Installed-Size: 155
 Depends: ros-jazzy-rclcpp
-Filename: ./ros-jazzy-message-logger_0-2026.04.29.11.28_amd64.deb
-Size: 19538
-MD5sum: bb09197fd5a6f6ec03925d75de35584d
-SHA1: 910f1666263ada8e7b04525666c0d8858f9f40b4
-SHA256: 394c7ed5fb8502b2e512c9f6b0f6ac5706d5c833c70c9a58b888f45d0f807ccc
-SHA512: 184b64fdb1e2583b11c754003fa2561dc43f771ab1ec0117eb83c278988c9c8cd174e9728a26376224d081dfa7b448b603266341aec0b5187ee258e5f640ffbe
+Filename: ./ros-jazzy-message-logger_0-2026.06.18.12.50_amd64.deb
+Size: 19550
+MD5sum: 646f634bac0075c11f43455adb66be48
+SHA1: de75e49dba837d9567b38ef57ba6f4e288df8952
+SHA256: c80bd1019707b44cebd790623f96d1671804dba30e7186078f0e2acdd2a1acaf
+SHA512: 64c5f94bbba880683dbd5436321c30f443ab4212adfabfa2c8e08106006863d72f0715e8d4c8f88926deec7b96d205671163761fa44207a18512cf28918aee64
 Description: The message logger package
 
 Package: ros-jazzy-rqt-cleardrive
 Architecture: amd64
-Version: 0-2026.04.29.11.29
+Version: 0-2026.06.18.12.51
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gmail.com>
 Installed-Size: 119
 Depends: ros-jazzy-cleardrive-msgs, ros-jazzy-rclpy, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-py
-Filename: ./ros-jazzy-rqt-cleardrive_0-2026.04.29.11.29_amd64.deb
-Size: 31380
-MD5sum: face3ee82f551f9045abe25134397865
-SHA1: 98af5ac1802ca4e0fc1f7193c7cf9a04fe82a7f5
-SHA256: 9a176ec7b191222cd2b088920a5c4aa35360d0807bed8fdc1b446622b5f28b2b
-SHA512: fd800de73448144bc9058cbda305137010bd4d4ae385a3ea95e55058b2fff195924c73e854b7a505260ce6c41a67d014290f7122c1f4fac43b3ea60ea8c493e5
+Filename: ./ros-jazzy-rqt-cleardrive_0-2026.06.18.12.51_amd64.deb
+Size: 31378
+MD5sum: bc87240245f9207c1108096d1b45e08b
+SHA1: e0a75e77304d50015ab5d0ac93a711c7bf994a67
+SHA256: 58506c6232f5674cccb5be5467d0b044f577cddd68387b71e0b285323943f976
+SHA512: 1a96a403f882ca1b824272ef9fff4923bd8bb81ee3574994f5c7529fb57949fe35606320589504838be34406dc45a7a7bf9f00ba7c552034b618812b05bab7c8
 Homepage: https://github.com/qiayuanliao/cleardrive
 Description: TODO
 
 Package: ros-jazzy-soem-interface-rsl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.04.29.11.30
+Version: 0-2026.06.18.12.52
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-soem-interface-rsl
 Maintainer: Johannes Pankert <pankertj@ethz.ch>
 Installed-Size: 716
-Depends: ros-jazzy-soem-interface-rsl (= 0-2026.04.29.11.30)
-Filename: ./ros-jazzy-soem-interface-rsl-dbgsym_0-2026.04.29.11.30_amd64.ddeb
-Size: 652984
-MD5sum: 49047ceaa4b26c177b9063bbd6c33bb9
-SHA1: aacb9fbe26b69dfd77d4da68b3b1dee8af76e75f
-SHA256: ab8aa2d9fe91ff11895fd735bcf2fe1ddb9a6ce14ebd7b09f3db023b784ecf9e
-SHA512: c22ed5421f9cb1234e77e7c999386a07962775c91e9fd52558bc4169fe869bbb8205ddaa59c81fa8d65f1855d581105cd3a4ae1c08906c5f390dbe2ebafa8aea
+Depends: ros-jazzy-soem-interface-rsl (= 0-2026.06.18.12.52)
+Filename: ./ros-jazzy-soem-interface-rsl-dbgsym_0-2026.06.18.12.52_amd64.ddeb
+Size: 652990
+MD5sum: bf723881c8b15052fb83c7fc3a08154e
+SHA1: 2b703ed12f8e40c23da1dfbec88e6fa52b124d69
+SHA256: 1f602729e68663f524db8b575e3a7bfe33026e6dee0f3fdb2f6ac2414ca2ddb3
+SHA512: 0acbf606cdb44d0d85bd6fe46978477048540acc3067140a52b9399bf5794499127773e5ae4910229a79182a55676e5a78ce4ef87ea4cc6224091cd7a09e9639
 Description: debug symbols for ros-jazzy-soem-interface-rsl
-Build-Ids: 9930a10a095269597fd00b0da662bb4385367b91
+Build-Ids: 5afd92a15e292c9fad5234230a0820ed04a9465e
 
 Package: ros-jazzy-soem-interface-rsl
 Architecture: amd64
-Version: 0-2026.04.29.11.30
+Version: 0-2026.06.18.12.52
 Priority: optional
 Section: misc
 Maintainer: Johannes Pankert <pankertj@ethz.ch>
 Installed-Size: 388
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-message-logger, ros-jazzy-soem-rsl
-Filename: ./ros-jazzy-soem-interface-rsl_0-2026.04.29.11.30_amd64.deb
+Filename: ./ros-jazzy-soem-interface-rsl_0-2026.06.18.12.52_amd64.deb
 Size: 104070
-MD5sum: 607fbcba49803abcac6bdf342ada33c0
-SHA1: 18bca990b4b19ef853d1ede34be7a46d6f753fc1
-SHA256: e46a4dff729684bb1190b5203a488cc677942ed42d5e6822ab9d960dabdfe216
-SHA512: 6f97649e9508bf3f27564e119b7f78abfce3cf0e4c4553d577f36e7359f92a084f99b1f781134fe50372c77f830bed51d7b747633c35e590818ec750862a94a5
+MD5sum: dd92348266efefd33bd2a7ea31cf4657
+SHA1: d841129d64afa682c967164fddf9e6867dd3bb31
+SHA256: 27fec0338e2cb76afa97f90029d45ed11e2a295f9ae20e138262896c0349eb1c
+SHA512: 4d193c45978e2fb2f4b5d3980c159d487609a20279223fa9807a95127d7d1d0ad9f118c42b292bf72aa13bb2f027c8d6d515c49739d7d63b55a894f44430cb3f
 Description: C++ library to create multiple ethercat devices on one or multiple buses.
  Contains abstract base classes for the communication interface.
 
 Package: ros-jazzy-soem-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.04.29.11.33
+Version: 0-2026.06.18.12.55
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-soem-ros2
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
-Installed-Size: 2294
-Depends: ros-jazzy-soem-ros2 (= 0-2026.04.29.11.33)
-Filename: ./ros-jazzy-soem-ros2-dbgsym_0-2026.04.29.11.33_amd64.ddeb
-Size: 2173864
-MD5sum: 51365fc6948e1eea3b2c558df41762f9
-SHA1: 2e6710d27cdec470dd72b3fdb7caed9804e736ff
-SHA256: 5d3396558b8691117175d53b092aa1a6cd5c81bbb460786cb9325ba06e491366
-SHA512: 5baa0c7e463dbc08e284b70641a25e9c0423b19c9affc1c39d817ff27df0d65c82283d825fc5f19a211f42b787b735bd9270cf0cfedb657a5610dd58192794a9
+Installed-Size: 2297
+Depends: ros-jazzy-soem-ros2 (= 0-2026.06.18.12.55)
+Filename: ./ros-jazzy-soem-ros2-dbgsym_0-2026.06.18.12.55_amd64.ddeb
+Size: 2178180
+MD5sum: 76cb675c8256f978037a35d327f6a37b
+SHA1: 21882ffa8cfe0d974f61f82f0efbd1b6f07ea4d2
+SHA256: afb469757bfd0e133cb6859b21721dcfd2b3534e6c9b19f6a5cc1e9dd9c58837
+SHA512: 2d6217f03f6c5841f8682bed92a63739cd7fb69b3c2a4da3dc71315cf02aae76f1cb18da41377871a4f9cf35a8deb472caf6cf54f94aac8a71efc5d843f682f2
 Description: debug symbols for ros-jazzy-soem-ros2
-Build-Ids: 93fdcb038f09f65d66b9f0dbb5af5d06d4536c44
+Build-Ids: d8894edfe60935e727754b02b3ed37038b54c4b4
 
 Package: ros-jazzy-soem-ros2
 Architecture: amd64
-Version: 0-2026.04.29.11.33
+Version: 0-2026.06.18.12.55
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 529
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-soem-interface-rsl, ros-jazzy-transmission-interface
-Filename: ./ros-jazzy-soem-ros2_0-2026.04.29.11.33_amd64.deb
-Size: 146720
-MD5sum: cf3759fbd5a3e863986e587f7f0343fb
-SHA1: c4d613f42388671c751500aee123641f0aad71c0
-SHA256: 526361153e32c1b48119bc0e886077a59c65a5af15f3d19244aa904670a8a50a
-SHA512: 1a47a3ed805bfe2a1a2096d49b2f0c37d2a5a47149dcaf7fecc35cfcba4af079cbca78aab3c2672ba6dfcc6ca550f9a853ffe9b4a6c43c3b266d45b622c9bd2c
+Filename: ./ros-jazzy-soem-ros2_0-2026.06.18.12.55_amd64.deb
+Size: 146742
+MD5sum: d298c0386e6e8f9f770afa38fe3966e6
+SHA1: f701c08c8e04855a04b9d2b2a2bc3db8b8a80cc6
+SHA256: 01a62f6583c687e92a693a288c867aa7e89ad85fc2604d50340eea9ae0810a2a
+SHA512: f96ca35cdbe0655e2059b7a2f06d957ad84c020e16594883902f230e15a211adee8f99be855f501f2a4a42b33cfd293f54d0a2f870ca70aeb74a07c45cba6dc7
 Description: SOEM for `ros2_control`
 
 Package: ros-jazzy-soem-rsl-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.04.29.11.30
+Version: 0-2026.06.18.12.51
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-soem-rsl
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Installed-Size: 354
-Depends: ros-jazzy-soem-rsl (= 0-2026.04.29.11.30)
-Filename: ./ros-jazzy-soem-rsl-dbgsym_0-2026.04.29.11.30_amd64.ddeb
-Size: 298410
-MD5sum: 4278b278a52fbd62b055d55235fca5b4
-SHA1: ce4e8fe30fa12b279cc600a7bc8c49cab13b7149
-SHA256: 0bb88af0f9e80842c47b2920791192184f66206bc296a3839ec489ae953d3aaa
-SHA512: 088146f290dd6365be70273bc4f9d1db486f1b35a8d184f865cbdc4aeec0e593b3ff86772bea7400d95259d0af1887bcec2d9efd306246a73a11434ac6f4d983
+Depends: ros-jazzy-soem-rsl (= 0-2026.06.18.12.51)
+Filename: ./ros-jazzy-soem-rsl-dbgsym_0-2026.06.18.12.51_amd64.ddeb
+Size: 298378
+MD5sum: 33b51c225ccbe369b203a7f3baec7d7a
+SHA1: 7c444c8b235606083288c69f2209d0fd34c2c443
+SHA256: 7cd336a1b94b259a772ec6709d86bf94bb227d28ddd1bc69e3ad4daea127ef78
+SHA512: 9296fb854ff8b91318248b334e8e1a368086681b9b9ecc116e2ae6bb932f689b1285af22d388c1cf8e4d46f5b7465eeda8686c9949dc08becb4c3ccfa19faff1
 Description: debug symbols for ros-jazzy-soem-rsl
-Build-Ids: 2c328700965be342d8ec754aca080223cdfe9ef6 40e2771e7dc8722648c796c423f92c5a3ae49f6f be2be420db00ff36eb299e3e188ce605f425f3d2 e58f27c466d5131818b606d7d1f6c5b65114ec13
+Build-Ids: 412d757643f4cf629521b25e09df0fe6bd497045 7c1ca5f41a4e8dc4d5823cbf0d83f6d4178887f7 9f9d2de61cc285ad0d0df6578730f02fb74b0eed e285683aafb7ea3bcec74f8abb4c0f782d82cd67
 
 Package: ros-jazzy-soem-rsl
 Architecture: amd64
-Version: 0-2026.04.29.11.30
+Version: 0-2026.06.18.12.51
 Priority: optional
 Section: misc
 Maintainer: Johannes Pankert <johannes.pankert@mavt.ethz.ch>
 Installed-Size: 466
 Depends: libc6 (>= 2.34)
-Filename: ./ros-jazzy-soem-rsl_0-2026.04.29.11.30_amd64.deb
-Size: 105482
-MD5sum: 2cabdf3d1069ccb1800968a7c57c3ea6
-SHA1: e134d26def90e4deb85de235c1c50ccd1ddc9a3b
-SHA256: 3e7c557e076aefb01bd7e7a9bf7c4e304f90db4951951aed0e8b33eb3a6ae4b3
-SHA512: 6c27dafd357bef8066fdc7f7751db5d83135729ab66a9e9624b217b83e34d8790bea89b51960a672e60b6afd78b370896680a9e18acee8db11b20a52116dc731
+Filename: ./ros-jazzy-soem-rsl_0-2026.06.18.12.51_amd64.deb
+Size: 105496
+MD5sum: 67e2ed94698f0a14d945fe38c440a752
+SHA1: 0d4d750cfd4e3f8cee3b63a03798d082bf433191
+SHA256: 811fb7611cf30af68dd8c902b52351d38334891f30d34cd654aa89cbe46543bd
+SHA512: 9e6c155e36e9d2aa2f9959d8b95f647880813d59fef48ea11f955778e0140f215467c9d08689c12ab286dcb7ecb4a52b3b38a7e35dfdb4b06dda756191b1f79f
 Description: The soem_rsl package
 
